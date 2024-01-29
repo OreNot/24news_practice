@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "24news"
+version = "0.1"
+description = "24news practice project"
+authors = ["OreNot <martinuk.a.a@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+logging = "*"
+gdown = "4.7.3"
+apscheduler = "^3.10.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

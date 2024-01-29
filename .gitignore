@@ -1,6 +1,6 @@
 Archive/
 data/
-intership/
+internship/
 pickles/cpc_df.pkl
 pickles/model_dict.pkl
 pickles/prep_tools.pickle
@@ -13,5 +13,9 @@ scripts/Keras.ipynb
 scripts/Preprocessing.ipynb
 scripts/Modeling.ipynb
 scripts/xgb.ipynb
+scripts/mlruns/
+scripts/.ipynb_checkpoints/
+api/__pycache__/
+logs/.ipynb_checkpoints/
 poetry.lock
 

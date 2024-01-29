@@ -1,0 +1,52 @@
+{
+  "user_id":"ckr3qbm76ag5168l1g90:ckr605m76ag9lahc2oa0",
+  "ip":"189.49.21.23",
+  "ssp": "7", "_ssp" : "ssp_id, (7, 13)",
+  "site_id": "01gm531atx",
+  "os": "Android",
+  "browser": "Chrome",
+  "device": "4", "__device" : "device_type, (2,4,5)",
+  "country": "RU",
+  "city": "551487",
+  "news_category": "10",
+  "us": "rtb_24smi", "__utm_source": "",
+  "ucm": "86", "__utm_campaign": "",
+  "um": "bidml", "__utm_medium": "",
+  "uct": "7f73d0f3b178", "__utm_content": "",
+  "ut": "13926_25077", "__utm_term": "",
+  "ch-p": "platform",
+  "ch-pv": "platform version",
+  "ch-md": "model",
+  "ch-a": "arch (\"x86\")",
+  "ch-b": "bitness (\"64\")",
+  "creatives_list": {
+    "1": [{"eed0464861ff": 5}, {"32264536a436": 5}, {"d7f85e832625": 5}, {"417da129da7f": 5}], 
+    "2": [{"7070f4519016": 5}, {"8535c2d8679f": 5}, {"331832f7e8bd": 5}, {"1932ba251637": 5}, {"2b9c7f79f529": 5}, {"d67ab8ecea54": 5}]
+  },
+  "viewed_creatives": [{"cid_35": 5}, {"cid_55": 5}, {"cid_95": 5}],
+  "clicked_creatives": ["cid_71", "cid_72"],
+  "cpc": 1.25,
+  "imps": [
+    {
+      "id": "imp_0",
+      "tagid": "tagid_1",
+      "seq": 0,
+      "plcmtcnt": 1,
+      "creatives_list_id": "1"
+    },
+    {
+      "id": "imp_1",
+      "tagid": "tagid_1",
+      "seq": 1,
+      "plcmtcnt": 1,
+      "creatives_list_id": "1"
+    },
+    {
+      "id": "imp_2",
+      "tagid": "tagid_2",
+      "seq": null,
+      "plcmtcnt": 4,
+      "creatives_list_id": "2"
+    }
+  ]
+}

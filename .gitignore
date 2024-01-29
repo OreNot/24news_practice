@@ -1,0 +1,17 @@
+Archive/
+data/
+intership/
+pickles/cpc_df.pkl
+pickles/model_dict.pkl
+pickles/prep_tools.pickle
+pickles/prep_tools_he.pickle
+pickles/prep_tools_sparse.pickle
+pickles/preprocessing_cat.pickle
+pickles/preprocessor_pipline_dict.pkl
+scripts/CPC.ipynb
+scripts/Keras.ipynb
+scripts/Preprocessing.ipynb
+scripts/Modeling.ipynb
+scripts/xgb.ipynb
+poetry.lock
+

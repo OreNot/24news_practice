@@ -36,7 +36,7 @@ class Tools:
         return df
     def get_creatives_imps_df(self, ssp_req, req_df_columns,req_datetime_str): # Функция получения датафрейма imps - creative_id и датафрейма запроса из запроса
 
-        X = pd.DataFrame(columns=['imp_id', 'creatives_list_id', 'creative_id'])
+        X = pd.DataFrame(columns=['imp_id', 'plcmtcnt', 'creatives_list_id', 'creative_id'])
         y = pd.DataFrame(columns = req_df_columns)
 
         for key, value in ssp_req.creatives_list.items():
@@ -45,9 +45,11 @@ class Tools:
             for imp in ssp_req.imps:
                 if imp['creatives_list_id'] == key:
                     imp_id = imp['id']
+                    plcmtcnt = imp['plcmtcnt']
                     for list in value:
                         for key_, value_ in list.items():
                             new_row_X = {'imp_id': imp_id,
+                                       'plcmtcnt': plcmtcnt,
                                        'creative_id': key_,
                                        'creatives_list_id': key,
                                        }

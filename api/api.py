@@ -84,12 +84,22 @@ async def predict(ssp_req : SSP):
     res = pd.merge(res, cretive_imp_df, on="creative_id")
     # На удаляем дубликаты
     res = res.drop_duplicates()
+
     # удаляем лишние параметры
-    res = res[['imp_id', 'creative_id', 'CPM']]
+    res = res[['imp_id', 'creative_id', 'CPM', 'plcmtcnt']]
     # Получаем список imp_id
     imps_list = res['imp_id'].unique()
+
+    rs = pd.DataFrame(columns = ['imp_id', 'creative_id', 'CPM'])
+    # Выделяем самые прибыльные креативы в соответствии с plcmtcnt
+    for imp in imps_list:
+        temp = res[res['imp_id'] == imp]
+        temp = temp.nlargest(temp['plcmtcnt'].unique()[0], 'CPM')
+        rs = pd.concat([rs, temp[['imp_id', 'creative_id', 'CPM']]], ignore_index=True)
+
+        #rs
     # Формируем результирующий словарь
-    res_dict = tools.get_result_dict(imps_list, res)
+    res_dict = tools.get_result_dict(imps_list, rs)
 
     del res
     gc.collect()

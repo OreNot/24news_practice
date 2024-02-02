@@ -1,7 +1,7 @@
 import dill
 import logging
 
-logging.basicConfig(level=logging.INFO, filename="../logs/Model.log", filemode="a", format="%(asctime)s %(levelname)s %(message)s")
+logging.basicConfig(level=logging.INFO, filename="24news_practice/logs/Model.log", filemode="a", format="%(asctime)s %(levelname)s %(message)s")
 class Model:
 
     def __init__(self, model_picle_path):

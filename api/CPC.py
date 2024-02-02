@@ -3,7 +3,7 @@ import gc
 from .settings import settings
 import logging
 
-logging.basicConfig(level=logging.INFO, filename="../logs/CPC.log",filemode="a", format="%(asctime)s %(levelname)s %(message)s")
+logging.basicConfig(level=logging.INFO, filename="24news_practice/logs/CPC.log" ,filemode="a", format="%(asctime)s %(levelname)s %(message)s")
 
 DF_CLICKHOUSE = object
 DF_CREATIVES = object

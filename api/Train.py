@@ -11,7 +11,7 @@ import tzlocal
 from .Tools import Tools
 from datetime import datetime
 
-logging.basicConfig(level=logging.INFO, filename="../logs/Train.log",filemode="a", format="%(asctime)s %(levelname)s %(message)s")
+logging.basicConfig(level=logging.INFO, filename="24news_practice/logs/Train.log", filemode="a", format="%(asctime)s %(levelname)s %(message)s")
 FOLDER_1_URL = "https://drive.google.com/drive/folders/1cY4sleAzmJM1JuPqt_bxAKWK-BDn0WaK"
 
 tools = Tools()
@@ -42,7 +42,7 @@ def model_training():
         model_metadata = model_dict['metadata']
         logging.info(f'Model {model_metadata} from {settings.MODEL_PICKLE_PATH} loaded for train')
 
-    except Exception  as e:
+    except Exception as e:
         logging.error(f'Model {model_metadata} from {settings.MODEL_PICKLE_PATH} didn\'t loaded, error: {e}')
 
     try:

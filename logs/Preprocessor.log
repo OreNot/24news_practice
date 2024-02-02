@@ -172,3 +172,17 @@
 2024-01-30 16:20:32,430 INFO Encoder loaded from  24news_practice/pickles/preprocessing_dict_cat.pickle
 2024-01-30 16:20:32,431 INFO Preprocessor loaded from  24news_practice/pickles/preprocessor_cat_pipline_dict.pkl
 2024-01-30 16:20:32,515 INFO Model Модель: HistGradientBoostingClassifier, ROC_AUC test: 0.6728202352712497 from 24news_practice/pickles/model_cat_dict.pkl loaded
+2024-02-01 11:25:47,139 INFO Encoder loaded from  24news_practice/pickles/preprocessing_dict_cat.pickle
+2024-02-01 11:25:47,140 INFO Encoder loaded from  24news_practice/pickles/preprocessing_dict_cat.pickle
+2024-02-01 11:25:47,143 INFO Preprocessor loaded from  24news_practice/pickles/preprocessor_cat_pipline_dict.pkl
+2024-02-01 11:25:47,291 INFO Model Модель: HistGradientBoostingClassifier, ROC_AUC test: 0.6728202352712497 from 24news_practice/pickles/model_cat_dict.pkl loaded
+2024-02-01 11:26:11,044 INFO Clickhouse dataframe read
+2024-02-01 11:26:11,048 INFO Creatives dataframe read
+2024-02-01 11:26:11,052 INFO Leads dataframe read
+2024-02-01 11:44:33,919 INFO API request received at 2024-02-01 11:44:33
+2024-02-01 11:44:33,962 INFO Creatives dataframe read
+2024-02-01 11:44:34,202 INFO API request processed at 2024-02-01 11:44:34
+2024-02-01 11:49:44,041 INFO Encoder loaded from  24news_practice/pickles/preprocessing_dict_cat.pickle
+2024-02-01 11:49:44,042 INFO Encoder loaded from  24news_practice/pickles/preprocessing_dict_cat.pickle
+2024-02-01 11:49:44,043 INFO Preprocessor loaded from  24news_practice/pickles/preprocessor_cat_pipline_dict.pkl
+2024-02-01 11:49:44,123 INFO Model Модель: HistGradientBoostingClassifier, ROC_AUC test: 0.6728202352712497 from 24news_practice/pickles/model_cat_dict.pkl loaded

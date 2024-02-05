@@ -1,12 +1,14 @@
-from typing import List
-
-import pandas as pd
-import numpy as np
-from .settings import settings
-from .Encoder import Encoder
-from .Creatives import Creatives
 import logging
 import time
+
+import dill
+import numpy as np
+import pandas as pd
+from joblib import parallel_backend
+
+from .Creatives import Creatives
+from .settings import settings
+
 
 def timeit(func):
     """
@@ -20,15 +22,29 @@ def timeit(func):
         return result
 
     return measure_time
+
 logging.basicConfig(level=logging.INFO, filename="24news_practice/logs/Tools.log",filemode="w", format="%(asctime)s %(levelname)s %(message)s")
 
 df_creatives = object
 
 df_creatives = Creatives().df_creatives
 
-# Загрузка списка параметров объединенного датасета
-req_df_columns = Encoder(settings.ENCODER_PICKLE_PATH).req_df_columns
+
 class Tools:
+
+    def __init__(self):
+        with open(settings.PREP_TOOLS_DICT_PATH, 'rb') as in_strm:
+            prep_tools_dict = dill.load(in_strm)
+
+        self.encoder = prep_tools_dict['encoder']
+        #self.req_df_columns = prep_tools_dict['req_df_columns'].drop('click')
+        self.req_df_columns = prep_tools_dict['req_df_columns'].drop('click')
+        self.preprocessor = prep_tools_dict['preprocessor']
+        self.model = prep_tools_dict['model']
+        self.model_metadata = prep_tools_dict['model_metadata']
+        logging.info(f'Encoder loaded from  {settings.PREP_TOOLS_DICT_PATH}')
+        self.cretive_tag_df = pd.DataFrame(columns=['imp_id', 'tag_id', 'plcmtcnt', 'creatives_list_id', 'creative_id'])
+        self.req_df = pd.DataFrame(columns=self.req_df_columns)
 
     @timeit
     def nan_filling(self, X, y=None): # Функция заполнения пропущенных значений
@@ -54,84 +70,52 @@ class Tools:
         return X
 
     @timeit
-    def get_creatives_imps_df(self, ssp_req, req_datetime_str): # Функция получения датафрейма imps - creative_id и датафрейма запроса из запроса
-
-        X = pd.DataFrame(columns=['imp_id', 'tagid', 'plcmtcnt', 'creatives_list_id', 'creative_id'])
-        y = pd.DataFrame(columns = req_df_columns)
+    def get_creatives_imps_df(self, ssp_req, req_datetime_str):  # Функция получения датафрейма imps - creative_id и датафрейма запроса из запроса
 
         creatives_dict = dict()
+
         for key, value in ssp_req.creatives_list.items():
             creatives_dict[key] = set().union(*(d.keys() for d in value))
 
-        print(creatives_dict)
+        cretive_tag_list = []
+        req_list = []
 
         for imp in ssp_req.imps:
-            #if imp['creatives_list_id'] == key:
-
-                for creative in creatives_dict[key]:
-                    new_row_X = {'imp_id': imp['id'],
-                                 'tagid': imp['tagid'],
+            for creative in creatives_dict[imp['creatives_list_id']]:
+                with parallel_backend('threading', n_jobs = -1):
+                    cretive_tag_list.append({
+                                 'imp_id': imp['id'],
+                                 'tag_id': imp['tagid'],
                                  'plcmtcnt': imp['plcmtcnt'],
                                  'creative_id': creative,
                                  'creatives_list_id': imp['creatives_list_id'],
-                                 }
-                    X.loc[len(X)] = new_row_X
+                                 })
 
-                    new_row_y = {'site_id': ssp_req.site_id,
-                                 'OS': ssp_req.os,
-                                 'browser': ssp_req.browser,
-                                 'device': ssp_req.device,
-                                 'geo_country': ssp_req.country,
-                                 'geo_city': ssp_req.city,
-                                 'loss_reason': ssp_req.news_category,
-                                 'enter_utm_source': ssp_req.us,
-                                 'enter_utm_campaign': ssp_req.ucm,
-                                 'enter_utm_medium': ssp_req.um,
-                                 'enter_utm_content': ssp_req.uct,
-                                 'enter_utm_term': ssp_req.ut,
-                                 'creative_id': creative,
-                                 'event_date_time': req_datetime_str
+                    req_list.append({
+                                'site_id': ssp_req.site_id,
+                                'OS': ssp_req.os,
+                                'browser': ssp_req.browser,
+                                'device': ssp_req.device,
+                                'geo_country': ssp_req.country,
+                                'geo_city': ssp_req.city,
+                                'loss_reason': ssp_req.news_category,
+                                'enter_utm_source': ssp_req.us,
+                                'enter_utm_medium': ssp_req.um,
+                                'enter_utm_content': ssp_req.uct,
+                                'enter_utm_term': ssp_req.ut,
+                                'creative_id': creative,
+                                'event_date_time': req_datetime_str,
+                                'tag_id': imp['tagid'],
+                                'place_number': imp['seq']
+                    })
 
-                                 }
-                    y.loc[len(y)] = new_row_y
-
-
-        # for key, value in ssp_req.creatives_list.items():
-        #     for imp in ssp_req.imps:
-        #         if imp['creatives_list_id'] == key:
-        #             imp_id = imp['id']
-        #             tagid = imp['tagid']
-        #             plcmtcnt = imp['plcmtcnt']
-        #             for list in value:
-        #                 for key_, value_ in list.items():
-        #                     new_row_X = {'imp_id': imp_id,
-        #                                'tagid': tagid,
-        #                                'plcmtcnt': plcmtcnt,
-        #                                'creative_id': key_,
-        #                                'creatives_list_id': key,
-        #                                }
-        #                     X.loc[len(X)] = new_row_X
-        #                     new_row_y = {'site_id': ssp_req.site_id,
-        #                                'OS': ssp_req.os,
-        #                                'browser': ssp_req.browser,
-        #                                'device': ssp_req.device,
-        #                                'geo_country': ssp_req.country,
-        #                                'geo_city': ssp_req.city,
-        #                                'loss_reason': ssp_req.news_category,
-        #                                'enter_utm_source': ssp_req.us,
-        #                                'enter_utm_campaign': ssp_req.ucm,
-        #                                'enter_utm_medium': ssp_req.um,
-        #                                'enter_utm_content': ssp_req.uct,
-        #                                'enter_utm_term': ssp_req.ut,
-        #                                'creative_id': key_,
-        #                                'event_date_time': req_datetime_str
-        #
-        #                                }
-        #                     y.loc[len(y)] = new_row_y
+        with parallel_backend('threading', n_jobs = -1):
+            cretive_tag_df = pd.DataFrame(cretive_tag_list, columns=['imp_id', 'tag_id', 'plcmtcnt', 'creatives_list_id', 'creative_id'])
+            req_df = pd.DataFrame(req_list, columns=self.req_df_columns)
 
 
-        y = y.fillna(0)
-        return X, y
+        req_df = req_df.fillna(0)
+        return cretive_tag_df, req_df
 
     @timeit
     def get_result_dict(self, imps_list, X): # Функция формирования результирующего словаря
@@ -139,14 +123,7 @@ class Tools:
         result_dict = dict()
 
         for imp in imps_list:
-            r = X.where(X['imp_id'] == imp).dropna()[['creative_id', 'CPM']]
-            r = r.reset_index()
-            ls = []
-            for index, row in r.iterrows():
-                dct = dict()
-                dct[row['creative_id']] = row['CPM']
-                ls.append(dct)
-            result_dict[imp] = ls
+            result_dict[imp] = [{row['creative_id'] : row['CPM']} for index, row in (X.where(X['imp_id'] == imp).dropna()[['creative_id', 'CPM']].reset_index()).iterrows()]
         return result_dict
 
     @timeit
@@ -159,6 +136,19 @@ class Tools:
     def dub_dropping(self, X, y=None): # Функция удаления дубликатов примеров
         X = X.drop_duplicates()
         return X
+
+    @timeit
+    def paused_status_dropping(self, X, y=None):
+        X.drop(X.loc[X['status'] == 'paused'].index, inplace=True)
+        return X
+
+    @timeit
+    def place_number_decrease(self, X, y=None):
+        X = X[X['place_number'] > 0]
+        X['place_number'] = X['place_number'] - 1
+        return X
+
+
 
 
 

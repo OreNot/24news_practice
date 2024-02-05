@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "24news"
+name = "24news_practice"
 version = "0.1"
 description = "24news practice project"
 authors = ["OreNot <martinuk.a.a@gmail.com>"]
@@ -10,6 +10,16 @@ python = "^3.11"
 logging = "*"
 gdown = "4.7.3"
 apscheduler = "^3.10.4"
+pandas = ">=2.0.0"
+fastapi = "*"
+pydantic-settings = "*"
+dill = ">=0.3.6"
+joblib = "*"
+scikit-learn = "1.3.2"
+uvicorn = ">=0.20.0"
+
+[tool.poetry.scripts]
+start = "24news_practice.api.api:start_uvicorn"
 
 [build-system]
 requires = ["poetry-core"]

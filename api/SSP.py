@@ -16,5 +16,5 @@ class SSP(BaseModel):
     um: str # enter_utm_medium
     uct: str # enter_utm_content
     ut: str # enter_utm_term
-    creatives_list: Dict[str, List[Dict[str, int]]]
+    creatives_list: Dict[str, List[Dict[str, float]]]
     imps: List[Dict[str, Any]]

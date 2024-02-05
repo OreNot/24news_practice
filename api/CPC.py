@@ -1,9 +1,10 @@
 import pandas as pd
 import gc
+
 from .settings import settings
 import logging
 
-logging.basicConfig(level=logging.INFO, filename="../logs/CPC.log",filemode="a", format="%(asctime)s %(levelname)s %(message)s")
+logging.basicConfig(level=logging.INFO, filename="./24news_practice/logs/CPC.log", filemode="a", format="%(asctime)s %(levelname)s %(message)s")
 
 DF_CLICKHOUSE = object
 DF_CREATIVES = object
@@ -39,28 +40,30 @@ class CPC: # Класс для расчёта CPC
 
         # Объединение датасетов
         temp_df = pd.merge(DF_CLICKHOUSE, DF_CREATIVES, on="creative_id")
+
         del DF_CLICKHOUSE
         del DF_CREATIVES
         gc.collect()
 
         temp_df = nan_viewed__deleting(temp_df)
         # аггрегация среативов по сумме кликов
-        temp_df = temp_df.groupby(['creative_id'])['click'].agg('sum')
+        temp_df = temp_df.groupby(['creative_id', 'tag_id'])['click'].agg('sum').reset_index()
 
-        temp_df = pd.DataFrame({'creative_id': temp_df.index, 'click_count': temp_df.values})
         # Удаление дубликатов
         temp_df = temp_df.drop_duplicates()
         # Сокращение датасета leads
-        temp_df_leads = DF_LEADS[['creative_id', 'profit']]
+        temp_df_leads = DF_LEADS[['creative_id', 'tag_id', 'profit']]
+
         del DF_LEADS
         gc.collect()
         # Аггрегация датасета leads по сумме заказов для каждого creative_id
-        temp_df_leads = temp_df_leads.groupby(['creative_id'])['profit'].agg('sum')
 
-        temp_df_leads = pd.DataFrame({'creative_id': temp_df_leads.index, 'profit_sum': temp_df_leads.values})
-        # Объединение датасетов
-        result_df = pd.merge(temp_df, temp_df_leads, on="creative_id")
+        temp_df_leads = temp_df_leads.groupby(['creative_id','tag_id'])['profit'].agg('sum').reset_index()
+
+       # Объединение датасетов
+        result_df = pd.merge(temp_df, temp_df_leads, on=['creative_id', 'tag_id'])
+
         # Расчёт CPC
-        result_df['click_profit'] = result_df['profit_sum'] / result_df['click_count']
+        result_df['click_profit'] = result_df['profit'] / result_df['click']
 
         return result_df

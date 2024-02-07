@@ -3,6 +3,7 @@ Archive/
 data/
 internship/
 buff/
+Linux/
 pickles/cpc_df.pkl
 pickles/cpc_df_2.pkl
 pickles/model_dict.pkl
@@ -25,9 +26,6 @@ scripts/xgb.ipynb
 scripts/mlruns/
 scripts/.ipynb_checkpoints/
 api/__pycache__/
-api/.CPC.py.swp
-api/.api.py.swo
-api/.api.py.swp
 logs/.ipynb_checkpoints/
 poetry.lock
 

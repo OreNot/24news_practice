@@ -125,3 +125,81 @@
 2024-02-05 15:19:19,895 INFO API request processed at 2024-02-05 15:19:19
 2024-02-05 15:19:28,079 INFO API request received at 2024-02-05 15:19:28
 2024-02-05 15:19:28,642 INFO API request processed at 2024-02-05 15:19:28
+2024-02-07 14:38:49,520 INFO Creatives dataframe read
+2024-02-07 14:38:49,520 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-07 14:40:20,738 INFO Clickhouse dataframe read
+2024-02-07 14:40:20,762 INFO Creatives dataframe read
+2024-02-07 14:40:20,782 INFO Leads dataframe read
+2024-02-07 14:40:37,649 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-07 14:40:39,392 INFO Creatives dataframe read
+2024-02-07 14:40:39,392 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-07 14:42:01,858 INFO Clickhouse dataframe read
+2024-02-07 14:42:01,867 INFO Creatives dataframe read
+2024-02-07 14:42:01,873 INFO Leads dataframe read
+2024-02-07 14:42:16,178 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-07 14:50:54,515 INFO API request received at 2024-02-07 14:50:54
+2024-02-07 14:50:55,281 INFO API request processed at 2024-02-07 14:50:55
+2024-02-07 14:50:58,145 INFO API request received at 2024-02-07 14:50:58
+2024-02-07 14:50:58,705 INFO API request processed at 2024-02-07 14:50:58
+2024-02-07 14:50:59,706 INFO API request received at 2024-02-07 14:50:59
+2024-02-07 14:51:00,253 INFO API request processed at 2024-02-07 14:51:00
+2024-02-07 14:53:12,890 INFO Creatives dataframe read
+2024-02-07 14:53:12,890 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-07 14:54:30,900 INFO Clickhouse dataframe read
+2024-02-07 14:54:30,910 INFO Creatives dataframe read
+2024-02-07 14:54:30,916 INFO Leads dataframe read
+2024-02-07 14:54:44,671 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-07 14:54:44,680 INFO Creatives dataframe read
+2024-02-07 14:54:44,681 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-07 14:55:41,221 INFO Creatives dataframe read
+2024-02-07 14:55:41,221 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-07 14:56:56,521 INFO Clickhouse dataframe read
+2024-02-07 14:56:56,531 INFO Creatives dataframe read
+2024-02-07 14:56:56,537 INFO Leads dataframe read
+2024-02-07 14:57:10,371 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-07 14:57:10,380 INFO Creatives dataframe read
+2024-02-07 14:57:10,380 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-07 14:57:47,007 INFO Creatives dataframe read
+2024-02-07 14:57:47,007 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-07 14:58:58,474 INFO Clickhouse dataframe read
+2024-02-07 14:58:58,482 INFO Creatives dataframe read
+2024-02-07 14:58:58,489 INFO Leads dataframe read
+2024-02-07 14:59:12,676 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-07 14:59:12,686 INFO Creatives dataframe read
+2024-02-07 14:59:12,686 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-07 14:59:14,439 INFO Creatives dataframe read
+2024-02-07 14:59:14,439 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-07 15:00:30,483 INFO Clickhouse dataframe read
+2024-02-07 15:00:30,493 INFO Creatives dataframe read
+2024-02-07 15:00:30,500 INFO Leads dataframe read
+2024-02-07 15:00:45,519 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-07 15:00:45,529 INFO Creatives dataframe read
+2024-02-07 15:00:45,529 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-07 15:01:01,264 INFO API request received at 2024-02-07 15:01:01
+2024-02-07 15:01:01,672 INFO API request processed at 2024-02-07 15:01:01
+2024-02-07 15:15:18,428 INFO Creatives dataframe read
+2024-02-07 15:15:18,428 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-07 15:16:43,277 INFO Clickhouse dataframe read
+2024-02-07 15:16:43,286 INFO Creatives dataframe read
+2024-02-07 15:16:43,292 INFO Leads dataframe read
+2024-02-07 15:16:57,309 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-07 15:16:57,319 INFO Creatives dataframe read
+2024-02-07 15:16:57,319 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-07 15:16:59,125 INFO Creatives dataframe read
+2024-02-07 15:16:59,126 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-07 15:18:12,958 INFO Clickhouse dataframe read
+2024-02-07 15:18:12,971 INFO Creatives dataframe read
+2024-02-07 15:18:12,980 INFO Leads dataframe read
+2024-02-07 15:18:27,320 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-07 15:18:27,329 INFO Creatives dataframe read
+2024-02-07 15:18:27,329 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-07 15:18:43,619 INFO API request received at 2024-02-07 15:18:43
+2024-02-07 15:18:44,130 INFO API request processed at 2024-02-07 15:18:44
+2024-02-07 15:18:45,123 INFO API request received at 2024-02-07 15:18:45
+2024-02-07 15:18:45,496 INFO API request processed at 2024-02-07 15:18:45
+2024-02-07 15:18:46,246 INFO API request received at 2024-02-07 15:18:46
+2024-02-07 15:18:46,645 INFO API request processed at 2024-02-07 15:18:46
+2024-02-07 15:18:47,329 INFO API request received at 2024-02-07 15:18:47
+2024-02-07 15:18:47,682 INFO API request processed at 2024-02-07 15:18:47
+2024-02-07 15:18:48,479 INFO API request received at 2024-02-07 15:18:48
+2024-02-07 15:18:48,846 INFO API request processed at 2024-02-07 15:18:48

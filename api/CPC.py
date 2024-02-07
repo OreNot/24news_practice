@@ -10,12 +10,13 @@ DF_CREATIVES = object
 DF_LEADS = object
 
 
-def nan_viewed__deleting(X, y=None): # Функция удаления не показанных креативов
+def nan_viewed__deleting(X, y=None):  # Функция удаления не показанных креативов
     X = X[X['view'] != 0]
     return X
-class CPC: # Класс для расчёта CPC
+class CPC:  # Класс для расчёта CPC
 
-    def CPC_calculating(self): # Функция расчета CPC
+    @staticmethod
+    def CPC_calculating():  # Функция расчета CPC
         # Считывание датасетов
         try:
             DF_CLICKHOUSE = pd.read_csv(settings.CLICKHOSE_DF_PATH)
@@ -35,10 +36,10 @@ class CPC: # Класс для расчёта CPC
         except Exception as e:
             logging.error(f'Leads dataframe read error: {e}')
 
-        DF_CREATIVES = DF_CREATIVES.rename(columns={'id': 'creative_id'})
+        DF_CREATIVES.rename(columns={'id': 'creative_id'}, inplace=True)
 
         # Объединение датасетов
-        temp_df = pd.merge(DF_CLICKHOUSE, DF_CREATIVES, on="creative_id")
+        temp_df = pd.merge(DF_CLICKHOUSE, DF_CREATIVES, on=['creative_id'])
 
         del DF_CLICKHOUSE
         del DF_CREATIVES
@@ -60,7 +61,7 @@ class CPC: # Класс для расчёта CPC
         temp_df_leads = temp_df_leads.groupby(['creative_id','tag_id'])['profit'].agg('sum').reset_index()
 
        # Объединение датасетов
-        result_df = pd.merge(temp_df, temp_df_leads, on=['creative_id', 'tag_id'])
+        result_df = pd.merge(temp_df, temp_df_leads, on=['creative_id', 'tag_id']).drop('tag_id', axis = 1)
 
         # Расчёт CPC
         result_df['click_profit'] = result_df['profit'] / result_df['click']

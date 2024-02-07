@@ -4,16 +4,13 @@ import time
 import dill
 import numpy as np
 import pandas as pd
-from joblib import parallel_backend
+#from joblib import parallel_backend
 
 from .Creatives import Creatives
 from .settings import settings
 
 
 def timeit(func):
-    """
-    Decorator for measuring function's running time.
-    """
     def measure_time(*args, **kw):
         start_time = time.time()
         result = func(*args, **kw)
@@ -24,8 +21,6 @@ def timeit(func):
     return measure_time
 
 logging.basicConfig(level=logging.INFO, filename="24news_practice/logs/Tools.log",filemode="w", format="%(asctime)s %(levelname)s %(message)s")
-
-df_creatives = object
 
 df_creatives = Creatives().df_creatives
 
@@ -82,7 +77,7 @@ class Tools:
 
         for imp in ssp_req.imps:
             for creative in creatives_dict[imp['creatives_list_id']]:
-                with parallel_backend('threading', n_jobs = -1):
+                #with parallel_backend('threading', n_jobs = -1):
                     cretive_tag_list.append({
                                  'imp_id': imp['id'],
                                  'tag_id': imp['tagid'],
@@ -109,9 +104,9 @@ class Tools:
                                 'place_number': imp['seq']
                     })
 
-        with parallel_backend('threading', n_jobs = -1):
-            cretive_tag_df = pd.DataFrame(cretive_tag_list, columns=['imp_id', 'tag_id', 'plcmtcnt', 'creatives_list_id', 'creative_id'])
-            req_df = pd.DataFrame(req_list, columns=self.req_df_columns)
+        #with parallel_backend('threading', n_jobs = -1):
+        cretive_tag_df = pd.DataFrame(cretive_tag_list, columns=['imp_id', 'tag_id', 'plcmtcnt', 'creatives_list_id', 'creative_id'])
+        req_df = pd.DataFrame(req_list, columns=self.req_df_columns)
 
 
         req_df = req_df.fillna(0)

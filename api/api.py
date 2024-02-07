@@ -76,6 +76,7 @@ async def predict(ssp_req: SSP):
     for imp in res['imp_id'].unique():
 
         temp = res[res['imp_id'] == imp]
+        temp.drop_duplicates(subset=['imp_id', 'tag_id', 'creative_id',], keep = 'first', inplace=True)
 
         if temp.shape[0] > 0:
             temp = temp.nlargest(temp['plcmtcnt'].unique()[0], 'CPM')
@@ -88,7 +89,6 @@ async def predict(ssp_req: SSP):
                 res.drop(res.loc[(res['creatives_list_id'] == temp['creatives_list_id'].unique()[0]) & (res['creative_id'] == creative_id) & (res['tag_id'] == temp['tag_id'].unique()[0])].index, inplace=True)
 
     # Фиксируем время обработки запроса
-
     res_datetime_str = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     # Логируем
     logging.info(f'API request processed at {res_datetime_str}')

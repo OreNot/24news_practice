@@ -1,31 +1,29 @@
 import logging
+from tensorflow.keras.models import model_from_json
+import tensorflow as tf
 import time
 
 import dill
 import numpy as np
 import pandas as pd
-from joblib import parallel_backend
 
 from .Creatives import Creatives
 from .settings import settings
 
 
 def timeit(func):
-    """
-    Decorator for measuring function's running time.
-    """
     def measure_time(*args, **kw):
         start_time = time.time()
         result = func(*args, **kw)
-        print("Processing time of %s(): %.2f seconds."
-              % (func.__qualname__, time.time() - start_time))
+        print(f'Processing time of {func.__qualname__}(): {int((time.time() - start_time) * 1000)} ms.')
+        # % (func.__qualname__, time.time() - start_time))
         return result
 
     return measure_time
 
-logging.basicConfig(level=logging.INFO, filename="./24news_practice/logs/Tools.log",filemode="w", format="%(asctime)s %(levelname)s %(message)s")
 
-df_creatives = object
+logging.basicConfig(level=logging.INFO, filename="24news_practice/logs/Tools.log", filemode="w",
+                    format="%(asctime)s %(levelname)s %(message)s")
 
 df_creatives = Creatives().df_creatives
 
@@ -36,18 +34,28 @@ class Tools:
         with open(settings.PREP_TOOLS_DICT_PATH, 'rb') as in_strm:
             prep_tools_dict = dill.load(in_strm)
 
-        self.encoder = prep_tools_dict['encoder']
-        #self.req_df_columns = prep_tools_dict['req_df_columns'].drop('click')
-        self.req_df_columns = prep_tools_dict['req_df_columns'].drop('click')
+        # self.encoder = prep_tools_dict['encoder']
+        self.req_df_columns = prep_tools_dict['req_df_columns']  # .drop('click')
         self.preprocessor = prep_tools_dict['preprocessor']
-        self.model = prep_tools_dict['model']
+        # self.model = prep_tools_dict['model']
         self.model_metadata = prep_tools_dict['model_metadata']
-        logging.info(f'Encoder loaded from  {settings.PREP_TOOLS_DICT_PATH}')
+        # logging.info(f'Encoder loaded from  {settings.PREP_TOOLS_DICT_PATH}')
         self.cretive_tag_df = pd.DataFrame(columns=['imp_id', 'tag_id', 'plcmtcnt', 'creatives_list_id', 'creative_id'])
         self.req_df = pd.DataFrame(columns=self.req_df_columns)
 
+        json_file = open(settings.KERAS_MODEL_JSON, 'r')
+        loaded_model_json = json_file.read()
+        json_file.close()
+        self.model = model_from_json(loaded_model_json)
+        # load weights into new model
+        self.model.load_weights(settings.KERAS_MODEL_WIGHTS)
+        logging.info(f'Loaded model from disk  {settings.KERAS_MODEL_JSON}')
+
+        self.model.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(),
+                           optimizer=tf.keras.optimizers.Adam(learning_rate=1e-3), metrics=['accuracy'])
+
     @timeit
-    def nan_filling(self, X, y=None): # Ð¤ÑƒÐ½ÐºÑ†Ð¸Ñ Ð·Ð°Ð¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ñ Ð¿Ñ€Ð¾Ð¿ÑƒÑ‰ÐµÐ½Ð½Ñ‹Ñ… Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ð¹
+    def nan_filling(self, X, y=None):  # Ôóíêöèÿ çàïîëíåíèÿ ïðîïóùåííûõ çíà÷åíèé
         nan_cols = {}
         for col in X.columns:
             nan_count = X[col].isna().sum()
@@ -64,13 +72,14 @@ class Tools:
         return X
 
     @timeit
-    def with_creatives_mergding(self, X): # Ð¤ÑƒÐ½ÐºÑ†Ð¸Ñ Ð¼ÐµÑ€Ð¶Ð° Ñ Ð´Ð°Ñ‚Ð°Ñ„Ñ€ÐµÐ¹Ð¼Ð¾Ð¼ ÐºÑ€ÐµÐ°Ñ‚Ð¸Ð²Ð¾Ð²
+    def with_creatives_mergding(self, X):  # Ôóíêöèÿ ìåðæà ñ äàòàôðåéìîì êðåàòèâîâ
 
         X = pd.merge(X, df_creatives, on="creative_id")
         return X
 
     @timeit
-    def get_creatives_imps_df(self, ssp_req, req_datetime_str):  # Ð¤ÑƒÐ½ÐºÑ†Ð¸Ñ Ð¿Ð¾Ð»ÑƒÑ‡ÐµÐ½Ð¸Ñ Ð´Ð°Ñ‚Ð°Ñ„Ñ€ÐµÐ¹Ð¼Ð° imps - creative_id Ð¸ Ð´Ð°Ñ‚Ð°Ñ„Ñ€ÐµÐ¹Ð¼Ð° Ð·Ð°Ð¿Ñ€Ð¾ÑÐ° Ð¸Ð· Ð·Ð°Ð¿Ñ€Ð¾ÑÐ°
+    def get_creatives_imps_df(self, ssp_req,
+                              req_datetime_str):  # Ôóíêöèÿ ïîëó÷åíèÿ äàòàôðåéìà imps - creative_id è äàòàôðåéìà çàïðîñà èç çàïðîñà
 
         creatives_dict = dict()
 
@@ -82,58 +91,59 @@ class Tools:
 
         for imp in ssp_req.imps:
             for creative in creatives_dict[imp['creatives_list_id']]:
-                with parallel_backend('threading', n_jobs = -1):
-                    cretive_tag_list.append({
-                                 'imp_id': imp['id'],
-                                 'tag_id': imp['tagid'],
-                                 'plcmtcnt': imp['plcmtcnt'],
-                                 'creative_id': creative,
-                                 'creatives_list_id': imp['creatives_list_id'],
-                                 })
+                # with parallel_backend('threading', n_jobs = -1):
+                cretive_tag_list.append({
+                    'imp_id': imp['id'],
+                    'tag_id': imp['tagid'],
+                    'plcmtcnt': imp['plcmtcnt'],
+                    'creative_id': creative,
+                    'creatives_list_id': imp['creatives_list_id'],
+                })
 
-                    req_list.append({
-                                'site_id': ssp_req.site_id,
-                                'OS': ssp_req.os,
-                                'browser': ssp_req.browser,
-                                'device': ssp_req.device,
-                                'geo_country': ssp_req.country,
-                                'geo_city': ssp_req.city,
-                                'loss_reason': ssp_req.news_category,
-                                'enter_utm_source': ssp_req.us,
-                                'enter_utm_medium': ssp_req.um,
-                                'enter_utm_content': ssp_req.uct,
-                                'enter_utm_term': ssp_req.ut,
-                                'creative_id': creative,
-                                'event_date_time': req_datetime_str,
-                                'tag_id': imp['tagid'],
-                                'place_number': imp['seq']
-                    })
+                req_list.append({
+                    'site_id': ssp_req.site_id,
+                    'OS': ssp_req.os,
+                    'browser': ssp_req.browser,
+                    'device': ssp_req.device,
+                    'geo_country': ssp_req.country,
+                    'geo_city': ssp_req.city,
+                    'loss_reason': ssp_req.news_category,
+                    'enter_utm_source': ssp_req.us,
+                    'enter_utm_medium': ssp_req.um,
+                    'enter_utm_content': ssp_req.uct,
+                    'enter_utm_term': ssp_req.ut,
+                    'creative_id': creative,
+                    'event_date_time': req_datetime_str,
+                    'tag_id': imp['tagid'],
+                    'place_number': imp['seq']
+                })
 
-        with parallel_backend('threading', n_jobs = -1):
-            cretive_tag_df = pd.DataFrame(cretive_tag_list, columns=['imp_id', 'tag_id', 'plcmtcnt', 'creatives_list_id', 'creative_id'])
-            req_df = pd.DataFrame(req_list, columns=self.req_df_columns)
-
+        # with parallel_backend('threading', n_jobs = -1):
+        cretive_tag_df = pd.DataFrame(cretive_tag_list,
+                                      columns=['imp_id', 'tag_id', 'plcmtcnt', 'creatives_list_id', 'creative_id'])
+        req_df = pd.DataFrame(req_list, columns=self.req_df_columns)
 
         req_df = req_df.fillna(0)
         return cretive_tag_df, req_df
 
     @timeit
-    def get_result_dict(self, imps_list, X): # Ð¤ÑƒÐ½ÐºÑ†Ð¸Ñ Ñ„Ð¾Ñ€Ð¼Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ Ñ€ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð¸Ñ€ÑƒÑŽÑ‰ÐµÐ³Ð¾ ÑÐ»Ð¾Ð²Ð°Ñ€Ñ
+    def get_result_dict(self, imps_list, X):  # Ôóíêöèÿ ôîðìèðîâàíèÿ ðåçóëüòèðóþùåãî ñëîâàðÿ
 
         result_dict = dict()
 
         for imp in imps_list:
-            result_dict[imp] = [{row['creative_id'] : row['CPM']} for index, row in (X.where(X['imp_id'] == imp).dropna()[['creative_id', 'CPM']].reset_index()).iterrows()]
+            result_dict[imp] = [{row['creative_id']: row['CPM']} for index, row in
+                                (X.where(X['imp_id'] == imp).dropna()[['creative_id', 'CPM']].reset_index()).iterrows()]
         return result_dict
 
     @timeit
-    def nan_click_viewed__deleting(self, X, y=None): # Ð¤ÑƒÐ½ÐºÑ†Ð¸Ñ ÑƒÐ´Ð°Ð»ÐµÐ½Ð¸Ñ ÑÑ‚Ñ€Ð¾Ðº Ñ Ð¿ÑƒÑÑ‚Ñ‹Ð¼Ð¸ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸ÑÐ¼Ð¸ ÐºÐ»Ð¸ÐºÐ° Ð¸ Ñ view == 0
+    def nan_click_viewed__deleting(self, X, y=None):  # Ôóíêöèÿ óäàëåíèÿ ñòðîê ñ ïóñòûìè çíà÷åíèÿìè êëèêà è ñ view == 0
         X = X[X['click'].isna() == False]
         X = X[X['view'] != 0]
         return X
 
     @timeit
-    def dub_dropping(self, X, y=None): # Ð¤ÑƒÐ½ÐºÑ†Ð¸Ñ ÑƒÐ´Ð°Ð»ÐµÐ½Ð¸Ñ Ð´ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ‚Ð¾Ð² Ð¿Ñ€Ð¸Ð¼ÐµÑ€Ð¾Ð²
+    def dub_dropping(self, X, y=None):  # Ôóíêöèÿ óäàëåíèÿ äóáëèêàòîâ ïðèìåðîâ
         X = X.drop_duplicates()
         return X
 
@@ -147,9 +157,3 @@ class Tools:
         X = X[X['place_number'] > 0]
         X['place_number'] = X['place_number'] - 1
         return X
-
-
-
-
-
-

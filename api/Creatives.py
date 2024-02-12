@@ -2,7 +2,10 @@ import pandas as pd
 from .settings import settings
 import logging
 
-logging.basicConfig(level=logging.INFO, filename="24news_practice/logs/Creatives.log", filemode="a", format="%(asctime)s %(levelname)s %(message)s")
+logging.basicConfig(level=logging.INFO, filename="24news_practice/logs/Creatives.log", filemode="a",
+                    format="%(asctime)s %(levelname)s %(message)s")
+
+
 class Creatives:
 
     def __init__(self):
@@ -13,7 +16,5 @@ class Creatives:
             logging.info(f'Creatives dataframe read')
         except Exception as e:
             logging.error(f'Creatives dataframe read error: {e}')
-
-
 
         logging.info(f'Dataframe Creatives loaded from {settings.CREATIVES_DF_PATH}')

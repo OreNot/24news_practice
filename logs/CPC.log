@@ -2021,3 +2021,1563 @@
 2024-02-07 18:09:59,654 INFO API request processed at 2024-02-07 18:09:59
 2024-02-07 18:10:00,488 INFO API request received at 2024-02-07 18:10:00
 2024-02-07 18:10:01,111 INFO API request processed at 2024-02-07 18:10:01
+2024-02-07 18:11:54,353 INFO API request received at 2024-02-07 18:11:54
+2024-02-07 18:11:54,493 INFO API request processed at 2024-02-07 18:11:54
+2024-02-07 21:05:14,452 INFO Creatives dataframe read
+2024-02-07 21:05:14,452 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-07 21:05:36,965 INFO Clickhouse dataframe read
+2024-02-07 21:05:36,967 INFO Creatives dataframe read
+2024-02-07 21:05:36,977 INFO Leads dataframe read
+2024-02-07 21:05:50,582 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-07 21:05:50,585 INFO Creatives dataframe read
+2024-02-07 21:05:50,585 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-07 21:05:55,755 INFO API request received at 2024-02-07 21:05:55
+2024-02-07 21:05:56,007 INFO API request processed at 2024-02-07 21:05:56
+2024-02-07 21:05:57,275 INFO API request received at 2024-02-07 21:05:57
+2024-02-07 21:05:57,412 INFO API request processed at 2024-02-07 21:05:57
+2024-02-07 21:05:58,268 INFO API request received at 2024-02-07 21:05:58
+2024-02-07 21:05:58,393 INFO API request processed at 2024-02-07 21:05:58
+2024-02-07 21:05:59,094 INFO API request received at 2024-02-07 21:05:59
+2024-02-07 21:05:59,218 INFO API request processed at 2024-02-07 21:05:59
+2024-02-07 21:05:59,912 INFO API request received at 2024-02-07 21:05:59
+2024-02-07 21:06:00,070 INFO API request processed at 2024-02-07 21:06:00
+2024-02-07 21:06:00,733 INFO API request received at 2024-02-07 21:06:00
+2024-02-07 21:06:00,870 INFO API request processed at 2024-02-07 21:06:00
+2024-02-07 21:06:06,686 INFO API request received at 2024-02-07 21:06:06
+2024-02-07 21:06:06,809 INFO API request processed at 2024-02-07 21:06:06
+2024-02-07 21:06:07,550 INFO API request received at 2024-02-07 21:06:07
+2024-02-07 21:06:07,681 INFO API request processed at 2024-02-07 21:06:07
+2024-02-07 21:06:08,390 INFO API request received at 2024-02-07 21:06:08
+2024-02-07 21:06:08,515 INFO API request processed at 2024-02-07 21:06:08
+2024-02-07 21:06:09,152 INFO API request received at 2024-02-07 21:06:09
+2024-02-07 21:06:09,295 INFO API request processed at 2024-02-07 21:06:09
+2024-02-07 21:06:09,998 INFO API request received at 2024-02-07 21:06:09
+2024-02-07 21:06:10,124 INFO API request processed at 2024-02-07 21:06:10
+2024-02-07 21:06:10,759 INFO API request received at 2024-02-07 21:06:10
+2024-02-07 21:06:10,896 INFO API request processed at 2024-02-07 21:06:10
+2024-02-07 21:06:11,522 INFO API request received at 2024-02-07 21:06:11
+2024-02-07 21:06:11,645 INFO API request processed at 2024-02-07 21:06:11
+2024-02-07 21:06:12,314 INFO API request received at 2024-02-07 21:06:12
+2024-02-07 21:06:12,443 INFO API request processed at 2024-02-07 21:06:12
+2024-02-07 21:06:13,081 INFO API request received at 2024-02-07 21:06:13
+2024-02-07 21:06:13,208 INFO API request processed at 2024-02-07 21:06:13
+2024-02-07 21:06:13,734 INFO API request received at 2024-02-07 21:06:13
+2024-02-07 21:06:13,861 INFO API request processed at 2024-02-07 21:06:13
+2024-02-07 21:06:14,486 INFO API request received at 2024-02-07 21:06:14
+2024-02-07 21:06:14,611 INFO API request processed at 2024-02-07 21:06:14
+2024-02-07 21:06:15,137 INFO API request received at 2024-02-07 21:06:15
+2024-02-07 21:06:15,271 INFO API request processed at 2024-02-07 21:06:15
+2024-02-07 21:06:15,835 INFO API request received at 2024-02-07 21:06:15
+2024-02-07 21:06:15,954 INFO API request processed at 2024-02-07 21:06:15
+2024-02-07 21:06:16,534 INFO API request received at 2024-02-07 21:06:16
+2024-02-07 21:06:16,659 INFO API request processed at 2024-02-07 21:06:16
+2024-02-07 21:06:17,190 INFO API request received at 2024-02-07 21:06:17
+2024-02-07 21:06:17,326 INFO API request processed at 2024-02-07 21:06:17
+2024-02-07 21:06:17,823 INFO API request received at 2024-02-07 21:06:17
+2024-02-07 21:06:17,966 INFO API request processed at 2024-02-07 21:06:17
+2024-02-07 21:06:18,466 INFO API request received at 2024-02-07 21:06:18
+2024-02-07 21:06:18,608 INFO API request processed at 2024-02-07 21:06:18
+2024-02-07 21:06:19,122 INFO API request received at 2024-02-07 21:06:19
+2024-02-07 21:06:19,256 INFO API request processed at 2024-02-07 21:06:19
+2024-02-07 21:06:19,756 INFO API request received at 2024-02-07 21:06:19
+2024-02-07 21:06:19,887 INFO API request processed at 2024-02-07 21:06:19
+2024-02-07 21:06:20,384 INFO API request received at 2024-02-07 21:06:20
+2024-02-07 21:06:20,524 INFO API request processed at 2024-02-07 21:06:20
+2024-02-07 21:06:21,624 INFO API request received at 2024-02-07 21:06:21
+2024-02-07 21:06:21,755 INFO API request processed at 2024-02-07 21:06:21
+2024-02-07 21:06:22,340 INFO API request received at 2024-02-07 21:06:22
+2024-02-07 21:06:22,472 INFO API request processed at 2024-02-07 21:06:22
+2024-02-07 21:06:23,390 INFO API request received at 2024-02-07 21:06:23
+2024-02-07 21:06:23,527 INFO API request processed at 2024-02-07 21:06:23
+2024-02-07 21:06:24,206 INFO API request received at 2024-02-07 21:06:24
+2024-02-07 21:06:24,325 INFO API request processed at 2024-02-07 21:06:24
+2024-02-07 21:06:25,000 INFO API request received at 2024-02-07 21:06:25
+2024-02-07 21:06:25,128 INFO API request processed at 2024-02-07 21:06:25
+2024-02-07 21:06:25,718 INFO API request received at 2024-02-07 21:06:25
+2024-02-07 21:06:25,849 INFO API request processed at 2024-02-07 21:06:25
+2024-02-07 21:06:26,439 INFO API request received at 2024-02-07 21:06:26
+2024-02-07 21:06:26,555 INFO API request processed at 2024-02-07 21:06:26
+2024-02-07 21:06:27,661 INFO API request received at 2024-02-07 21:06:27
+2024-02-07 21:06:27,786 INFO API request processed at 2024-02-07 21:06:27
+2024-02-07 21:06:28,617 INFO API request received at 2024-02-07 21:06:28
+2024-02-07 21:06:28,739 INFO API request processed at 2024-02-07 21:06:28
+2024-02-07 21:06:29,395 INFO API request received at 2024-02-07 21:06:29
+2024-02-07 21:06:29,527 INFO API request processed at 2024-02-07 21:06:29
+2024-02-07 21:06:30,177 INFO API request received at 2024-02-07 21:06:30
+2024-02-07 21:06:30,288 INFO API request processed at 2024-02-07 21:06:30
+2024-02-07 21:06:30,921 INFO API request received at 2024-02-07 21:06:30
+2024-02-07 21:06:31,043 INFO API request processed at 2024-02-07 21:06:31
+2024-02-07 21:06:31,703 INFO API request received at 2024-02-07 21:06:31
+2024-02-07 21:06:31,824 INFO API request processed at 2024-02-07 21:06:31
+2024-02-07 21:06:32,395 INFO API request received at 2024-02-07 21:06:32
+2024-02-07 21:06:32,551 INFO API request processed at 2024-02-07 21:06:32
+2024-02-07 21:06:33,030 INFO API request received at 2024-02-07 21:06:33
+2024-02-07 21:06:33,170 INFO API request processed at 2024-02-07 21:06:33
+2024-02-07 21:06:33,814 INFO API request received at 2024-02-07 21:06:33
+2024-02-07 21:06:33,945 INFO API request processed at 2024-02-07 21:06:33
+2024-02-07 21:06:34,233 INFO API request received at 2024-02-07 21:06:34
+2024-02-07 21:06:34,377 INFO API request processed at 2024-02-07 21:06:34
+2024-02-07 21:06:34,747 INFO API request received at 2024-02-07 21:06:34
+2024-02-07 21:06:34,863 INFO API request processed at 2024-02-07 21:06:34
+2024-02-07 21:06:35,352 INFO API request received at 2024-02-07 21:06:35
+2024-02-07 21:06:35,514 INFO API request processed at 2024-02-07 21:06:35
+2024-02-07 21:06:35,844 INFO API request received at 2024-02-07 21:06:35
+2024-02-07 21:06:35,973 INFO API request processed at 2024-02-07 21:06:35
+2024-02-07 21:06:36,358 INFO API request received at 2024-02-07 21:06:36
+2024-02-07 21:06:36,493 INFO API request processed at 2024-02-07 21:06:36
+2024-02-07 21:06:38,594 INFO API request received at 2024-02-07 21:06:38
+2024-02-07 21:06:38,711 INFO API request processed at 2024-02-07 21:06:38
+2024-02-08 10:41:08,158 INFO Creatives dataframe read
+2024-02-08 10:41:08,158 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 10:41:30,897 INFO Clickhouse dataframe read
+2024-02-08 10:41:30,899 INFO Creatives dataframe read
+2024-02-08 10:41:30,913 INFO Leads dataframe read
+2024-02-08 10:41:39,510 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 10:41:39,513 INFO Creatives dataframe read
+2024-02-08 10:41:39,513 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 10:41:44,573 INFO API request received at 2024-02-08 10:41:44
+2024-02-08 10:42:26,171 INFO Creatives dataframe read
+2024-02-08 10:42:26,173 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 10:42:49,073 INFO Clickhouse dataframe read
+2024-02-08 10:42:49,075 INFO Creatives dataframe read
+2024-02-08 10:42:49,079 INFO Leads dataframe read
+2024-02-08 10:42:57,206 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 10:42:57,209 INFO Creatives dataframe read
+2024-02-08 10:42:57,209 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 10:43:02,837 INFO API request received at 2024-02-08 10:43:02
+2024-02-08 10:43:03,047 INFO API request processed at 2024-02-08 10:43:03
+2024-02-08 10:47:12,866 INFO Creatives dataframe read
+2024-02-08 10:47:12,866 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 10:47:36,628 INFO Clickhouse dataframe read
+2024-02-08 10:47:36,630 INFO Creatives dataframe read
+2024-02-08 10:47:36,633 INFO Leads dataframe read
+2024-02-08 10:47:44,672 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 10:47:44,675 INFO Creatives dataframe read
+2024-02-08 10:47:44,675 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 10:48:00,352 INFO API request received at 2024-02-08 10:48:00
+2024-02-08 10:48:00,570 INFO API request processed at 2024-02-08 10:48:00
+2024-02-08 10:50:43,029 INFO Creatives dataframe read
+2024-02-08 10:50:43,029 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 10:51:08,099 INFO Clickhouse dataframe read
+2024-02-08 10:51:08,102 INFO Creatives dataframe read
+2024-02-08 10:51:08,105 INFO Leads dataframe read
+2024-02-08 10:51:16,419 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 10:51:16,422 INFO Creatives dataframe read
+2024-02-08 10:51:16,422 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 10:51:20,706 INFO API request received at 2024-02-08 10:51:20
+2024-02-08 10:51:20,935 INFO API request processed at 2024-02-08 10:51:20
+2024-02-08 10:52:32,758 INFO Creatives dataframe read
+2024-02-08 10:52:32,758 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 10:52:59,134 INFO Clickhouse dataframe read
+2024-02-08 10:52:59,137 INFO Creatives dataframe read
+2024-02-08 10:52:59,140 INFO Leads dataframe read
+2024-02-08 10:53:07,761 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 10:53:07,765 INFO Creatives dataframe read
+2024-02-08 10:53:07,765 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 10:53:07,768 INFO API request received at 2024-02-08 10:53:07
+2024-02-08 10:53:07,982 INFO API request processed at 2024-02-08 10:53:07
+2024-02-08 10:53:26,914 INFO Creatives dataframe read
+2024-02-08 10:53:26,914 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 10:53:52,255 INFO Clickhouse dataframe read
+2024-02-08 10:53:52,257 INFO Creatives dataframe read
+2024-02-08 10:53:52,260 INFO Leads dataframe read
+2024-02-08 10:54:01,158 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 10:54:01,162 INFO Creatives dataframe read
+2024-02-08 10:54:01,162 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 10:54:01,164 INFO API request received at 2024-02-08 10:54:01
+2024-02-08 10:54:01,384 INFO API request processed at 2024-02-08 10:54:01
+2024-02-08 10:55:20,154 INFO Creatives dataframe read
+2024-02-08 10:55:20,154 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 10:55:44,670 INFO Clickhouse dataframe read
+2024-02-08 10:55:44,672 INFO Creatives dataframe read
+2024-02-08 10:55:44,675 INFO Leads dataframe read
+2024-02-08 10:55:52,990 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 10:55:52,994 INFO Creatives dataframe read
+2024-02-08 10:55:52,994 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 10:55:56,331 INFO API request received at 2024-02-08 10:55:56
+2024-02-08 10:55:56,537 INFO API request processed at 2024-02-08 10:55:56
+2024-02-08 10:57:08,013 INFO Creatives dataframe read
+2024-02-08 10:57:08,013 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 10:57:31,359 INFO Clickhouse dataframe read
+2024-02-08 10:57:31,361 INFO Creatives dataframe read
+2024-02-08 10:57:31,364 INFO Leads dataframe read
+2024-02-08 10:57:39,615 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 10:57:39,619 INFO Creatives dataframe read
+2024-02-08 10:57:39,619 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 10:57:57,527 INFO Creatives dataframe read
+2024-02-08 10:57:57,527 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 10:58:21,020 INFO Clickhouse dataframe read
+2024-02-08 10:58:21,022 INFO Creatives dataframe read
+2024-02-08 10:58:21,026 INFO Leads dataframe read
+2024-02-08 10:58:29,505 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 10:58:29,508 INFO Creatives dataframe read
+2024-02-08 10:58:29,508 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 10:58:48,426 INFO API request received at 2024-02-08 10:58:48
+2024-02-08 10:58:48,642 INFO API request processed at 2024-02-08 10:58:48
+2024-02-08 12:42:32,115 INFO Creatives dataframe read
+2024-02-08 12:42:32,117 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 12:43:26,740 INFO Clickhouse dataframe read
+2024-02-08 12:43:26,768 INFO Creatives dataframe read
+2024-02-08 12:43:26,775 INFO Leads dataframe read
+2024-02-08 12:43:39,482 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 12:43:39,486 INFO Creatives dataframe read
+2024-02-08 12:43:39,487 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 12:43:55,929 INFO API request received at 2024-02-08 12:43:55
+2024-02-08 12:43:56,249 INFO API request processed at 2024-02-08 12:43:56
+2024-02-08 12:45:55,623 INFO Creatives dataframe read
+2024-02-08 12:45:55,624 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 12:46:24,324 INFO Clickhouse dataframe read
+2024-02-08 12:46:24,327 INFO Creatives dataframe read
+2024-02-08 12:46:24,331 INFO Leads dataframe read
+2024-02-08 12:46:36,251 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 12:46:36,255 INFO Creatives dataframe read
+2024-02-08 12:46:36,255 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 12:47:12,061 INFO Creatives dataframe read
+2024-02-08 12:47:12,061 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 12:47:38,624 INFO Clickhouse dataframe read
+2024-02-08 12:47:38,628 INFO Creatives dataframe read
+2024-02-08 12:47:38,633 INFO Leads dataframe read
+2024-02-08 12:47:49,351 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 12:47:49,355 INFO Creatives dataframe read
+2024-02-08 12:47:49,355 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 12:47:53,054 INFO API request received at 2024-02-08 12:47:53
+2024-02-08 12:48:49,935 INFO Creatives dataframe read
+2024-02-08 12:48:49,935 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 12:49:16,111 INFO Clickhouse dataframe read
+2024-02-08 12:49:16,119 INFO Creatives dataframe read
+2024-02-08 12:49:16,124 INFO Leads dataframe read
+2024-02-08 12:49:27,472 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 12:49:27,477 INFO Creatives dataframe read
+2024-02-08 12:49:27,477 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 12:49:37,592 INFO API request received at 2024-02-08 12:49:37
+2024-02-08 12:50:11,852 INFO Creatives dataframe read
+2024-02-08 12:50:11,852 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 12:50:38,232 INFO Clickhouse dataframe read
+2024-02-08 12:50:38,235 INFO Creatives dataframe read
+2024-02-08 12:50:38,239 INFO Leads dataframe read
+2024-02-08 12:50:48,279 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 12:50:48,283 INFO Creatives dataframe read
+2024-02-08 12:50:48,283 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 12:50:51,055 INFO API request received at 2024-02-08 12:50:51
+2024-02-08 12:50:51,326 INFO API request processed at 2024-02-08 12:50:51
+2024-02-08 12:51:57,719 INFO Creatives dataframe read
+2024-02-08 12:51:57,719 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 12:52:25,131 INFO Clickhouse dataframe read
+2024-02-08 12:52:25,133 INFO Creatives dataframe read
+2024-02-08 12:52:25,137 INFO Leads dataframe read
+2024-02-08 12:52:35,450 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 12:52:35,455 INFO Creatives dataframe read
+2024-02-08 12:52:35,455 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 12:53:12,003 INFO Creatives dataframe read
+2024-02-08 12:53:12,003 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 12:53:38,528 INFO Clickhouse dataframe read
+2024-02-08 12:53:38,531 INFO Creatives dataframe read
+2024-02-08 12:53:38,535 INFO Leads dataframe read
+2024-02-08 12:53:47,847 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 12:53:47,851 INFO Creatives dataframe read
+2024-02-08 12:53:47,852 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 12:53:52,060 INFO API request received at 2024-02-08 12:53:52
+2024-02-08 12:53:52,347 INFO API request processed at 2024-02-08 12:53:52
+2024-02-08 12:55:24,837 INFO API request received at 2024-02-08 12:55:24
+2024-02-08 12:55:25,047 INFO API request processed at 2024-02-08 12:55:25
+2024-02-08 12:55:26,979 INFO API request received at 2024-02-08 12:55:26
+2024-02-08 12:55:27,187 INFO API request processed at 2024-02-08 12:55:27
+2024-02-08 12:55:28,436 INFO API request received at 2024-02-08 12:55:28
+2024-02-08 12:55:28,652 INFO API request processed at 2024-02-08 12:55:28
+2024-02-08 12:57:15,828 INFO Creatives dataframe read
+2024-02-08 12:57:15,829 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 12:57:43,423 INFO Clickhouse dataframe read
+2024-02-08 12:57:43,426 INFO Creatives dataframe read
+2024-02-08 12:57:43,431 INFO Leads dataframe read
+2024-02-08 12:57:54,032 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 12:57:54,037 INFO Creatives dataframe read
+2024-02-08 12:57:54,037 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 12:59:15,445 INFO Creatives dataframe read
+2024-02-08 12:59:15,445 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 12:59:43,311 INFO Clickhouse dataframe read
+2024-02-08 12:59:43,314 INFO Creatives dataframe read
+2024-02-08 12:59:43,319 INFO Leads dataframe read
+2024-02-08 12:59:53,154 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 12:59:53,160 INFO Creatives dataframe read
+2024-02-08 12:59:53,161 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 12:59:54,435 INFO Creatives dataframe read
+2024-02-08 12:59:54,436 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:00:02,669 INFO Creatives dataframe read
+2024-02-08 13:00:02,669 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:00:30,113 INFO Clickhouse dataframe read
+2024-02-08 13:00:30,116 INFO Creatives dataframe read
+2024-02-08 13:00:30,119 INFO Leads dataframe read
+2024-02-08 13:00:40,467 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:00:40,473 INFO Creatives dataframe read
+2024-02-08 13:00:40,473 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:02:03,137 INFO API request received at 2024-02-08 13:02:03
+2024-02-08 13:02:34,895 INFO Creatives dataframe read
+2024-02-08 13:02:34,895 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:03:01,021 INFO Clickhouse dataframe read
+2024-02-08 13:03:01,025 INFO Creatives dataframe read
+2024-02-08 13:03:01,030 INFO Leads dataframe read
+2024-02-08 13:03:10,371 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:03:10,374 INFO Creatives dataframe read
+2024-02-08 13:03:10,375 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:03:15,806 INFO API request received at 2024-02-08 13:03:15
+2024-02-08 13:07:24,338 INFO Creatives dataframe read
+2024-02-08 13:07:24,338 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:07:49,880 INFO Clickhouse dataframe read
+2024-02-08 13:07:49,883 INFO Creatives dataframe read
+2024-02-08 13:07:49,888 INFO Leads dataframe read
+2024-02-08 13:07:59,664 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:07:59,668 INFO Creatives dataframe read
+2024-02-08 13:07:59,668 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:08:30,519 INFO API request received at 2024-02-08 13:08:30
+2024-02-08 13:09:39,696 INFO Creatives dataframe read
+2024-02-08 13:09:39,696 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:10:06,430 INFO Clickhouse dataframe read
+2024-02-08 13:10:06,433 INFO Creatives dataframe read
+2024-02-08 13:10:06,437 INFO Leads dataframe read
+2024-02-08 13:10:15,984 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:10:15,988 INFO Creatives dataframe read
+2024-02-08 13:10:15,988 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:10:19,149 INFO API request received at 2024-02-08 13:10:19
+2024-02-08 13:12:20,057 INFO Creatives dataframe read
+2024-02-08 13:12:20,057 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:12:47,488 INFO Clickhouse dataframe read
+2024-02-08 13:12:47,491 INFO Creatives dataframe read
+2024-02-08 13:12:47,496 INFO Leads dataframe read
+2024-02-08 13:12:57,061 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:12:57,065 INFO Creatives dataframe read
+2024-02-08 13:12:57,065 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:13:00,592 INFO API request received at 2024-02-08 13:13:00
+2024-02-08 13:13:13,796 INFO Creatives dataframe read
+2024-02-08 13:13:13,796 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:13:39,261 INFO Clickhouse dataframe read
+2024-02-08 13:13:39,264 INFO Creatives dataframe read
+2024-02-08 13:13:39,269 INFO Leads dataframe read
+2024-02-08 13:13:48,602 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:13:48,607 INFO Creatives dataframe read
+2024-02-08 13:13:48,607 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:13:51,279 INFO API request received at 2024-02-08 13:13:51
+2024-02-08 13:14:21,784 INFO Creatives dataframe read
+2024-02-08 13:14:21,784 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:14:48,745 INFO Clickhouse dataframe read
+2024-02-08 13:14:48,748 INFO Creatives dataframe read
+2024-02-08 13:14:48,753 INFO Leads dataframe read
+2024-02-08 13:14:58,590 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:14:58,595 INFO Creatives dataframe read
+2024-02-08 13:14:58,595 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:15:08,001 INFO API request received at 2024-02-08 13:15:08
+2024-02-08 13:15:08,240 INFO API request processed at 2024-02-08 13:15:08
+2024-02-08 13:16:32,913 INFO Creatives dataframe read
+2024-02-08 13:16:32,913 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:17:00,746 INFO Clickhouse dataframe read
+2024-02-08 13:17:00,750 INFO Creatives dataframe read
+2024-02-08 13:17:00,756 INFO Leads dataframe read
+2024-02-08 13:17:11,192 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:17:11,198 INFO Creatives dataframe read
+2024-02-08 13:17:11,198 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:17:12,258 INFO Creatives dataframe read
+2024-02-08 13:17:12,258 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:17:39,669 INFO Clickhouse dataframe read
+2024-02-08 13:17:39,673 INFO Creatives dataframe read
+2024-02-08 13:17:39,679 INFO Leads dataframe read
+2024-02-08 13:17:49,680 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:17:49,684 INFO Creatives dataframe read
+2024-02-08 13:17:49,685 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:17:50,804 INFO Creatives dataframe read
+2024-02-08 13:17:50,804 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:18:17,171 INFO Clickhouse dataframe read
+2024-02-08 13:18:17,175 INFO Creatives dataframe read
+2024-02-08 13:18:17,181 INFO Leads dataframe read
+2024-02-08 13:18:27,223 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:18:27,227 INFO Creatives dataframe read
+2024-02-08 13:18:27,228 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:18:28,468 INFO Creatives dataframe read
+2024-02-08 13:18:28,468 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:18:55,424 INFO Clickhouse dataframe read
+2024-02-08 13:18:55,426 INFO Creatives dataframe read
+2024-02-08 13:18:55,431 INFO Leads dataframe read
+2024-02-08 13:19:04,623 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:19:04,627 INFO Creatives dataframe read
+2024-02-08 13:19:04,628 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:19:05,823 INFO Creatives dataframe read
+2024-02-08 13:19:05,823 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:19:11,656 INFO Creatives dataframe read
+2024-02-08 13:19:11,656 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:19:41,671 INFO Clickhouse dataframe read
+2024-02-08 13:19:41,674 INFO Creatives dataframe read
+2024-02-08 13:19:41,678 INFO Leads dataframe read
+2024-02-08 13:19:51,039 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:19:51,043 INFO Creatives dataframe read
+2024-02-08 13:19:51,043 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:20:07,883 INFO Creatives dataframe read
+2024-02-08 13:20:07,883 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:20:36,950 INFO Clickhouse dataframe read
+2024-02-08 13:20:36,953 INFO Creatives dataframe read
+2024-02-08 13:20:36,958 INFO Leads dataframe read
+2024-02-08 13:20:47,690 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:20:47,694 INFO Creatives dataframe read
+2024-02-08 13:20:47,694 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:20:47,698 INFO API request received at 2024-02-08 13:20:47
+2024-02-08 13:21:09,940 INFO Creatives dataframe read
+2024-02-08 13:21:09,940 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:21:36,739 INFO Clickhouse dataframe read
+2024-02-08 13:21:36,742 INFO Creatives dataframe read
+2024-02-08 13:21:36,747 INFO Leads dataframe read
+2024-02-08 13:21:46,219 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:21:46,222 INFO Creatives dataframe read
+2024-02-08 13:21:46,222 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:22:00,754 INFO API request received at 2024-02-08 13:22:00
+2024-02-08 13:22:28,640 INFO Creatives dataframe read
+2024-02-08 13:22:28,640 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:22:53,912 INFO Clickhouse dataframe read
+2024-02-08 13:22:53,914 INFO Creatives dataframe read
+2024-02-08 13:22:53,919 INFO Leads dataframe read
+2024-02-08 13:23:03,257 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:23:03,261 INFO Creatives dataframe read
+2024-02-08 13:23:03,261 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:23:04,406 INFO API request received at 2024-02-08 13:23:04
+2024-02-08 13:23:14,329 INFO Creatives dataframe read
+2024-02-08 13:23:14,329 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:23:40,648 INFO Clickhouse dataframe read
+2024-02-08 13:23:40,651 INFO Creatives dataframe read
+2024-02-08 13:23:40,657 INFO Leads dataframe read
+2024-02-08 13:23:50,649 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:23:50,655 INFO Creatives dataframe read
+2024-02-08 13:23:50,655 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:23:51,865 INFO API request received at 2024-02-08 13:23:51
+2024-02-08 13:23:52,115 INFO API request processed at 2024-02-08 13:23:52
+2024-02-08 13:25:58,772 INFO Creatives dataframe read
+2024-02-08 13:25:58,772 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:26:25,282 INFO Clickhouse dataframe read
+2024-02-08 13:26:25,286 INFO Creatives dataframe read
+2024-02-08 13:26:25,292 INFO Leads dataframe read
+2024-02-08 13:26:34,798 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:26:34,802 INFO Creatives dataframe read
+2024-02-08 13:26:34,802 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:26:36,050 INFO API request received at 2024-02-08 13:26:36
+2024-02-08 13:26:36,226 INFO API request processed at 2024-02-08 13:26:36
+2024-02-08 13:26:45,214 INFO API request received at 2024-02-08 13:26:45
+2024-02-08 13:26:45,374 INFO API request processed at 2024-02-08 13:26:45
+2024-02-08 13:26:46,325 INFO API request received at 2024-02-08 13:26:46
+2024-02-08 13:26:46,481 INFO API request processed at 2024-02-08 13:26:46
+2024-02-08 13:26:47,238 INFO API request received at 2024-02-08 13:26:47
+2024-02-08 13:26:47,390 INFO API request processed at 2024-02-08 13:26:47
+2024-02-08 13:26:48,122 INFO API request received at 2024-02-08 13:26:48
+2024-02-08 13:26:48,274 INFO API request processed at 2024-02-08 13:26:48
+2024-02-08 13:27:02,061 INFO Creatives dataframe read
+2024-02-08 13:27:02,061 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:27:29,161 INFO Clickhouse dataframe read
+2024-02-08 13:27:29,164 INFO Creatives dataframe read
+2024-02-08 13:27:29,169 INFO Leads dataframe read
+2024-02-08 13:27:38,934 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:27:38,939 INFO Creatives dataframe read
+2024-02-08 13:27:38,939 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:27:39,031 INFO API request received at 2024-02-08 13:27:39
+2024-02-08 13:27:39,203 INFO API request processed at 2024-02-08 13:27:39
+2024-02-08 13:27:42,891 INFO API request received at 2024-02-08 13:27:42
+2024-02-08 13:27:43,044 INFO API request processed at 2024-02-08 13:27:43
+2024-02-08 13:27:49,828 INFO API request received at 2024-02-08 13:27:49
+2024-02-08 13:27:50,009 INFO API request processed at 2024-02-08 13:27:50
+2024-02-08 13:27:53,607 INFO API request received at 2024-02-08 13:27:53
+2024-02-08 13:27:53,780 INFO API request processed at 2024-02-08 13:27:53
+2024-02-08 13:27:54,408 INFO API request received at 2024-02-08 13:27:54
+2024-02-08 13:27:54,569 INFO API request processed at 2024-02-08 13:27:54
+2024-02-08 13:27:55,086 INFO API request received at 2024-02-08 13:27:55
+2024-02-08 13:27:55,252 INFO API request processed at 2024-02-08 13:27:55
+2024-02-08 13:27:55,875 INFO API request received at 2024-02-08 13:27:55
+2024-02-08 13:27:56,047 INFO API request processed at 2024-02-08 13:27:56
+2024-02-08 13:29:26,428 INFO Creatives dataframe read
+2024-02-08 13:29:26,428 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:29:53,480 INFO Clickhouse dataframe read
+2024-02-08 13:29:53,484 INFO Creatives dataframe read
+2024-02-08 13:29:53,489 INFO Leads dataframe read
+2024-02-08 13:30:03,679 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:30:03,683 INFO Creatives dataframe read
+2024-02-08 13:30:03,683 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:30:07,650 INFO API request received at 2024-02-08 13:30:07
+2024-02-08 13:30:07,864 INFO API request processed at 2024-02-08 13:30:07
+2024-02-08 13:31:45,379 INFO Creatives dataframe read
+2024-02-08 13:31:45,379 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:32:12,523 INFO Clickhouse dataframe read
+2024-02-08 13:32:12,526 INFO Creatives dataframe read
+2024-02-08 13:32:12,532 INFO Leads dataframe read
+2024-02-08 13:32:22,449 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:32:22,454 INFO Creatives dataframe read
+2024-02-08 13:32:22,454 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:32:35,958 INFO API request received at 2024-02-08 13:32:35
+2024-02-08 13:33:46,236 INFO Creatives dataframe read
+2024-02-08 13:33:46,236 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:34:12,956 INFO Clickhouse dataframe read
+2024-02-08 13:34:12,959 INFO Creatives dataframe read
+2024-02-08 13:34:12,963 INFO Leads dataframe read
+2024-02-08 13:34:23,028 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:34:23,031 INFO Creatives dataframe read
+2024-02-08 13:34:23,031 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:34:30,482 INFO API request received at 2024-02-08 13:34:30
+2024-02-08 13:34:56,930 INFO Creatives dataframe read
+2024-02-08 13:34:56,930 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:35:23,977 INFO Clickhouse dataframe read
+2024-02-08 13:35:23,981 INFO Creatives dataframe read
+2024-02-08 13:35:23,987 INFO Leads dataframe read
+2024-02-08 13:35:33,689 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:35:33,694 INFO Creatives dataframe read
+2024-02-08 13:35:33,694 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:35:37,436 INFO API request received at 2024-02-08 13:35:37
+2024-02-08 13:35:37,600 INFO API request processed at 2024-02-08 13:35:37
+2024-02-08 13:35:44,032 INFO API request received at 2024-02-08 13:35:44
+2024-02-08 13:35:44,192 INFO API request processed at 2024-02-08 13:35:44
+2024-02-08 13:35:45,081 INFO API request received at 2024-02-08 13:35:45
+2024-02-08 13:35:45,236 INFO API request processed at 2024-02-08 13:35:45
+2024-02-08 13:35:45,946 INFO API request received at 2024-02-08 13:35:45
+2024-02-08 13:35:46,103 INFO API request processed at 2024-02-08 13:35:46
+2024-02-08 13:35:46,763 INFO API request received at 2024-02-08 13:35:46
+2024-02-08 13:35:46,924 INFO API request processed at 2024-02-08 13:35:46
+2024-02-08 13:35:47,619 INFO API request received at 2024-02-08 13:35:47
+2024-02-08 13:35:47,783 INFO API request processed at 2024-02-08 13:35:47
+2024-02-08 13:36:20,065 INFO API request received at 2024-02-08 13:36:20
+2024-02-08 13:36:20,101 INFO API request processed at 2024-02-08 13:36:20
+2024-02-08 13:36:25,458 INFO API request received at 2024-02-08 13:36:25
+2024-02-08 13:36:25,639 INFO API request processed at 2024-02-08 13:36:25
+2024-02-08 13:40:29,863 INFO Creatives dataframe read
+2024-02-08 13:40:29,863 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:40:56,062 INFO Clickhouse dataframe read
+2024-02-08 13:40:56,065 INFO Creatives dataframe read
+2024-02-08 13:40:56,069 INFO Leads dataframe read
+2024-02-08 13:41:05,673 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:41:05,677 INFO Creatives dataframe read
+2024-02-08 13:41:05,677 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:41:09,672 INFO API request received at 2024-02-08 13:41:09
+2024-02-08 13:41:09,914 INFO API request processed at 2024-02-08 13:41:09
+2024-02-08 13:41:10,881 INFO API request received at 2024-02-08 13:41:10
+2024-02-08 13:41:11,042 INFO API request processed at 2024-02-08 13:41:11
+2024-02-08 13:41:11,845 INFO API request received at 2024-02-08 13:41:11
+2024-02-08 13:41:12,013 INFO API request processed at 2024-02-08 13:41:12
+2024-02-08 13:41:12,619 INFO API request received at 2024-02-08 13:41:12
+2024-02-08 13:41:12,774 INFO API request processed at 2024-02-08 13:41:12
+2024-02-08 13:41:13,393 INFO API request received at 2024-02-08 13:41:13
+2024-02-08 13:41:13,553 INFO API request processed at 2024-02-08 13:41:13
+2024-02-08 13:41:14,130 INFO API request received at 2024-02-08 13:41:14
+2024-02-08 13:41:14,288 INFO API request processed at 2024-02-08 13:41:14
+2024-02-08 13:41:14,837 INFO API request received at 2024-02-08 13:41:14
+2024-02-08 13:41:14,993 INFO API request processed at 2024-02-08 13:41:14
+2024-02-08 13:41:16,146 INFO API request received at 2024-02-08 13:41:16
+2024-02-08 13:41:16,306 INFO API request processed at 2024-02-08 13:41:16
+2024-02-08 13:41:16,958 INFO API request received at 2024-02-08 13:41:16
+2024-02-08 13:41:17,121 INFO API request processed at 2024-02-08 13:41:17
+2024-02-08 13:41:18,232 INFO API request received at 2024-02-08 13:41:18
+2024-02-08 13:41:18,385 INFO API request processed at 2024-02-08 13:41:18
+2024-02-08 13:41:18,990 INFO API request received at 2024-02-08 13:41:18
+2024-02-08 13:41:19,153 INFO API request processed at 2024-02-08 13:41:19
+2024-02-08 13:44:11,081 INFO Creatives dataframe read
+2024-02-08 13:44:11,082 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 13:44:37,685 INFO Clickhouse dataframe read
+2024-02-08 13:44:37,687 INFO Creatives dataframe read
+2024-02-08 13:44:37,691 INFO Leads dataframe read
+2024-02-08 13:44:47,492 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 13:44:47,495 INFO Creatives dataframe read
+2024-02-08 13:44:47,496 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:16:27,048 INFO Creatives dataframe read
+2024-02-08 16:16:27,048 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:16:49,397 INFO Clickhouse dataframe read
+2024-02-08 16:16:49,399 INFO Creatives dataframe read
+2024-02-08 16:16:49,404 INFO Leads dataframe read
+2024-02-08 16:16:58,628 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 16:16:58,631 INFO Creatives dataframe read
+2024-02-08 16:16:58,631 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:17:22,241 INFO API request received at 2024-02-08 16:17:22
+2024-02-08 16:17:22,365 INFO API request processed at 2024-02-08 16:17:22
+2024-02-08 16:17:28,920 INFO API request received at 2024-02-08 16:17:28
+2024-02-08 16:17:29,033 INFO API request processed at 2024-02-08 16:17:29
+2024-02-08 16:17:29,974 INFO API request received at 2024-02-08 16:17:29
+2024-02-08 16:17:30,096 INFO API request processed at 2024-02-08 16:17:30
+2024-02-08 16:17:30,862 INFO API request received at 2024-02-08 16:17:30
+2024-02-08 16:17:30,967 INFO API request processed at 2024-02-08 16:17:30
+2024-02-08 16:17:31,639 INFO API request received at 2024-02-08 16:17:31
+2024-02-08 16:17:31,761 INFO API request processed at 2024-02-08 16:17:31
+2024-02-08 16:17:32,440 INFO API request received at 2024-02-08 16:17:32
+2024-02-08 16:17:32,547 INFO API request processed at 2024-02-08 16:17:32
+2024-02-08 16:17:33,207 INFO API request received at 2024-02-08 16:17:33
+2024-02-08 16:17:33,318 INFO API request processed at 2024-02-08 16:17:33
+2024-02-08 16:17:33,989 INFO API request received at 2024-02-08 16:17:33
+2024-02-08 16:17:34,096 INFO API request processed at 2024-02-08 16:17:34
+2024-02-08 16:17:34,722 INFO API request received at 2024-02-08 16:17:34
+2024-02-08 16:17:34,862 INFO API request processed at 2024-02-08 16:17:34
+2024-02-08 16:17:35,898 INFO API request received at 2024-02-08 16:17:35
+2024-02-08 16:17:36,006 INFO API request processed at 2024-02-08 16:17:36
+2024-02-08 16:17:46,214 INFO API request received at 2024-02-08 16:17:46
+2024-02-08 16:17:46,325 INFO API request processed at 2024-02-08 16:17:46
+2024-02-08 16:17:47,012 INFO API request received at 2024-02-08 16:17:47
+2024-02-08 16:17:47,119 INFO API request processed at 2024-02-08 16:17:47
+2024-02-08 16:17:47,822 INFO API request received at 2024-02-08 16:17:47
+2024-02-08 16:17:47,954 INFO API request processed at 2024-02-08 16:17:47
+2024-02-08 16:17:48,497 INFO API request received at 2024-02-08 16:17:48
+2024-02-08 16:17:48,621 INFO API request processed at 2024-02-08 16:17:48
+2024-02-08 16:17:49,269 INFO API request received at 2024-02-08 16:17:49
+2024-02-08 16:17:49,386 INFO API request processed at 2024-02-08 16:17:49
+2024-02-08 16:17:50,599 INFO API request received at 2024-02-08 16:17:50
+2024-02-08 16:17:50,708 INFO API request processed at 2024-02-08 16:17:50
+2024-02-08 16:17:51,317 INFO API request received at 2024-02-08 16:17:51
+2024-02-08 16:17:51,433 INFO API request processed at 2024-02-08 16:17:51
+2024-02-08 16:17:52,351 INFO API request received at 2024-02-08 16:17:52
+2024-02-08 16:17:52,470 INFO API request processed at 2024-02-08 16:17:52
+2024-02-08 16:17:53,302 INFO API request received at 2024-02-08 16:17:53
+2024-02-08 16:17:53,443 INFO API request processed at 2024-02-08 16:17:53
+2024-02-08 16:18:01,447 INFO API request received at 2024-02-08 16:18:01
+2024-02-08 16:18:01,559 INFO API request processed at 2024-02-08 16:18:01
+2024-02-08 16:18:05,791 INFO API request received at 2024-02-08 16:18:05
+2024-02-08 16:18:05,914 INFO API request processed at 2024-02-08 16:18:05
+2024-02-08 16:21:00,997 INFO Creatives dataframe read
+2024-02-08 16:21:00,997 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:21:22,787 INFO Clickhouse dataframe read
+2024-02-08 16:21:22,789 INFO Creatives dataframe read
+2024-02-08 16:21:22,794 INFO Leads dataframe read
+2024-02-08 16:21:31,577 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 16:21:31,580 INFO Creatives dataframe read
+2024-02-08 16:21:31,580 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:22:17,792 INFO Creatives dataframe read
+2024-02-08 16:22:17,792 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:22:39,622 INFO Clickhouse dataframe read
+2024-02-08 16:22:39,624 INFO Creatives dataframe read
+2024-02-08 16:22:39,628 INFO Leads dataframe read
+2024-02-08 16:22:48,004 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 16:22:48,007 INFO Creatives dataframe read
+2024-02-08 16:22:48,007 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:22:51,978 INFO API request received at 2024-02-08 16:22:51
+2024-02-08 16:23:06,907 INFO Creatives dataframe read
+2024-02-08 16:23:06,907 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:23:28,333 INFO Clickhouse dataframe read
+2024-02-08 16:23:28,335 INFO Creatives dataframe read
+2024-02-08 16:23:28,339 INFO Leads dataframe read
+2024-02-08 16:23:36,740 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 16:23:36,743 INFO Creatives dataframe read
+2024-02-08 16:23:36,743 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:26:06,514 INFO API request received at 2024-02-08 16:26:06
+2024-02-08 16:28:53,877 INFO Creatives dataframe read
+2024-02-08 16:28:53,877 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:29:15,411 INFO Clickhouse dataframe read
+2024-02-08 16:29:15,413 INFO Creatives dataframe read
+2024-02-08 16:29:15,417 INFO Leads dataframe read
+2024-02-08 16:29:23,994 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 16:29:23,997 INFO Creatives dataframe read
+2024-02-08 16:29:23,997 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:29:24,937 INFO Creatives dataframe read
+2024-02-08 16:29:24,937 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:29:32,131 INFO Creatives dataframe read
+2024-02-08 16:29:32,131 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:29:53,325 INFO Clickhouse dataframe read
+2024-02-08 16:29:53,328 INFO Creatives dataframe read
+2024-02-08 16:29:53,331 INFO Leads dataframe read
+2024-02-08 16:30:01,764 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 16:30:01,767 INFO Creatives dataframe read
+2024-02-08 16:30:01,767 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:30:09,350 INFO API request received at 2024-02-08 16:30:09
+2024-02-08 16:30:22,358 INFO Creatives dataframe read
+2024-02-08 16:30:22,358 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:30:44,451 INFO Clickhouse dataframe read
+2024-02-08 16:30:44,453 INFO Creatives dataframe read
+2024-02-08 16:30:44,457 INFO Leads dataframe read
+2024-02-08 16:30:53,246 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 16:30:53,249 INFO Creatives dataframe read
+2024-02-08 16:30:53,249 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:31:14,940 INFO Creatives dataframe read
+2024-02-08 16:31:14,940 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:31:36,602 INFO Clickhouse dataframe read
+2024-02-08 16:31:36,605 INFO Creatives dataframe read
+2024-02-08 16:31:36,608 INFO Leads dataframe read
+2024-02-08 16:31:44,731 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 16:31:44,734 INFO Creatives dataframe read
+2024-02-08 16:31:44,734 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:31:47,717 INFO API request received at 2024-02-08 16:31:47
+2024-02-08 16:32:11,074 INFO Creatives dataframe read
+2024-02-08 16:32:11,074 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:32:33,266 INFO Clickhouse dataframe read
+2024-02-08 16:32:33,269 INFO Creatives dataframe read
+2024-02-08 16:32:33,273 INFO Leads dataframe read
+2024-02-08 16:32:41,423 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 16:32:41,426 INFO Creatives dataframe read
+2024-02-08 16:32:41,426 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:32:41,845 INFO API request received at 2024-02-08 16:32:41
+2024-02-08 16:33:24,953 INFO Creatives dataframe read
+2024-02-08 16:33:24,953 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:33:46,464 INFO Clickhouse dataframe read
+2024-02-08 16:33:46,466 INFO Creatives dataframe read
+2024-02-08 16:33:46,470 INFO Leads dataframe read
+2024-02-08 16:33:54,815 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 16:33:54,819 INFO Creatives dataframe read
+2024-02-08 16:33:54,819 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:33:54,919 INFO API request received at 2024-02-08 16:33:54
+2024-02-08 16:33:55,043 INFO API request processed at 2024-02-08 16:33:55
+2024-02-08 16:34:10,698 INFO API request received at 2024-02-08 16:34:10
+2024-02-08 16:34:10,825 INFO API request processed at 2024-02-08 16:34:10
+2024-02-08 16:34:11,782 INFO API request received at 2024-02-08 16:34:11
+2024-02-08 16:34:11,916 INFO API request processed at 2024-02-08 16:34:11
+2024-02-08 16:34:12,682 INFO API request received at 2024-02-08 16:34:12
+2024-02-08 16:34:12,804 INFO API request processed at 2024-02-08 16:34:12
+2024-02-08 16:34:13,543 INFO API request received at 2024-02-08 16:34:13
+2024-02-08 16:34:13,685 INFO API request processed at 2024-02-08 16:34:13
+2024-02-08 16:34:14,393 INFO API request received at 2024-02-08 16:34:14
+2024-02-08 16:34:14,516 INFO API request processed at 2024-02-08 16:34:14
+2024-02-08 16:34:15,173 INFO API request received at 2024-02-08 16:34:15
+2024-02-08 16:34:15,297 INFO API request processed at 2024-02-08 16:34:15
+2024-02-08 16:34:17,100 INFO API request received at 2024-02-08 16:34:17
+2024-02-08 16:34:17,230 INFO API request processed at 2024-02-08 16:34:17
+2024-02-08 16:34:17,919 INFO API request received at 2024-02-08 16:34:17
+2024-02-08 16:34:18,069 INFO API request processed at 2024-02-08 16:34:18
+2024-02-08 16:34:18,758 INFO API request received at 2024-02-08 16:34:18
+2024-02-08 16:34:18,884 INFO API request processed at 2024-02-08 16:34:18
+2024-02-08 16:34:19,806 INFO API request received at 2024-02-08 16:34:19
+2024-02-08 16:34:19,932 INFO API request processed at 2024-02-08 16:34:19
+2024-02-08 16:34:23,358 INFO API request received at 2024-02-08 16:34:23
+2024-02-08 16:34:23,478 INFO API request processed at 2024-02-08 16:34:23
+2024-02-08 16:34:29,147 INFO API request received at 2024-02-08 16:34:29
+2024-02-08 16:34:29,284 INFO API request processed at 2024-02-08 16:34:29
+2024-02-08 16:34:33,361 INFO API request received at 2024-02-08 16:34:33
+2024-02-08 16:34:33,515 INFO API request processed at 2024-02-08 16:34:33
+2024-02-08 16:36:02,847 INFO Creatives dataframe read
+2024-02-08 16:36:02,847 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:36:27,264 INFO Clickhouse dataframe read
+2024-02-08 16:36:27,266 INFO Creatives dataframe read
+2024-02-08 16:36:27,270 INFO Leads dataframe read
+2024-02-08 16:36:35,429 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 16:36:35,432 INFO Creatives dataframe read
+2024-02-08 16:36:35,432 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:38:20,117 INFO API request received at 2024-02-08 16:38:20
+2024-02-08 16:38:20,255 INFO API request processed at 2024-02-08 16:38:20
+2024-02-08 16:38:20,988 INFO API request received at 2024-02-08 16:38:20
+2024-02-08 16:38:21,106 INFO API request processed at 2024-02-08 16:38:21
+2024-02-08 16:38:21,827 INFO API request received at 2024-02-08 16:38:21
+2024-02-08 16:38:21,950 INFO API request processed at 2024-02-08 16:38:21
+2024-02-08 16:38:22,570 INFO API request received at 2024-02-08 16:38:22
+2024-02-08 16:38:22,689 INFO API request processed at 2024-02-08 16:38:22
+2024-02-08 16:38:23,347 INFO API request received at 2024-02-08 16:38:23
+2024-02-08 16:38:23,466 INFO API request processed at 2024-02-08 16:38:23
+2024-02-08 16:38:24,094 INFO API request received at 2024-02-08 16:38:24
+2024-02-08 16:38:24,210 INFO API request processed at 2024-02-08 16:38:24
+2024-02-08 16:38:24,770 INFO API request received at 2024-02-08 16:38:24
+2024-02-08 16:38:24,892 INFO API request processed at 2024-02-08 16:38:24
+2024-02-08 16:38:25,504 INFO API request received at 2024-02-08 16:38:25
+2024-02-08 16:38:25,622 INFO API request processed at 2024-02-08 16:38:25
+2024-02-08 16:38:26,242 INFO API request received at 2024-02-08 16:38:26
+2024-02-08 16:38:26,383 INFO API request processed at 2024-02-08 16:38:26
+2024-02-08 16:38:44,473 INFO Creatives dataframe read
+2024-02-08 16:38:44,473 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:39:09,010 INFO Clickhouse dataframe read
+2024-02-08 16:39:09,012 INFO Creatives dataframe read
+2024-02-08 16:39:09,016 INFO Leads dataframe read
+2024-02-08 16:39:17,278 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-08 16:39:17,281 INFO Creatives dataframe read
+2024-02-08 16:39:17,281 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-08 16:39:29,591 INFO API request received at 2024-02-08 16:39:29
+2024-02-08 16:39:29,829 INFO API request processed at 2024-02-08 16:39:29
+2024-02-08 16:39:30,499 INFO API request received at 2024-02-08 16:39:30
+2024-02-08 16:39:30,636 INFO API request processed at 2024-02-08 16:39:30
+2024-02-08 16:39:31,229 INFO API request received at 2024-02-08 16:39:31
+2024-02-08 16:39:31,355 INFO API request processed at 2024-02-08 16:39:31
+2024-02-08 16:39:31,970 INFO API request received at 2024-02-08 16:39:31
+2024-02-08 16:39:32,087 INFO API request processed at 2024-02-08 16:39:32
+2024-02-08 16:39:32,681 INFO API request received at 2024-02-08 16:39:32
+2024-02-08 16:39:32,812 INFO API request processed at 2024-02-08 16:39:32
+2024-02-09 09:39:14,136 INFO Creatives dataframe read
+2024-02-09 09:39:14,137 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 09:39:36,470 INFO Clickhouse dataframe read
+2024-02-09 09:39:36,472 INFO Creatives dataframe read
+2024-02-09 09:39:36,482 INFO Leads dataframe read
+2024-02-09 09:41:05,868 INFO Creatives dataframe read
+2024-02-09 09:41:05,868 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 09:43:18,966 INFO Creatives dataframe read
+2024-02-09 09:43:18,966 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 09:43:21,666 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 09:43:58,461 INFO Creatives dataframe read
+2024-02-09 09:43:58,461 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 09:44:00,822 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 09:44:10,312 INFO Creatives dataframe read
+2024-02-09 09:44:10,312 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 09:44:12,844 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 14:18:22,871 INFO Creatives dataframe read
+2024-02-09 14:18:22,871 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:18:27,261 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 14:18:27,785 INFO Creatives dataframe read
+2024-02-09 14:18:27,785 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:18:30,169 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 14:18:40,690 INFO Creatives dataframe read
+2024-02-09 14:18:40,690 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:18:40,708 INFO Creatives dataframe read
+2024-02-09 14:18:40,708 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:19:19,714 INFO Clickhouse dataframe read
+2024-02-09 14:19:19,766 INFO Creatives dataframe read
+2024-02-09 14:19:19,774 INFO Leads dataframe read
+2024-02-09 14:19:20,106 INFO Clickhouse dataframe read
+2024-02-09 14:19:20,124 INFO Creatives dataframe read
+2024-02-09 14:19:20,130 INFO Leads dataframe read
+2024-02-09 14:19:35,512 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-09 14:19:35,520 INFO Creatives dataframe read
+2024-02-09 14:19:35,520 INFO Creatives dataframe read
+2024-02-09 14:19:35,520 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:19:35,520 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:19:37,203 INFO Creatives dataframe read
+2024-02-09 14:19:37,203 INFO Creatives dataframe read
+2024-02-09 14:19:37,203 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:19:37,203 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:20:01,716 INFO Clickhouse dataframe read
+2024-02-09 14:20:01,720 INFO Creatives dataframe read
+2024-02-09 14:20:01,729 INFO Leads dataframe read
+2024-02-09 14:20:02,023 INFO Clickhouse dataframe read
+2024-02-09 14:20:02,025 INFO Creatives dataframe read
+2024-02-09 14:20:02,029 INFO Leads dataframe read
+2024-02-09 14:20:12,402 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-09 14:20:12,405 INFO Creatives dataframe read
+2024-02-09 14:20:12,406 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:20:12,950 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-09 14:20:12,953 INFO Creatives dataframe read
+2024-02-09 14:20:12,953 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:20:23,299 INFO Creatives dataframe read
+2024-02-09 14:20:23,299 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:20:23,340 INFO Creatives dataframe read
+2024-02-09 14:20:23,340 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:20:46,501 INFO Clickhouse dataframe read
+2024-02-09 14:20:46,504 INFO Creatives dataframe read
+2024-02-09 14:20:46,507 INFO Leads dataframe read
+2024-02-09 14:20:46,578 INFO Clickhouse dataframe read
+2024-02-09 14:20:46,581 INFO Creatives dataframe read
+2024-02-09 14:20:46,585 INFO Leads dataframe read
+2024-02-09 14:20:56,888 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-09 14:20:56,891 INFO Creatives dataframe read
+2024-02-09 14:20:56,891 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:20:57,162 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-09 14:20:57,166 INFO Creatives dataframe read
+2024-02-09 14:20:57,166 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:20:57,821 INFO Creatives dataframe read
+2024-02-09 14:20:57,822 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:20:58,066 INFO Creatives dataframe read
+2024-02-09 14:20:58,066 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:21:07,284 INFO Creatives dataframe read
+2024-02-09 14:21:07,284 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:21:29,052 INFO Clickhouse dataframe read
+2024-02-09 14:21:29,054 INFO Creatives dataframe read
+2024-02-09 14:21:29,057 INFO Leads dataframe read
+2024-02-09 14:21:37,330 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-09 14:21:37,334 INFO Creatives dataframe read
+2024-02-09 14:21:37,334 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:21:38,279 INFO API request received at 2024-02-09 14:21:38
+2024-02-09 14:21:38,569 INFO API request processed at 2024-02-09 14:21:38
+2024-02-09 14:21:39,801 INFO API request received at 2024-02-09 14:21:39
+2024-02-09 14:21:39,917 INFO API request processed at 2024-02-09 14:21:39
+2024-02-09 14:21:49,807 INFO API request received at 2024-02-09 14:21:49
+2024-02-09 14:21:49,940 INFO API request processed at 2024-02-09 14:21:49
+2024-02-09 14:25:59,731 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 14:26:00,030 INFO Creatives dataframe read
+2024-02-09 14:26:00,030 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:26:21,611 INFO Clickhouse dataframe read
+2024-02-09 14:26:21,613 INFO Creatives dataframe read
+2024-02-09 14:26:21,617 INFO Leads dataframe read
+2024-02-09 14:27:22,506 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 14:27:22,645 INFO Creatives dataframe read
+2024-02-09 14:27:22,645 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:27:44,077 INFO Clickhouse dataframe read
+2024-02-09 14:27:44,080 INFO Creatives dataframe read
+2024-02-09 14:27:44,083 INFO Leads dataframe read
+2024-02-09 14:28:13,092 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 14:28:13,237 INFO Creatives dataframe read
+2024-02-09 14:28:13,237 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:28:35,196 INFO Clickhouse dataframe read
+2024-02-09 14:28:35,198 INFO Creatives dataframe read
+2024-02-09 14:28:35,202 INFO Leads dataframe read
+2024-02-09 14:28:43,460 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict_keras.pkl
+2024-02-09 14:28:43,643 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 14:28:47,159 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 14:28:47,300 INFO Creatives dataframe read
+2024-02-09 14:28:47,300 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:29:04,222 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 14:29:04,367 INFO Creatives dataframe read
+2024-02-09 14:29:04,368 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:29:25,834 INFO Clickhouse dataframe read
+2024-02-09 14:29:25,837 INFO Creatives dataframe read
+2024-02-09 14:29:25,840 INFO Leads dataframe read
+2024-02-09 14:29:34,175 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict_keras.pkl
+2024-02-09 14:29:34,337 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 14:29:34,387 INFO Creatives dataframe read
+2024-02-09 14:29:34,387 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:29:44,258 INFO API request received at 2024-02-09 14:29:44
+2024-02-09 14:30:27,680 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 14:30:27,822 INFO Creatives dataframe read
+2024-02-09 14:30:27,822 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:30:49,148 INFO Clickhouse dataframe read
+2024-02-09 14:30:49,150 INFO Creatives dataframe read
+2024-02-09 14:30:49,154 INFO Leads dataframe read
+2024-02-09 14:30:57,541 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict_keras.pkl
+2024-02-09 14:30:57,783 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 14:30:57,844 INFO Creatives dataframe read
+2024-02-09 14:30:57,844 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:31:05,770 INFO API request received at 2024-02-09 14:31:05
+2024-02-09 14:31:21,377 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 14:31:21,523 INFO Creatives dataframe read
+2024-02-09 14:31:21,523 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:31:44,086 INFO Clickhouse dataframe read
+2024-02-09 14:31:44,089 INFO Creatives dataframe read
+2024-02-09 14:31:44,092 INFO Leads dataframe read
+2024-02-09 14:31:52,347 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict_keras.pkl
+2024-02-09 14:31:52,506 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 14:31:52,558 INFO Creatives dataframe read
+2024-02-09 14:31:52,558 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:31:54,214 INFO API request received at 2024-02-09 14:31:54
+2024-02-09 14:31:54,430 INFO API request processed at 2024-02-09 14:31:54
+2024-02-09 14:32:05,407 INFO API request received at 2024-02-09 14:32:05
+2024-02-09 14:32:05,518 INFO API request processed at 2024-02-09 14:32:05
+2024-02-09 14:32:06,875 INFO API request received at 2024-02-09 14:32:06
+2024-02-09 14:32:06,983 INFO API request processed at 2024-02-09 14:32:06
+2024-02-09 14:32:10,635 INFO API request received at 2024-02-09 14:32:10
+2024-02-09 14:32:10,749 INFO API request processed at 2024-02-09 14:32:10
+2024-02-09 14:33:19,088 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 14:33:19,232 INFO Creatives dataframe read
+2024-02-09 14:33:19,232 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:33:41,310 INFO Clickhouse dataframe read
+2024-02-09 14:33:41,313 INFO Creatives dataframe read
+2024-02-09 14:33:41,316 INFO Leads dataframe read
+2024-02-09 14:33:50,122 INFO Encoder loaded from  24news_practice/pickles/prep_tools_dict.pkl
+2024-02-09 14:33:50,126 INFO Creatives dataframe read
+2024-02-09 14:33:50,126 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 14:33:52,383 INFO API request received at 2024-02-09 14:33:52
+2024-02-09 14:33:52,608 INFO API request processed at 2024-02-09 14:33:52
+2024-02-09 14:33:53,447 INFO API request received at 2024-02-09 14:33:53
+2024-02-09 14:33:53,574 INFO API request processed at 2024-02-09 14:33:53
+2024-02-09 14:33:54,225 INFO API request received at 2024-02-09 14:33:54
+2024-02-09 14:33:54,337 INFO API request processed at 2024-02-09 14:33:54
+2024-02-09 14:33:54,963 INFO API request received at 2024-02-09 14:33:54
+2024-02-09 14:33:55,080 INFO API request processed at 2024-02-09 14:33:55
+2024-02-09 14:33:55,742 INFO API request received at 2024-02-09 14:33:55
+2024-02-09 14:33:55,854 INFO API request processed at 2024-02-09 14:33:55
+2024-02-09 14:33:56,411 INFO API request received at 2024-02-09 14:33:56
+2024-02-09 14:33:56,530 INFO API request processed at 2024-02-09 14:33:56
+2024-02-09 14:33:57,205 INFO API request received at 2024-02-09 14:33:57
+2024-02-09 14:33:57,314 INFO API request processed at 2024-02-09 14:33:57
+2024-02-09 14:33:57,890 INFO API request received at 2024-02-09 14:33:57
+2024-02-09 14:33:58,004 INFO API request processed at 2024-02-09 14:33:58
+2024-02-09 15:14:31,892 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 15:14:32,233 INFO Creatives dataframe read
+2024-02-09 15:14:32,233 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 15:15:29,795 INFO Clickhouse dataframe read
+2024-02-09 15:15:29,823 INFO Creatives dataframe read
+2024-02-09 15:15:29,831 INFO Leads dataframe read
+2024-02-09 15:15:41,628 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 15:15:41,747 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 15:16:22,845 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 15:16:23,082 INFO Creatives dataframe read
+2024-02-09 15:16:23,082 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 15:16:54,576 INFO Clickhouse dataframe read
+2024-02-09 15:16:54,579 INFO Creatives dataframe read
+2024-02-09 15:16:54,583 INFO Leads dataframe read
+2024-02-09 15:17:04,824 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 15:17:04,868 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 15:17:04,877 INFO Creatives dataframe read
+2024-02-09 15:17:04,877 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 15:17:06,626 INFO API request received at 2024-02-09 15:17:06
+2024-02-09 15:17:06,960 INFO API request processed at 2024-02-09 15:17:06
+2024-02-09 15:17:07,919 INFO API request received at 2024-02-09 15:17:07
+2024-02-09 15:17:08,077 INFO API request processed at 2024-02-09 15:17:08
+2024-02-09 15:18:11,573 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 15:18:11,733 INFO Creatives dataframe read
+2024-02-09 15:18:11,733 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 15:18:33,858 INFO Clickhouse dataframe read
+2024-02-09 15:18:33,860 INFO Creatives dataframe read
+2024-02-09 15:18:33,864 INFO Leads dataframe read
+2024-02-09 15:18:42,650 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 15:18:42,713 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 15:18:42,722 INFO Creatives dataframe read
+2024-02-09 15:18:42,722 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 15:18:46,315 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 15:18:46,466 INFO Creatives dataframe read
+2024-02-09 15:18:46,466 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 15:19:13,238 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 15:19:13,388 INFO Creatives dataframe read
+2024-02-09 15:19:13,388 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 15:19:35,587 INFO Clickhouse dataframe read
+2024-02-09 15:19:35,589 INFO Creatives dataframe read
+2024-02-09 15:19:35,593 INFO Leads dataframe read
+2024-02-09 15:19:44,219 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 15:19:44,262 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 15:19:44,270 INFO Creatives dataframe read
+2024-02-09 15:19:44,270 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 15:20:12,875 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 15:20:13,013 INFO Creatives dataframe read
+2024-02-09 15:20:13,013 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 15:20:41,205 INFO Clickhouse dataframe read
+2024-02-09 15:20:41,224 INFO Creatives dataframe read
+2024-02-09 15:20:41,229 INFO Leads dataframe read
+2024-02-09 15:20:51,057 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 15:20:51,163 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 15:20:51,172 INFO Creatives dataframe read
+2024-02-09 15:20:51,172 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 15:21:04,825 INFO API request received at 2024-02-09 15:21:04
+2024-02-09 15:21:05,310 INFO API request processed at 2024-02-09 15:21:05
+2024-02-09 16:59:05,682 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 16:59:06,046 INFO Creatives dataframe read
+2024-02-09 16:59:06,046 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 16:59:28,443 INFO Clickhouse dataframe read
+2024-02-09 16:59:28,446 INFO Creatives dataframe read
+2024-02-09 16:59:28,453 INFO Leads dataframe read
+2024-02-09 16:59:39,774 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 16:59:39,856 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 16:59:39,864 INFO Creatives dataframe read
+2024-02-09 16:59:39,864 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 16:59:43,062 INFO API request received at 2024-02-09 16:59:43
+2024-02-09 17:00:08,849 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 17:00:09,090 INFO Creatives dataframe read
+2024-02-09 17:00:09,090 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:00:30,884 INFO Clickhouse dataframe read
+2024-02-09 17:00:30,886 INFO Creatives dataframe read
+2024-02-09 17:00:30,890 INFO Leads dataframe read
+2024-02-09 17:00:39,459 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 17:00:39,501 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 17:00:39,510 INFO Creatives dataframe read
+2024-02-09 17:00:39,510 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:00:41,171 INFO API request received at 2024-02-09 17:00:41
+2024-02-09 17:00:51,435 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 17:00:51,584 INFO Creatives dataframe read
+2024-02-09 17:00:51,584 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:01:13,146 INFO Clickhouse dataframe read
+2024-02-09 17:01:13,148 INFO Creatives dataframe read
+2024-02-09 17:01:13,151 INFO Leads dataframe read
+2024-02-09 17:01:21,702 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 17:01:21,746 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 17:01:21,755 INFO Creatives dataframe read
+2024-02-09 17:01:21,756 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:01:52,436 INFO API request received at 2024-02-09 17:01:52
+2024-02-09 17:01:52,718 INFO API request processed at 2024-02-09 17:01:52
+2024-02-09 17:03:04,227 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 17:03:04,373 INFO Creatives dataframe read
+2024-02-09 17:03:04,373 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:03:26,902 INFO Clickhouse dataframe read
+2024-02-09 17:03:26,904 INFO Creatives dataframe read
+2024-02-09 17:03:26,908 INFO Leads dataframe read
+2024-02-09 17:03:35,601 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 17:03:35,644 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 17:03:35,652 INFO Creatives dataframe read
+2024-02-09 17:03:35,652 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:03:39,133 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 17:03:39,277 INFO Creatives dataframe read
+2024-02-09 17:03:39,277 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:04:01,972 INFO Clickhouse dataframe read
+2024-02-09 17:04:01,975 INFO Creatives dataframe read
+2024-02-09 17:04:01,979 INFO Leads dataframe read
+2024-02-09 17:04:15,827 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 17:04:15,974 INFO Creatives dataframe read
+2024-02-09 17:04:15,974 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:04:38,999 INFO Clickhouse dataframe read
+2024-02-09 17:04:39,001 INFO Creatives dataframe read
+2024-02-09 17:04:39,005 INFO Leads dataframe read
+2024-02-09 17:04:48,004 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 17:04:48,052 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 17:04:48,062 INFO Creatives dataframe read
+2024-02-09 17:04:48,062 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:04:50,014 INFO API request received at 2024-02-09 17:04:50
+2024-02-09 17:04:50,282 INFO API request processed at 2024-02-09 17:04:50
+2024-02-09 17:05:17,764 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 17:05:17,928 INFO Creatives dataframe read
+2024-02-09 17:05:17,928 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:05:40,679 INFO Clickhouse dataframe read
+2024-02-09 17:05:40,681 INFO Creatives dataframe read
+2024-02-09 17:05:40,685 INFO Leads dataframe read
+2024-02-09 17:05:49,640 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 17:05:49,684 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 17:05:49,694 INFO Creatives dataframe read
+2024-02-09 17:05:49,694 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:05:55,933 INFO API request received at 2024-02-09 17:05:55
+2024-02-09 17:05:56,188 INFO API request processed at 2024-02-09 17:05:56
+2024-02-09 17:07:52,189 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 17:07:52,335 INFO Creatives dataframe read
+2024-02-09 17:07:52,335 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:08:15,576 INFO Clickhouse dataframe read
+2024-02-09 17:08:15,578 INFO Creatives dataframe read
+2024-02-09 17:08:15,582 INFO Leads dataframe read
+2024-02-09 17:08:25,103 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 17:08:25,149 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 17:08:25,158 INFO Creatives dataframe read
+2024-02-09 17:08:25,158 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:09:04,470 INFO API request received at 2024-02-09 17:09:04
+2024-02-09 17:29:48,085 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 17:29:48,454 INFO Creatives dataframe read
+2024-02-09 17:29:48,455 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:30:24,421 INFO Clickhouse dataframe read
+2024-02-09 17:30:24,435 INFO Creatives dataframe read
+2024-02-09 17:30:24,441 INFO Leads dataframe read
+2024-02-09 17:30:34,663 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 17:30:34,776 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 17:30:34,788 INFO Creatives dataframe read
+2024-02-09 17:30:34,788 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:30:35,812 INFO API request received at 2024-02-09 17:30:35
+2024-02-09 17:30:36,283 INFO API request processed at 2024-02-09 17:30:36
+2024-02-09 17:31:43,377 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 17:31:43,606 INFO Creatives dataframe read
+2024-02-09 17:31:43,606 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:32:05,932 INFO Clickhouse dataframe read
+2024-02-09 17:32:05,935 INFO Creatives dataframe read
+2024-02-09 17:32:05,939 INFO Leads dataframe read
+2024-02-09 17:32:14,805 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 17:32:14,855 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 17:32:14,865 INFO Creatives dataframe read
+2024-02-09 17:32:14,865 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:32:19,301 INFO API request received at 2024-02-09 17:32:19
+2024-02-09 17:32:19,571 INFO API request processed at 2024-02-09 17:32:19
+2024-02-09 17:34:17,377 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 17:34:17,511 INFO Creatives dataframe read
+2024-02-09 17:34:17,511 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:34:39,161 INFO Clickhouse dataframe read
+2024-02-09 17:34:39,164 INFO Creatives dataframe read
+2024-02-09 17:34:39,167 INFO Leads dataframe read
+2024-02-09 17:34:47,919 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 17:34:47,959 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 17:34:47,967 INFO Creatives dataframe read
+2024-02-09 17:34:47,967 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:34:52,490 INFO API request received at 2024-02-09 17:34:52
+2024-02-09 17:34:52,754 INFO API request processed at 2024-02-09 17:34:52
+2024-02-09 17:35:53,662 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 17:35:53,808 INFO Creatives dataframe read
+2024-02-09 17:35:53,808 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:36:16,093 INFO Clickhouse dataframe read
+2024-02-09 17:36:16,096 INFO Creatives dataframe read
+2024-02-09 17:36:16,100 INFO Leads dataframe read
+2024-02-09 17:36:25,258 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 17:36:25,305 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 17:36:25,315 INFO Creatives dataframe read
+2024-02-09 17:36:25,315 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:36:26,432 INFO API request received at 2024-02-09 17:36:26
+2024-02-09 17:36:26,688 INFO API request processed at 2024-02-09 17:36:26
+2024-02-09 17:37:26,673 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 17:37:26,824 INFO Creatives dataframe read
+2024-02-09 17:37:26,825 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:37:48,047 INFO Clickhouse dataframe read
+2024-02-09 17:37:48,049 INFO Creatives dataframe read
+2024-02-09 17:37:48,053 INFO Leads dataframe read
+2024-02-09 17:37:56,329 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 17:37:56,370 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 17:37:56,379 INFO Creatives dataframe read
+2024-02-09 17:37:56,379 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:38:10,646 INFO API request received at 2024-02-09 17:38:10
+2024-02-09 17:38:10,922 INFO API request processed at 2024-02-09 17:38:10
+2024-02-09 17:38:47,332 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 17:38:47,470 INFO Creatives dataframe read
+2024-02-09 17:38:47,470 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:39:09,250 INFO Clickhouse dataframe read
+2024-02-09 17:39:09,253 INFO Creatives dataframe read
+2024-02-09 17:39:09,257 INFO Leads dataframe read
+2024-02-09 17:39:17,808 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 17:39:17,850 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 17:39:17,860 INFO Creatives dataframe read
+2024-02-09 17:39:17,860 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:40:01,158 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 17:40:01,317 INFO Creatives dataframe read
+2024-02-09 17:40:01,317 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:40:24,417 INFO Clickhouse dataframe read
+2024-02-09 17:40:24,419 INFO Creatives dataframe read
+2024-02-09 17:40:24,423 INFO Leads dataframe read
+2024-02-09 17:40:33,033 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 17:40:33,076 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 17:40:33,086 INFO Creatives dataframe read
+2024-02-09 17:40:33,086 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:40:42,876 INFO API request received at 2024-02-09 17:40:42
+2024-02-09 17:40:43,137 INFO API request processed at 2024-02-09 17:40:43
+2024-02-09 17:41:27,367 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 17:41:27,527 INFO Creatives dataframe read
+2024-02-09 17:41:27,528 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 17:41:49,988 INFO Clickhouse dataframe read
+2024-02-09 17:41:49,996 INFO Creatives dataframe read
+2024-02-09 17:41:50,000 INFO Leads dataframe read
+2024-02-09 17:41:59,507 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 17:41:59,583 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 17:41:59,594 INFO Creatives dataframe read
+2024-02-09 17:41:59,594 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 18:40:59,547 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 18:40:59,862 INFO Creatives dataframe read
+2024-02-09 18:40:59,863 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 18:41:39,547 INFO Clickhouse dataframe read
+2024-02-09 18:41:39,563 INFO Creatives dataframe read
+2024-02-09 18:41:39,570 INFO Leads dataframe read
+2024-02-09 18:41:49,851 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 18:41:49,947 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 18:41:49,959 INFO Creatives dataframe read
+2024-02-09 18:41:49,960 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 18:41:56,468 INFO API request received at 2024-02-09 18:41:56
+2024-02-09 18:41:56,956 INFO API request processed at 2024-02-09 18:41:56
+2024-02-09 18:42:33,970 INFO API request received at 2024-02-09 18:42:33
+2024-02-09 18:42:34,165 INFO API request processed at 2024-02-09 18:42:34
+2024-02-09 18:42:35,011 INFO API request received at 2024-02-09 18:42:35
+2024-02-09 18:42:35,186 INFO API request processed at 2024-02-09 18:42:35
+2024-02-09 18:42:35,958 INFO API request received at 2024-02-09 18:42:35
+2024-02-09 18:42:36,136 INFO API request processed at 2024-02-09 18:42:36
+2024-02-09 18:42:36,858 INFO API request received at 2024-02-09 18:42:36
+2024-02-09 18:42:37,045 INFO API request processed at 2024-02-09 18:42:37
+2024-02-09 18:43:28,723 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 18:43:28,955 INFO Creatives dataframe read
+2024-02-09 18:43:28,955 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 18:43:51,050 INFO Clickhouse dataframe read
+2024-02-09 18:43:51,052 INFO Creatives dataframe read
+2024-02-09 18:43:51,056 INFO Leads dataframe read
+2024-02-09 18:44:00,336 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 18:44:00,381 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 18:44:00,390 INFO Creatives dataframe read
+2024-02-09 18:44:00,390 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 18:45:25,107 INFO API request received at 2024-02-09 18:45:25
+2024-02-09 18:45:26,337 INFO API request processed at 2024-02-09 18:45:26
+2024-02-09 18:46:55,790 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 18:46:56,074 INFO Creatives dataframe read
+2024-02-09 18:46:56,074 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 18:47:24,971 INFO Clickhouse dataframe read
+2024-02-09 18:47:24,991 INFO Creatives dataframe read
+2024-02-09 18:47:24,997 INFO Leads dataframe read
+2024-02-09 18:47:39,934 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 18:47:40,038 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 18:47:40,048 INFO Creatives dataframe read
+2024-02-09 18:47:40,048 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 18:47:47,219 INFO API request received at 2024-02-09 18:47:47
+2024-02-09 18:47:47,741 INFO API request processed at 2024-02-09 18:47:47
+2024-02-09 18:48:13,704 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 18:48:13,986 INFO Creatives dataframe read
+2024-02-09 18:48:13,986 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 18:48:48,218 INFO Clickhouse dataframe read
+2024-02-09 18:48:48,236 INFO Creatives dataframe read
+2024-02-09 18:48:48,241 INFO Leads dataframe read
+2024-02-09 18:49:04,491 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 18:49:04,597 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 18:49:04,612 INFO Creatives dataframe read
+2024-02-09 18:49:04,612 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 18:49:15,396 INFO API request received at 2024-02-09 18:49:15
+2024-02-09 18:49:15,900 INFO API request processed at 2024-02-09 18:49:15
+2024-02-09 18:50:22,094 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 18:50:22,433 INFO Creatives dataframe read
+2024-02-09 18:50:22,433 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 18:51:06,668 INFO Clickhouse dataframe read
+2024-02-09 18:51:06,708 INFO Creatives dataframe read
+2024-02-09 18:51:06,720 INFO Leads dataframe read
+2024-02-09 18:51:41,615 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 18:51:41,773 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 18:51:41,795 INFO Creatives dataframe read
+2024-02-09 18:51:41,795 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 19:03:29,321 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 19:03:29,590 INFO Creatives dataframe read
+2024-02-09 19:03:29,590 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 19:03:52,880 INFO Clickhouse dataframe read
+2024-02-09 19:03:52,882 INFO Creatives dataframe read
+2024-02-09 19:03:52,887 INFO Leads dataframe read
+2024-02-09 19:04:01,758 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 19:04:01,814 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 19:04:01,825 INFO Creatives dataframe read
+2024-02-09 19:04:01,825 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 19:04:03,775 INFO API request received at 2024-02-09 19:04:03
+2024-02-09 19:04:04,046 INFO API request processed at 2024-02-09 19:04:04
+2024-02-09 19:04:10,324 INFO API request received at 2024-02-09 19:04:10
+2024-02-09 19:04:10,462 INFO API request processed at 2024-02-09 19:04:10
+2024-02-09 19:04:11,145 INFO API request received at 2024-02-09 19:04:11
+2024-02-09 19:04:11,285 INFO API request processed at 2024-02-09 19:04:11
+2024-02-09 19:04:11,891 INFO API request received at 2024-02-09 19:04:11
+2024-02-09 19:04:12,026 INFO API request processed at 2024-02-09 19:04:12
+2024-02-09 19:04:12,599 INFO API request received at 2024-02-09 19:04:12
+2024-02-09 19:04:12,735 INFO API request processed at 2024-02-09 19:04:12
+2024-02-09 19:04:13,240 INFO API request received at 2024-02-09 19:04:13
+2024-02-09 19:04:13,381 INFO API request processed at 2024-02-09 19:04:13
+2024-02-09 19:04:13,938 INFO API request received at 2024-02-09 19:04:13
+2024-02-09 19:04:14,075 INFO API request processed at 2024-02-09 19:04:14
+2024-02-09 19:04:14,565 INFO API request received at 2024-02-09 19:04:14
+2024-02-09 19:04:14,706 INFO API request processed at 2024-02-09 19:04:14
+2024-02-09 19:04:15,164 INFO API request received at 2024-02-09 19:04:15
+2024-02-09 19:04:15,305 INFO API request processed at 2024-02-09 19:04:15
+2024-02-09 19:04:32,915 INFO API request received at 2024-02-09 19:04:32
+2024-02-09 19:04:33,054 INFO API request processed at 2024-02-09 19:04:33
+2024-02-09 19:04:33,510 INFO API request received at 2024-02-09 19:04:33
+2024-02-09 19:04:33,646 INFO API request processed at 2024-02-09 19:04:33
+2024-02-09 19:04:34,148 INFO API request received at 2024-02-09 19:04:34
+2024-02-09 19:04:34,291 INFO API request processed at 2024-02-09 19:04:34
+2024-02-09 19:04:34,664 INFO API request received at 2024-02-09 19:04:34
+2024-02-09 19:04:34,806 INFO API request processed at 2024-02-09 19:04:34
+2024-02-09 19:04:35,257 INFO API request received at 2024-02-09 19:04:35
+2024-02-09 19:04:35,400 INFO API request processed at 2024-02-09 19:04:35
+2024-02-09 19:04:35,864 INFO API request received at 2024-02-09 19:04:35
+2024-02-09 19:04:36,005 INFO API request processed at 2024-02-09 19:04:36
+2024-02-09 19:04:36,414 INFO API request received at 2024-02-09 19:04:36
+2024-02-09 19:04:36,555 INFO API request processed at 2024-02-09 19:04:36
+2024-02-09 19:04:36,925 INFO API request received at 2024-02-09 19:04:36
+2024-02-09 19:04:37,063 INFO API request processed at 2024-02-09 19:04:37
+2024-02-09 19:04:37,509 INFO API request received at 2024-02-09 19:04:37
+2024-02-09 19:04:37,647 INFO API request processed at 2024-02-09 19:04:37
+2024-02-09 19:04:39,064 INFO API request received at 2024-02-09 19:04:39
+2024-02-09 19:04:39,198 INFO API request processed at 2024-02-09 19:04:39
+2024-02-09 19:04:42,436 INFO API request received at 2024-02-09 19:04:42
+2024-02-09 19:04:42,588 INFO API request processed at 2024-02-09 19:04:42
+2024-02-09 19:05:29,450 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-09 19:05:29,597 INFO Creatives dataframe read
+2024-02-09 19:05:29,597 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 19:05:50,975 INFO Clickhouse dataframe read
+2024-02-09 19:05:50,977 INFO Creatives dataframe read
+2024-02-09 19:05:50,980 INFO Leads dataframe read
+2024-02-09 19:05:59,522 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-09 19:05:59,569 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-09 19:05:59,577 INFO Creatives dataframe read
+2024-02-09 19:05:59,578 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-09 19:06:02,674 INFO API request received at 2024-02-09 19:06:02
+2024-02-09 19:06:02,915 INFO API request processed at 2024-02-09 19:06:02
+2024-02-09 19:06:05,696 INFO API request received at 2024-02-09 19:06:05
+2024-02-09 19:06:05,832 INFO API request processed at 2024-02-09 19:06:05
+2024-02-09 19:06:06,542 INFO API request received at 2024-02-09 19:06:06
+2024-02-09 19:06:06,680 INFO API request processed at 2024-02-09 19:06:06
+2024-02-09 19:06:07,172 INFO API request received at 2024-02-09 19:06:07
+2024-02-09 19:06:07,312 INFO API request processed at 2024-02-09 19:06:07
+2024-02-09 19:06:07,923 INFO API request received at 2024-02-09 19:06:07
+2024-02-09 19:06:08,078 INFO API request processed at 2024-02-09 19:06:08
+2024-02-09 19:06:08,739 INFO API request received at 2024-02-09 19:06:08
+2024-02-09 19:06:08,885 INFO API request processed at 2024-02-09 19:06:08
+2024-02-09 19:06:09,472 INFO API request received at 2024-02-09 19:06:09
+2024-02-09 19:06:09,620 INFO API request processed at 2024-02-09 19:06:09
+2024-02-09 19:06:10,094 INFO API request received at 2024-02-09 19:06:10
+2024-02-09 19:06:10,238 INFO API request processed at 2024-02-09 19:06:10
+2024-02-09 19:06:10,814 INFO API request received at 2024-02-09 19:06:10
+2024-02-09 19:06:10,959 INFO API request processed at 2024-02-09 19:06:10
+2024-02-09 19:06:11,457 INFO API request received at 2024-02-09 19:06:11
+2024-02-09 19:06:11,597 INFO API request processed at 2024-02-09 19:06:11
+2024-02-09 19:06:12,174 INFO API request received at 2024-02-09 19:06:12
+2024-02-09 19:06:12,314 INFO API request processed at 2024-02-09 19:06:12
+2024-02-09 19:06:12,909 INFO API request received at 2024-02-09 19:06:12
+2024-02-09 19:06:13,051 INFO API request processed at 2024-02-09 19:06:13
+2024-02-09 19:06:13,564 INFO API request received at 2024-02-09 19:06:13
+2024-02-09 19:06:13,703 INFO API request processed at 2024-02-09 19:06:13
+2024-02-09 19:06:17,784 INFO API request received at 2024-02-09 19:06:17
+2024-02-09 19:06:17,930 INFO API request processed at 2024-02-09 19:06:17
+2024-02-09 19:06:18,396 INFO API request received at 2024-02-09 19:06:18
+2024-02-09 19:06:18,539 INFO API request processed at 2024-02-09 19:06:18
+2024-02-09 19:06:19,095 INFO API request received at 2024-02-09 19:06:19
+2024-02-09 19:06:19,235 INFO API request processed at 2024-02-09 19:06:19
+2024-02-09 19:06:19,863 INFO API request received at 2024-02-09 19:06:19
+2024-02-09 19:06:20,002 INFO API request processed at 2024-02-09 19:06:20
+2024-02-09 19:06:20,454 INFO API request received at 2024-02-09 19:06:20
+2024-02-09 19:06:20,603 INFO API request processed at 2024-02-09 19:06:20
+2024-02-12 13:02:51,932 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-12 13:02:52,300 INFO Creatives dataframe read
+2024-02-12 13:02:52,300 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-12 13:03:18,017 INFO Clickhouse dataframe read
+2024-02-12 13:03:18,019 INFO Creatives dataframe read
+2024-02-12 13:03:18,023 INFO Leads dataframe read
+2024-02-12 13:03:26,878 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-12 13:03:26,926 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-12 13:03:26,934 INFO Creatives dataframe read
+2024-02-12 13:03:26,934 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-12 13:03:30,471 INFO API request received at 2024-02-12 13:03:30
+2024-02-12 13:03:30,750 INFO API request processed at 2024-02-12 13:03:30
+2024-02-12 13:03:37,881 INFO API request received at 2024-02-12 13:03:37
+2024-02-12 13:03:38,026 INFO API request processed at 2024-02-12 13:03:38
+2024-02-12 13:03:38,748 INFO API request received at 2024-02-12 13:03:38
+2024-02-12 13:03:38,892 INFO API request processed at 2024-02-12 13:03:38
+2024-02-12 13:03:39,520 INFO API request received at 2024-02-12 13:03:39
+2024-02-12 13:03:39,666 INFO API request processed at 2024-02-12 13:03:39
+2024-02-12 13:07:37,632 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-12 13:07:37,767 INFO Creatives dataframe read
+2024-02-12 13:07:37,767 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-12 13:07:59,258 INFO Clickhouse dataframe read
+2024-02-12 13:07:59,261 INFO Creatives dataframe read
+2024-02-12 13:07:59,265 INFO Leads dataframe read
+2024-02-12 13:08:07,794 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-12 13:08:07,830 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-12 13:08:07,839 INFO Creatives dataframe read
+2024-02-12 13:08:07,839 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-12 13:08:24,874 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-12 13:08:25,010 INFO Creatives dataframe read
+2024-02-12 13:08:25,010 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-12 13:08:46,291 INFO Clickhouse dataframe read
+2024-02-12 13:08:46,294 INFO Creatives dataframe read
+2024-02-12 13:08:46,297 INFO Leads dataframe read
+2024-02-12 13:08:54,766 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-12 13:08:54,803 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-12 13:08:54,812 INFO Creatives dataframe read
+2024-02-12 13:08:54,812 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-12 13:09:02,848 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-12 13:09:02,998 INFO Creatives dataframe read
+2024-02-12 13:09:02,998 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-12 13:09:23,832 INFO Clickhouse dataframe read
+2024-02-12 13:09:23,834 INFO Creatives dataframe read
+2024-02-12 13:09:23,838 INFO Leads dataframe read
+2024-02-12 13:09:32,108 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-12 13:09:32,145 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-12 13:09:32,153 INFO Creatives dataframe read
+2024-02-12 13:09:32,153 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-12 13:09:46,630 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-12 13:09:46,776 INFO Creatives dataframe read
+2024-02-12 13:09:46,776 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-12 13:10:07,564 INFO Clickhouse dataframe read
+2024-02-12 13:10:07,566 INFO Creatives dataframe read
+2024-02-12 13:10:07,571 INFO Leads dataframe read
+2024-02-12 13:10:16,017 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-12 13:10:16,054 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-12 13:10:16,063 INFO Creatives dataframe read
+2024-02-12 13:10:16,063 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-12 13:10:18,191 INFO API request received at 2024-02-12 13:10:18
+2024-02-12 13:10:18,464 INFO API request processed at 2024-02-12 13:10:18
+2024-02-12 13:10:34,952 INFO API request received at 2024-02-12 13:10:34
+2024-02-12 13:10:35,097 INFO API request processed at 2024-02-12 13:10:35
+2024-02-12 13:10:36,646 INFO API request received at 2024-02-12 13:10:36
+2024-02-12 13:10:36,791 INFO API request processed at 2024-02-12 13:10:36
+2024-02-12 13:10:37,530 INFO API request received at 2024-02-12 13:10:37
+2024-02-12 13:10:37,691 INFO API request processed at 2024-02-12 13:10:37
+2024-02-12 13:10:38,298 INFO API request received at 2024-02-12 13:10:38
+2024-02-12 13:10:38,445 INFO API request processed at 2024-02-12 13:10:38
+2024-02-12 13:10:39,038 INFO API request received at 2024-02-12 13:10:39
+2024-02-12 13:10:39,181 INFO API request processed at 2024-02-12 13:10:39
+2024-02-12 13:10:39,779 INFO API request received at 2024-02-12 13:10:39
+2024-02-12 13:10:39,920 INFO API request processed at 2024-02-12 13:10:39
+2024-02-12 13:10:40,482 INFO API request received at 2024-02-12 13:10:40
+2024-02-12 13:10:40,626 INFO API request processed at 2024-02-12 13:10:40
+2024-02-12 13:10:41,105 INFO API request received at 2024-02-12 13:10:41
+2024-02-12 13:10:41,250 INFO API request processed at 2024-02-12 13:10:41
+2024-02-12 13:12:03,697 INFO API request received at 2024-02-12 13:12:03
+2024-02-12 13:12:03,836 INFO API request processed at 2024-02-12 13:12:03
+2024-02-12 13:12:04,377 INFO API request received at 2024-02-12 13:12:04
+2024-02-12 13:12:04,515 INFO API request processed at 2024-02-12 13:12:04
+2024-02-12 13:12:04,993 INFO API request received at 2024-02-12 13:12:04
+2024-02-12 13:12:05,134 INFO API request processed at 2024-02-12 13:12:05
+2024-02-12 13:12:05,707 INFO API request received at 2024-02-12 13:12:05
+2024-02-12 13:12:05,845 INFO API request processed at 2024-02-12 13:12:05
+2024-02-12 13:12:06,359 INFO API request received at 2024-02-12 13:12:06
+2024-02-12 13:12:06,497 INFO API request processed at 2024-02-12 13:12:06
+2024-02-12 13:12:06,889 INFO API request received at 2024-02-12 13:12:06
+2024-02-12 13:12:07,026 INFO API request processed at 2024-02-12 13:12:07
+2024-02-12 13:12:07,545 INFO API request received at 2024-02-12 13:12:07
+2024-02-12 13:12:07,681 INFO API request processed at 2024-02-12 13:12:07
+2024-02-12 13:12:08,282 INFO API request received at 2024-02-12 13:12:08
+2024-02-12 13:12:08,417 INFO API request processed at 2024-02-12 13:12:08
+2024-02-12 13:13:00,964 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-12 13:13:01,112 INFO Creatives dataframe read
+2024-02-12 13:13:01,112 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-12 13:13:23,132 INFO Clickhouse dataframe read
+2024-02-12 13:13:23,134 INFO Creatives dataframe read
+2024-02-12 13:13:23,138 INFO Leads dataframe read
+2024-02-12 13:13:31,554 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-12 13:13:31,593 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-12 13:13:31,602 INFO Creatives dataframe read
+2024-02-12 13:13:31,602 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-12 13:13:31,605 INFO API request received at 2024-02-12 13:13:31
+2024-02-12 13:13:31,808 INFO API request processed at 2024-02-12 13:13:31
+2024-02-12 13:14:43,897 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-12 13:14:44,038 INFO Creatives dataframe read
+2024-02-12 13:14:44,038 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-12 13:15:05,651 INFO Clickhouse dataframe read
+2024-02-12 13:15:05,654 INFO Creatives dataframe read
+2024-02-12 13:15:05,657 INFO Leads dataframe read
+2024-02-12 13:15:14,176 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-12 13:15:14,214 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-12 13:15:14,223 INFO Creatives dataframe read
+2024-02-12 13:15:14,223 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-12 13:15:33,698 INFO API request received at 2024-02-12 13:15:33
+2024-02-12 13:15:49,983 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-12 13:15:50,138 INFO Creatives dataframe read
+2024-02-12 13:15:50,138 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-12 13:16:11,328 INFO Clickhouse dataframe read
+2024-02-12 13:16:11,330 INFO Creatives dataframe read
+2024-02-12 13:16:11,334 INFO Leads dataframe read
+2024-02-12 13:16:19,714 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-12 13:16:19,749 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-12 13:16:19,758 INFO Creatives dataframe read
+2024-02-12 13:16:19,758 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-12 13:16:21,573 INFO API request received at 2024-02-12 13:16:21
+2024-02-12 13:16:21,848 INFO API request processed at 2024-02-12 13:16:21
+2024-02-12 13:16:23,667 INFO API request received at 2024-02-12 13:16:23
+2024-02-12 13:16:23,802 INFO API request processed at 2024-02-12 13:16:23
+2024-02-12 13:16:24,399 INFO API request received at 2024-02-12 13:16:24
+2024-02-12 13:16:24,536 INFO API request processed at 2024-02-12 13:16:24
+2024-02-12 13:16:25,135 INFO API request received at 2024-02-12 13:16:25
+2024-02-12 13:16:25,270 INFO API request processed at 2024-02-12 13:16:25
+2024-02-12 13:16:25,754 INFO API request received at 2024-02-12 13:16:25
+2024-02-12 13:16:25,889 INFO API request processed at 2024-02-12 13:16:25
+2024-02-12 13:16:35,717 INFO API request received at 2024-02-12 13:16:35
+2024-02-12 13:16:35,860 INFO API request processed at 2024-02-12 13:16:35
+2024-02-12 13:16:36,534 INFO API request received at 2024-02-12 13:16:36
+2024-02-12 13:16:36,678 INFO API request processed at 2024-02-12 13:16:36
+2024-02-12 13:16:37,315 INFO API request received at 2024-02-12 13:16:37
+2024-02-12 13:16:37,455 INFO API request processed at 2024-02-12 13:16:37
+2024-02-12 13:16:38,119 INFO API request received at 2024-02-12 13:16:38
+2024-02-12 13:16:38,262 INFO API request processed at 2024-02-12 13:16:38
+2024-02-12 13:16:38,825 INFO API request received at 2024-02-12 13:16:38
+2024-02-12 13:16:38,962 INFO API request processed at 2024-02-12 13:16:38

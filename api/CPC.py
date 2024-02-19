@@ -51,6 +51,7 @@ class CPC:  # Класс для расчёта CPC
 
         # Удаление дубликатов
         temp_df = temp_df.drop_duplicates()
+        #print(f'temp_df:\n{temp_df}')
         # Сокращение датасета leads
         temp_df_leads = DF_LEADS[['creative_id', 'tag_id', 'profit']]
 
@@ -59,11 +60,11 @@ class CPC:  # Класс для расчёта CPC
         # Аггрегация датасета leads по сумме заказов для каждого creative_id
 
         temp_df_leads = temp_df_leads.groupby(['creative_id','tag_id'])['profit'].agg('sum').reset_index()
-
+        #print(f'temp_df_leads:\n{temp_df_leads}')
        # Объединение датасетов
         result_df = pd.merge(temp_df, temp_df_leads, on=['creative_id', 'tag_id']).drop('tag_id', axis = 1)
-
+        #print(f'result_df:\n{result_df}')
         # Расчёт CPC
         result_df['click_profit'] = result_df['profit'] / result_df['click']
-
+        #print(f'result_df:\n{result_df}')
         return result_df

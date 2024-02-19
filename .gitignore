@@ -4,6 +4,7 @@ data/
 internship/
 buff/
 Linux/
+test/
 pickles/cpc_df.pkl
 pickles/cpc_df_2.pkl
 pickles/model_dict.pkl

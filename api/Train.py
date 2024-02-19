@@ -9,7 +9,7 @@ import tzlocal
 from apscheduler.schedulers.blocking import BlockingScheduler
 from sklearn.model_selection import KFold, cross_val_score
 
-from Tools import Tools
+from .Tools import Tools
 
 warnings.filterwarnings('ignore')
 
@@ -22,10 +22,10 @@ RANDOM_SEED = 42
 
 
 model = tools.model
-meta_data = tools
-encoder = tools.encoder
+model_metadata = tools.model_metadata
 preprocessor = tools.preprocessor
 def model_training():
+    print('Hello')
 
     score = 0
 
@@ -114,7 +114,7 @@ def model_training():
 
     print('preps')
     try:
-        X_train_prep = preprocessor.transform(X_train)
+        X_train_prep = preprocessor.transform(X_train).A
         logging.info(f'Train dataset preparation successfully')
     except Exception as e:
         logging.error(f'Train dataset preparation error: {e}')
@@ -122,7 +122,7 @@ def model_training():
 
     try:
         kf = KFold(n_splits = 3, shuffle=True, random_state = RANDOM_SEED)
-        scores = cross_val_score(model, X_train_prep.toarray(), y_train, cv=kf, scoring='roc_auc', n_jobs=-1,
+        scores = cross_val_score(model, X_train_prep, y_train, cv=kf, scoring='roc_auc', n_jobs=-1,
                                  error_score='raise')
         score = scores.mean()
         logging.info(f'Cross val score calculating successfully, roc_auc = {score}')
@@ -132,7 +132,7 @@ def model_training():
 
     print('fit')
     try:
-        model.fit(X_train_prep.toarray(), y_train)
+        model.fit(X_train_prep, y_train, epochs=10, batch_size=1024, verbose=0)
         logging.info(f'model {type(model).__name__} fit successfully')
     except Exception as e:
         logging.error(f'Model fit error: {e}')
@@ -141,21 +141,30 @@ def model_training():
 
     fit_time = datetime.now()
     fit_time = fit_time.strftime('%Y_%m_%d_%H_%M')
-    prep_tools_dict = {'model_metadata': f'Модель: {type(model).__name__}, ROC_AUC: {score}, last_fit_time: {fit_time}'}
-    prep_tools_dict['model'] = model
-    prep_tools_dict['encoder'] = tools.encoder
+    prep_tools_dict = {'model_metadata': f'Model: {type(model).__name__}, ROC_AUC: {score}, last_fit_time: {fit_time}'}
     prep_tools_dict['preprocessor'] = tools.preprocessor
     prep_tools_dict['req_df_columns'] = tools.req_df_columns
 
-    print('saving')
+    print('saving_prep')
     try:
-        with open(f'24news_practice/pickles/prep_tools_dict.pkl', 'wb') as f:
+        with open(f'24news_practice/pickles/prep_tools_dict_new.pkl', 'wb') as f:
             dill.Pickler(f, recurse=True).dump(prep_tools_dict)
         logging.info(f'model_dict save successfully')
 
     except Exception as e:
         logging.error(f'model_dict save error: {e}')
         print(f'model_dict save error: {e}')
+
+    try:
+        model_json = model.to_json()
+        with open("../pickles/model_new.json", "w") as json_file:
+            json_file.write(model_json)
+        model.save_weights("../pickles/model_new.h5")
+        logging.info(f'Saved fitted model to disk')
+    except Exception as e:
+        logging.error(f'model save error: {e}')
+        print(f'model save error: {e}')
+
 
     del X_train
     del y_train
@@ -166,7 +175,7 @@ def model_training():
 model_training()
 
 
-sched = BlockingScheduler(timezone = tzlocal.get_localzone_name())
-sched.add_job(model_training, 'interval', weeks = 1)
-sched.start()
+# sched = BlockingScheduler(timezone = tzlocal.get_localzone_name())
+# sched.add_job(model_training, 'interval', weeks = 1)
+# sched.start()
 

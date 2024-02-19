@@ -3581,3 +3581,1202 @@
 2024-02-12 13:16:38,262 INFO API request processed at 2024-02-12 13:16:38
 2024-02-12 13:16:38,825 INFO API request received at 2024-02-12 13:16:38
 2024-02-12 13:16:38,962 INFO API request processed at 2024-02-12 13:16:38
+2024-02-15 16:45:33,459 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 16:45:33,933 INFO Creatives dataframe read
+2024-02-15 16:45:33,933 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 16:46:00,087 INFO Clickhouse dataframe read
+2024-02-15 16:46:00,090 INFO Creatives dataframe read
+2024-02-15 16:46:00,097 INFO Leads dataframe read
+2024-02-15 16:46:12,562 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 16:46:12,640 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 16:46:12,649 INFO Creatives dataframe read
+2024-02-15 16:46:12,649 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 16:46:14,405 INFO API request received at 2024-02-15 16:46:14
+2024-02-15 16:46:14,825 INFO API request processed at 2024-02-15 16:46:14
+2024-02-15 16:46:19,035 INFO API request received at 2024-02-15 16:46:19
+2024-02-15 16:46:19,180 INFO API request processed at 2024-02-15 16:46:19
+2024-02-15 16:46:19,883 INFO API request received at 2024-02-15 16:46:19
+2024-02-15 16:46:20,034 INFO API request processed at 2024-02-15 16:46:20
+2024-02-15 16:46:20,685 INFO API request received at 2024-02-15 16:46:20
+2024-02-15 16:46:20,840 INFO API request processed at 2024-02-15 16:46:20
+2024-02-15 16:46:21,508 INFO API request received at 2024-02-15 16:46:21
+2024-02-15 16:46:21,662 INFO API request processed at 2024-02-15 16:46:21
+2024-02-15 16:46:22,122 INFO API request received at 2024-02-15 16:46:22
+2024-02-15 16:46:22,272 INFO API request processed at 2024-02-15 16:46:22
+2024-02-15 16:46:22,819 INFO API request received at 2024-02-15 16:46:22
+2024-02-15 16:46:22,962 INFO API request processed at 2024-02-15 16:46:22
+2024-02-15 16:46:23,463 INFO API request received at 2024-02-15 16:46:23
+2024-02-15 16:46:23,607 INFO API request processed at 2024-02-15 16:46:23
+2024-02-15 16:46:24,099 INFO API request received at 2024-02-15 16:46:24
+2024-02-15 16:46:24,256 INFO API request processed at 2024-02-15 16:46:24
+2024-02-15 16:53:20,845 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 16:53:21,056 INFO Creatives dataframe read
+2024-02-15 16:53:21,056 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 16:53:43,490 INFO Clickhouse dataframe read
+2024-02-15 16:53:43,492 INFO Creatives dataframe read
+2024-02-15 16:53:43,497 INFO Leads dataframe read
+2024-02-15 16:53:52,147 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 16:53:52,187 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 16:53:52,196 INFO Creatives dataframe read
+2024-02-15 16:53:52,196 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 16:54:14,151 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 16:54:14,352 INFO Creatives dataframe read
+2024-02-15 16:54:14,352 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 16:54:36,354 INFO Clickhouse dataframe read
+2024-02-15 16:54:36,357 INFO Creatives dataframe read
+2024-02-15 16:54:36,361 INFO Leads dataframe read
+2024-02-15 16:54:45,065 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 16:54:45,106 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 16:54:45,116 INFO Creatives dataframe read
+2024-02-15 16:54:45,116 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 16:54:49,185 INFO API request received at 2024-02-15 16:54:49
+2024-02-15 16:55:06,522 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 16:55:06,726 INFO Creatives dataframe read
+2024-02-15 16:55:06,726 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 16:55:29,103 INFO Clickhouse dataframe read
+2024-02-15 16:55:29,105 INFO Creatives dataframe read
+2024-02-15 16:55:29,109 INFO Leads dataframe read
+2024-02-15 16:55:38,375 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 16:55:38,421 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 16:55:38,431 INFO Creatives dataframe read
+2024-02-15 16:55:38,431 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 16:55:38,434 INFO API request received at 2024-02-15 16:55:38
+2024-02-15 16:55:38,673 INFO API request processed at 2024-02-15 16:55:38
+2024-02-15 16:55:41,464 INFO API request received at 2024-02-15 16:55:41
+2024-02-15 16:55:41,620 INFO API request processed at 2024-02-15 16:55:41
+2024-02-15 16:55:59,013 INFO API request received at 2024-02-15 16:55:59
+2024-02-15 16:55:59,178 INFO API request processed at 2024-02-15 16:55:59
+2024-02-15 16:56:00,908 INFO API request received at 2024-02-15 16:56:00
+2024-02-15 16:56:01,067 INFO API request processed at 2024-02-15 16:56:01
+2024-02-15 16:58:08,175 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 16:58:08,415 INFO Creatives dataframe read
+2024-02-15 16:58:08,416 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 16:58:30,623 INFO Clickhouse dataframe read
+2024-02-15 16:58:30,626 INFO Creatives dataframe read
+2024-02-15 16:58:30,630 INFO Leads dataframe read
+2024-02-15 16:58:39,499 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 16:58:39,541 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 16:58:39,549 INFO Creatives dataframe read
+2024-02-15 16:58:39,549 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 16:58:47,795 INFO API request received at 2024-02-15 16:58:47
+2024-02-15 17:00:07,822 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 17:00:08,030 INFO Creatives dataframe read
+2024-02-15 17:00:08,030 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:00:29,717 INFO Clickhouse dataframe read
+2024-02-15 17:00:29,719 INFO Creatives dataframe read
+2024-02-15 17:00:29,723 INFO Leads dataframe read
+2024-02-15 17:00:38,229 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 17:00:38,268 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 17:00:38,276 INFO Creatives dataframe read
+2024-02-15 17:00:38,276 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:00:56,371 INFO API request received at 2024-02-15 17:00:56
+2024-02-15 17:01:38,816 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 17:01:39,021 INFO Creatives dataframe read
+2024-02-15 17:01:39,021 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:02:01,079 INFO Clickhouse dataframe read
+2024-02-15 17:02:01,082 INFO Creatives dataframe read
+2024-02-15 17:02:01,086 INFO Leads dataframe read
+2024-02-15 17:02:09,793 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 17:02:09,832 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 17:02:09,841 INFO Creatives dataframe read
+2024-02-15 17:02:09,841 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:02:12,823 INFO API request received at 2024-02-15 17:02:12
+2024-02-15 17:02:13,070 INFO API request processed at 2024-02-15 17:02:13
+2024-02-15 17:02:58,931 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 17:02:59,136 INFO Creatives dataframe read
+2024-02-15 17:02:59,136 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:03:20,685 INFO Clickhouse dataframe read
+2024-02-15 17:03:20,687 INFO Creatives dataframe read
+2024-02-15 17:03:20,691 INFO Leads dataframe read
+2024-02-15 17:03:29,234 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 17:03:29,274 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 17:03:29,283 INFO Creatives dataframe read
+2024-02-15 17:03:29,283 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:03:31,091 INFO API request received at 2024-02-15 17:03:31
+2024-02-15 17:03:31,564 INFO API request processed at 2024-02-15 17:03:31
+2024-02-15 17:03:35,680 INFO API request received at 2024-02-15 17:03:35
+2024-02-15 17:03:36,007 INFO API request processed at 2024-02-15 17:03:36
+2024-02-15 17:03:37,207 INFO API request received at 2024-02-15 17:03:37
+2024-02-15 17:03:37,546 INFO API request processed at 2024-02-15 17:03:37
+2024-02-15 17:03:39,783 INFO API request received at 2024-02-15 17:03:39
+2024-02-15 17:03:40,114 INFO API request processed at 2024-02-15 17:03:40
+2024-02-15 17:03:43,033 INFO API request received at 2024-02-15 17:03:43
+2024-02-15 17:03:43,361 INFO API request processed at 2024-02-15 17:03:43
+2024-02-15 17:04:01,644 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 17:04:01,847 INFO Creatives dataframe read
+2024-02-15 17:04:01,847 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:04:23,741 INFO Clickhouse dataframe read
+2024-02-15 17:04:23,744 INFO Creatives dataframe read
+2024-02-15 17:04:23,748 INFO Leads dataframe read
+2024-02-15 17:04:32,461 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 17:04:32,500 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 17:04:32,510 INFO Creatives dataframe read
+2024-02-15 17:04:32,510 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:04:34,547 INFO API request received at 2024-02-15 17:04:34
+2024-02-15 17:04:34,812 INFO API request processed at 2024-02-15 17:04:34
+2024-02-15 17:04:38,841 INFO API request received at 2024-02-15 17:04:38
+2024-02-15 17:04:38,988 INFO API request processed at 2024-02-15 17:04:38
+2024-02-15 17:04:40,332 INFO API request received at 2024-02-15 17:04:40
+2024-02-15 17:04:40,477 INFO API request processed at 2024-02-15 17:04:40
+2024-02-15 17:04:42,431 INFO API request received at 2024-02-15 17:04:42
+2024-02-15 17:04:42,573 INFO API request processed at 2024-02-15 17:04:42
+2024-02-15 17:04:45,923 INFO API request received at 2024-02-15 17:04:45
+2024-02-15 17:04:46,072 INFO API request processed at 2024-02-15 17:04:46
+2024-02-15 17:04:46,841 INFO API request received at 2024-02-15 17:04:46
+2024-02-15 17:04:46,990 INFO API request processed at 2024-02-15 17:04:46
+2024-02-15 17:04:47,575 INFO API request received at 2024-02-15 17:04:47
+2024-02-15 17:04:47,725 INFO API request processed at 2024-02-15 17:04:47
+2024-02-15 17:04:48,516 INFO API request received at 2024-02-15 17:04:48
+2024-02-15 17:04:48,667 INFO API request processed at 2024-02-15 17:04:48
+2024-02-15 17:04:51,577 INFO API request received at 2024-02-15 17:04:51
+2024-02-15 17:04:51,725 INFO API request processed at 2024-02-15 17:04:51
+2024-02-15 17:05:22,915 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 17:05:23,166 INFO Creatives dataframe read
+2024-02-15 17:05:23,166 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:05:45,579 INFO Clickhouse dataframe read
+2024-02-15 17:05:45,581 INFO Creatives dataframe read
+2024-02-15 17:05:45,586 INFO Leads dataframe read
+2024-02-15 17:05:54,174 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 17:05:54,214 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 17:05:54,222 INFO Creatives dataframe read
+2024-02-15 17:05:54,222 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:05:55,134 INFO API request received at 2024-02-15 17:05:55
+2024-02-15 17:05:55,367 INFO API request processed at 2024-02-15 17:05:55
+2024-02-15 17:05:57,563 INFO API request received at 2024-02-15 17:05:57
+2024-02-15 17:05:57,711 INFO API request processed at 2024-02-15 17:05:57
+2024-02-15 17:05:58,511 INFO API request received at 2024-02-15 17:05:58
+2024-02-15 17:05:58,655 INFO API request processed at 2024-02-15 17:05:58
+2024-02-15 17:05:59,413 INFO API request received at 2024-02-15 17:05:59
+2024-02-15 17:05:59,551 INFO API request processed at 2024-02-15 17:05:59
+2024-02-15 17:06:08,337 INFO API request received at 2024-02-15 17:06:08
+2024-02-15 17:06:08,482 INFO API request processed at 2024-02-15 17:06:08
+2024-02-15 17:07:59,499 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 17:07:59,722 INFO Creatives dataframe read
+2024-02-15 17:07:59,722 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:08:22,566 INFO Clickhouse dataframe read
+2024-02-15 17:08:22,568 INFO Creatives dataframe read
+2024-02-15 17:08:22,573 INFO Leads dataframe read
+2024-02-15 17:08:31,401 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 17:08:31,442 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 17:08:31,451 INFO Creatives dataframe read
+2024-02-15 17:08:31,451 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:08:33,913 INFO API request received at 2024-02-15 17:08:33
+2024-02-15 17:08:34,153 INFO API request processed at 2024-02-15 17:08:34
+2024-02-15 17:09:58,669 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 17:09:58,883 INFO Creatives dataframe read
+2024-02-15 17:09:58,883 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:10:20,701 INFO Clickhouse dataframe read
+2024-02-15 17:10:20,704 INFO Creatives dataframe read
+2024-02-15 17:10:20,708 INFO Leads dataframe read
+2024-02-15 17:10:29,319 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 17:10:29,359 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 17:10:29,368 INFO Creatives dataframe read
+2024-02-15 17:10:29,368 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:11:27,418 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 17:11:27,625 INFO Creatives dataframe read
+2024-02-15 17:11:27,625 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:11:49,236 INFO Clickhouse dataframe read
+2024-02-15 17:11:49,239 INFO Creatives dataframe read
+2024-02-15 17:11:49,243 INFO Leads dataframe read
+2024-02-15 17:11:57,657 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 17:11:57,698 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 17:11:57,707 INFO Creatives dataframe read
+2024-02-15 17:11:57,707 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:17:59,003 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 17:17:59,202 INFO Creatives dataframe read
+2024-02-15 17:17:59,202 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:18:20,745 INFO Clickhouse dataframe read
+2024-02-15 17:18:20,748 INFO Creatives dataframe read
+2024-02-15 17:18:20,752 INFO Leads dataframe read
+2024-02-15 17:18:29,260 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 17:18:29,301 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 17:18:29,310 INFO Creatives dataframe read
+2024-02-15 17:18:29,310 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:21:19,926 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 17:21:20,133 INFO Creatives dataframe read
+2024-02-15 17:21:20,133 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:21:41,510 INFO Clickhouse dataframe read
+2024-02-15 17:21:41,512 INFO Creatives dataframe read
+2024-02-15 17:21:41,516 INFO Leads dataframe read
+2024-02-15 17:21:50,093 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 17:21:50,137 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 17:21:50,148 INFO Creatives dataframe read
+2024-02-15 17:21:50,148 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:21:50,151 INFO API request received at 2024-02-15 17:21:50
+2024-02-15 17:21:50,397 INFO API request processed at 2024-02-15 17:21:50
+2024-02-15 17:24:28,127 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 17:24:28,343 INFO Creatives dataframe read
+2024-02-15 17:24:28,343 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:24:49,915 INFO Clickhouse dataframe read
+2024-02-15 17:24:49,918 INFO Creatives dataframe read
+2024-02-15 17:24:49,921 INFO Leads dataframe read
+2024-02-15 17:24:58,206 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 17:24:58,247 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 17:24:58,256 INFO Creatives dataframe read
+2024-02-15 17:24:58,257 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:25:17,329 INFO API request received at 2024-02-15 17:25:17
+2024-02-15 17:25:17,603 INFO API request processed at 2024-02-15 17:25:17
+2024-02-15 17:26:39,244 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 17:26:39,462 INFO Creatives dataframe read
+2024-02-15 17:26:39,462 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:27:00,806 INFO Clickhouse dataframe read
+2024-02-15 17:27:00,809 INFO Creatives dataframe read
+2024-02-15 17:27:00,813 INFO Leads dataframe read
+2024-02-15 17:27:09,342 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 17:27:09,385 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 17:27:09,395 INFO Creatives dataframe read
+2024-02-15 17:27:09,395 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:27:13,236 INFO API request received at 2024-02-15 17:27:13
+2024-02-15 17:27:13,516 INFO API request processed at 2024-02-15 17:27:13
+2024-02-15 17:28:29,829 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 17:28:30,056 INFO Creatives dataframe read
+2024-02-15 17:28:30,056 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:28:52,611 INFO Clickhouse dataframe read
+2024-02-15 17:28:52,614 INFO Creatives dataframe read
+2024-02-15 17:28:52,619 INFO Leads dataframe read
+2024-02-15 17:29:01,347 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 17:29:01,388 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 17:29:01,397 INFO Creatives dataframe read
+2024-02-15 17:29:01,397 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:29:24,854 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 17:29:25,126 INFO Creatives dataframe read
+2024-02-15 17:29:25,127 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:29:47,340 INFO Clickhouse dataframe read
+2024-02-15 17:29:47,343 INFO Creatives dataframe read
+2024-02-15 17:29:47,347 INFO Leads dataframe read
+2024-02-15 17:29:56,458 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 17:29:56,499 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 17:29:56,508 INFO Creatives dataframe read
+2024-02-15 17:29:56,508 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:30:00,606 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 17:30:00,816 INFO Creatives dataframe read
+2024-02-15 17:30:00,816 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:30:22,591 INFO Clickhouse dataframe read
+2024-02-15 17:30:22,594 INFO Creatives dataframe read
+2024-02-15 17:30:22,598 INFO Leads dataframe read
+2024-02-15 17:30:31,361 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 17:30:31,402 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 17:30:31,411 INFO Creatives dataframe read
+2024-02-15 17:30:31,411 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:30:35,374 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 17:30:35,590 INFO Creatives dataframe read
+2024-02-15 17:30:35,590 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:30:56,936 INFO Clickhouse dataframe read
+2024-02-15 17:30:56,938 INFO Creatives dataframe read
+2024-02-15 17:30:56,942 INFO Leads dataframe read
+2024-02-15 17:31:04,343 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 17:31:04,590 INFO Creatives dataframe read
+2024-02-15 17:31:04,590 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:31:26,034 INFO Clickhouse dataframe read
+2024-02-15 17:31:26,036 INFO Creatives dataframe read
+2024-02-15 17:31:26,040 INFO Leads dataframe read
+2024-02-15 17:31:34,723 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 17:31:34,763 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 17:31:34,773 INFO Creatives dataframe read
+2024-02-15 17:31:34,773 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:31:38,748 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 17:31:38,951 INFO Creatives dataframe read
+2024-02-15 17:31:38,952 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:31:50,373 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-15 17:31:50,579 INFO Creatives dataframe read
+2024-02-15 17:31:50,579 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:32:12,180 INFO Clickhouse dataframe read
+2024-02-15 17:32:12,183 INFO Creatives dataframe read
+2024-02-15 17:32:12,187 INFO Leads dataframe read
+2024-02-15 17:32:20,707 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-15 17:32:20,750 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-15 17:32:20,759 INFO Creatives dataframe read
+2024-02-15 17:32:20,759 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-15 17:32:29,816 INFO API request received at 2024-02-15 17:32:29
+2024-02-15 17:32:30,126 INFO API request processed at 2024-02-15 17:32:30
+2024-02-16 09:20:36,565 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 09:20:36,870 INFO Creatives dataframe read
+2024-02-16 09:20:36,870 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 09:21:00,904 INFO Clickhouse dataframe read
+2024-02-16 09:21:00,907 INFO Creatives dataframe read
+2024-02-16 09:21:00,916 INFO Leads dataframe read
+2024-02-16 09:21:09,795 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 09:21:09,840 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 09:21:09,850 INFO Creatives dataframe read
+2024-02-16 09:21:09,850 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 09:21:14,920 INFO API request received at 2024-02-16 09:21:14
+2024-02-16 09:21:15,161 INFO API request processed at 2024-02-16 09:21:15
+2024-02-16 09:21:46,747 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 09:21:46,887 INFO Creatives dataframe read
+2024-02-16 09:21:46,887 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 09:22:09,804 INFO Clickhouse dataframe read
+2024-02-16 09:22:09,806 INFO Creatives dataframe read
+2024-02-16 09:22:09,810 INFO Leads dataframe read
+2024-02-16 09:22:18,432 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 09:22:18,473 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 09:22:18,483 INFO Creatives dataframe read
+2024-02-16 09:22:18,483 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 09:22:18,486 INFO API request received at 2024-02-16 09:22:18
+2024-02-16 09:22:18,721 INFO API request processed at 2024-02-16 09:22:18
+2024-02-16 11:23:04,278 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 11:23:04,596 INFO Creatives dataframe read
+2024-02-16 11:23:04,596 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:23:05,546 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 11:23:05,606 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 11:23:05,616 INFO Creatives dataframe read
+2024-02-16 11:23:05,616 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:23:11,856 INFO API request received at 2024-02-16 11:23:11
+2024-02-16 11:24:03,914 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 11:24:04,064 INFO Creatives dataframe read
+2024-02-16 11:24:04,064 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:24:04,490 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 11:24:04,527 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 11:24:04,536 INFO Creatives dataframe read
+2024-02-16 11:24:04,536 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:24:10,488 INFO API request received at 2024-02-16 11:24:10
+2024-02-16 11:24:10,709 INFO API request processed at 2024-02-16 11:24:10
+2024-02-16 11:25:44,951 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 11:25:45,128 INFO Creatives dataframe read
+2024-02-16 11:25:45,128 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:25:45,614 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 11:25:45,655 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 11:25:45,663 INFO Creatives dataframe read
+2024-02-16 11:25:45,663 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:26:26,855 INFO API request received at 2024-02-16 11:26:26
+2024-02-16 11:26:27,060 INFO API request processed at 2024-02-16 11:26:27
+2024-02-16 11:27:36,832 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 11:27:36,982 INFO Creatives dataframe read
+2024-02-16 11:27:36,982 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:27:37,418 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 11:27:37,468 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 11:27:37,480 INFO Creatives dataframe read
+2024-02-16 11:27:37,480 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:27:43,712 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 11:27:43,847 INFO Creatives dataframe read
+2024-02-16 11:27:43,847 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:27:44,301 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 11:27:44,338 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 11:27:44,346 INFO Creatives dataframe read
+2024-02-16 11:27:44,346 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:27:48,461 INFO API request received at 2024-02-16 11:27:48
+2024-02-16 11:27:48,682 INFO API request processed at 2024-02-16 11:27:48
+2024-02-16 11:32:20,792 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 11:32:20,948 INFO Creatives dataframe read
+2024-02-16 11:32:20,948 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:32:21,394 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 11:32:21,434 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 11:32:21,442 INFO Creatives dataframe read
+2024-02-16 11:32:21,442 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:32:22,233 INFO API request received at 2024-02-16 11:32:22
+2024-02-16 11:32:22,498 INFO API request processed at 2024-02-16 11:32:22
+2024-02-16 11:32:48,847 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 11:32:48,997 INFO Creatives dataframe read
+2024-02-16 11:32:48,997 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:32:49,466 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 11:32:49,509 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 11:32:49,519 INFO Creatives dataframe read
+2024-02-16 11:32:49,519 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:32:49,522 INFO API request received at 2024-02-16 11:32:49
+2024-02-16 11:32:49,722 INFO API request processed at 2024-02-16 11:32:49
+2024-02-16 11:34:11,157 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 11:34:11,342 INFO Creatives dataframe read
+2024-02-16 11:34:11,342 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:34:11,888 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 11:34:11,931 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 11:34:11,941 INFO Creatives dataframe read
+2024-02-16 11:34:11,941 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:34:11,945 INFO API request received at 2024-02-16 11:34:11
+2024-02-16 11:34:12,139 INFO API request processed at 2024-02-16 11:34:12
+2024-02-16 11:36:37,572 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 11:36:37,728 INFO Creatives dataframe read
+2024-02-16 11:36:37,728 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:36:38,165 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 11:36:38,203 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 11:36:38,211 INFO Creatives dataframe read
+2024-02-16 11:36:38,212 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:36:49,772 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 11:36:49,931 INFO Creatives dataframe read
+2024-02-16 11:36:49,931 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:36:50,374 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 11:36:50,412 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 11:36:50,420 INFO Creatives dataframe read
+2024-02-16 11:36:50,420 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:36:52,219 INFO API request received at 2024-02-16 11:36:52
+2024-02-16 11:36:52,443 INFO API request processed at 2024-02-16 11:36:52
+2024-02-16 11:37:15,086 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 11:37:15,251 INFO Creatives dataframe read
+2024-02-16 11:37:15,251 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:37:15,721 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 11:37:15,761 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 11:37:15,769 INFO Creatives dataframe read
+2024-02-16 11:37:15,769 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:37:16,428 INFO API request received at 2024-02-16 11:37:16
+2024-02-16 11:37:16,651 INFO API request processed at 2024-02-16 11:37:16
+2024-02-16 11:37:34,032 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 11:37:34,172 INFO Creatives dataframe read
+2024-02-16 11:37:34,172 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:37:34,607 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 11:37:34,646 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 11:37:34,654 INFO Creatives dataframe read
+2024-02-16 11:37:34,654 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:37:35,350 INFO API request received at 2024-02-16 11:37:35
+2024-02-16 11:37:35,614 INFO API request processed at 2024-02-16 11:37:35
+2024-02-16 11:37:49,028 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 11:37:49,171 INFO Creatives dataframe read
+2024-02-16 11:37:49,171 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:37:49,641 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 11:37:49,680 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 11:37:49,690 INFO Creatives dataframe read
+2024-02-16 11:37:49,690 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:37:49,693 INFO API request received at 2024-02-16 11:37:49
+2024-02-16 11:37:49,935 INFO API request processed at 2024-02-16 11:37:49
+2024-02-16 11:42:04,166 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 11:42:04,323 INFO Creatives dataframe read
+2024-02-16 11:42:04,323 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:42:04,751 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 11:42:04,789 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 11:42:04,798 INFO Creatives dataframe read
+2024-02-16 11:42:04,798 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:42:08,410 INFO API request received at 2024-02-16 11:42:08
+2024-02-16 11:42:08,683 INFO API request processed at 2024-02-16 11:42:08
+2024-02-16 11:42:32,503 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 11:42:32,720 INFO Creatives dataframe read
+2024-02-16 11:42:32,720 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:42:33,189 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 11:42:33,230 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 11:42:33,241 INFO Creatives dataframe read
+2024-02-16 11:42:33,241 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:42:34,528 INFO API request received at 2024-02-16 11:42:34
+2024-02-16 11:42:55,253 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 11:42:55,413 INFO Creatives dataframe read
+2024-02-16 11:42:55,413 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:42:55,885 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 11:42:55,923 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 11:42:55,933 INFO Creatives dataframe read
+2024-02-16 11:42:55,933 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:43:05,039 INFO API request received at 2024-02-16 11:43:05
+2024-02-16 11:43:05,301 INFO API request processed at 2024-02-16 11:43:05
+2024-02-16 11:46:51,158 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 11:46:51,320 INFO Creatives dataframe read
+2024-02-16 11:46:51,320 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:46:51,811 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 11:46:51,851 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 11:46:51,861 INFO Creatives dataframe read
+2024-02-16 11:46:51,861 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:46:51,865 INFO API request received at 2024-02-16 11:46:51
+2024-02-16 11:46:52,107 INFO API request processed at 2024-02-16 11:46:52
+2024-02-16 11:48:07,533 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 11:48:07,685 INFO Creatives dataframe read
+2024-02-16 11:48:07,685 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:48:08,116 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 11:48:08,154 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 11:48:08,162 INFO Creatives dataframe read
+2024-02-16 11:48:08,163 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:48:10,585 INFO API request received at 2024-02-16 11:48:10
+2024-02-16 11:48:10,910 INFO API request processed at 2024-02-16 11:48:10
+2024-02-16 11:51:22,012 INFO API request received at 2024-02-16 11:51:22
+2024-02-16 11:51:22,078 INFO API request processed at 2024-02-16 11:51:22
+2024-02-16 11:51:55,038 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 11:51:55,198 INFO Creatives dataframe read
+2024-02-16 11:51:55,198 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:52:17,922 INFO Clickhouse dataframe read
+2024-02-16 11:52:17,925 INFO Creatives dataframe read
+2024-02-16 11:52:17,929 INFO Leads dataframe read
+2024-02-16 11:52:27,309 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 11:52:27,385 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 11:52:27,401 INFO Creatives dataframe read
+2024-02-16 11:52:27,401 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:52:29,320 INFO API request received at 2024-02-16 11:52:29
+2024-02-16 11:52:44,613 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 11:52:44,830 INFO Creatives dataframe read
+2024-02-16 11:52:44,830 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:53:06,752 INFO Clickhouse dataframe read
+2024-02-16 11:53:06,754 INFO Creatives dataframe read
+2024-02-16 11:53:06,764 INFO Leads dataframe read
+2024-02-16 11:53:15,434 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 11:53:15,473 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 11:53:15,483 INFO Creatives dataframe read
+2024-02-16 11:53:15,483 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 11:53:26,373 INFO API request received at 2024-02-16 11:53:26
+2024-02-16 11:53:26,758 INFO API request processed at 2024-02-16 11:53:26
+2024-02-16 13:32:58,441 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:32:58,750 INFO Creatives dataframe read
+2024-02-16 13:32:58,750 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:33:21,897 INFO Clickhouse dataframe read
+2024-02-16 13:33:21,900 INFO Creatives dataframe read
+2024-02-16 13:33:21,904 INFO Leads dataframe read
+2024-02-16 13:33:31,490 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:33:31,563 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:33:31,574 INFO Creatives dataframe read
+2024-02-16 13:33:31,574 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:33:37,588 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:33:52,836 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:33:53,092 INFO Creatives dataframe read
+2024-02-16 13:33:53,092 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:34:15,778 INFO Clickhouse dataframe read
+2024-02-16 13:34:15,780 INFO Creatives dataframe read
+2024-02-16 13:34:15,790 INFO Leads dataframe read
+2024-02-16 13:34:24,774 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:34:24,820 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:34:24,830 INFO Creatives dataframe read
+2024-02-16 13:34:24,830 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:34:28,941 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:34:29,148 INFO Creatives dataframe read
+2024-02-16 13:34:29,148 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:34:29,580 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:34:29,618 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:34:29,629 INFO Creatives dataframe read
+2024-02-16 13:34:29,629 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:35:48,105 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:35:48,243 INFO Creatives dataframe read
+2024-02-16 13:35:48,243 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:35:48,708 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:35:48,744 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:35:48,753 INFO Creatives dataframe read
+2024-02-16 13:35:48,753 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:38:08,775 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:38:08,918 INFO Creatives dataframe read
+2024-02-16 13:38:08,918 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:38:09,367 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:38:09,405 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:38:09,414 INFO Creatives dataframe read
+2024-02-16 13:38:09,414 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:38:11,600 INFO API request received at 2024-02-16 13:38:11
+2024-02-16 13:38:48,160 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:38:48,323 INFO Creatives dataframe read
+2024-02-16 13:38:48,323 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:38:48,762 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:38:48,799 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:38:48,808 INFO Creatives dataframe read
+2024-02-16 13:38:48,808 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:38:52,218 INFO API request received at 2024-02-16 13:38:52
+2024-02-16 13:40:17,338 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:40:17,481 INFO Creatives dataframe read
+2024-02-16 13:40:17,481 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:40:17,957 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:40:17,997 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:40:18,006 INFO Creatives dataframe read
+2024-02-16 13:40:18,006 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:40:27,287 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:40:27,451 INFO Creatives dataframe read
+2024-02-16 13:40:27,451 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:40:27,937 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:40:27,978 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:40:27,988 INFO Creatives dataframe read
+2024-02-16 13:40:27,988 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:41:03,084 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:41:03,227 INFO Creatives dataframe read
+2024-02-16 13:41:03,227 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:41:03,711 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:41:03,748 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:41:03,757 INFO Creatives dataframe read
+2024-02-16 13:41:03,757 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:41:21,896 INFO API request received at 2024-02-16 13:41:21
+2024-02-16 13:41:33,524 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:41:33,676 INFO Creatives dataframe read
+2024-02-16 13:41:33,677 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:41:34,109 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:41:34,148 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:41:34,156 INFO Creatives dataframe read
+2024-02-16 13:41:34,156 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:41:51,758 INFO API request received at 2024-02-16 13:41:51
+2024-02-16 13:42:39,042 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:42:39,183 INFO Creatives dataframe read
+2024-02-16 13:42:39,183 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:42:39,673 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:42:39,714 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:42:39,724 INFO Creatives dataframe read
+2024-02-16 13:42:39,725 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:42:40,287 INFO API request received at 2024-02-16 13:42:40
+2024-02-16 13:43:21,399 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:43:21,576 INFO Creatives dataframe read
+2024-02-16 13:43:21,576 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:43:22,097 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:43:22,136 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:43:22,145 INFO Creatives dataframe read
+2024-02-16 13:43:22,145 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:43:30,149 INFO API request received at 2024-02-16 13:43:30
+2024-02-16 13:44:48,097 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:44:48,275 INFO Creatives dataframe read
+2024-02-16 13:44:48,275 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:44:48,740 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:44:48,777 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:44:48,787 INFO Creatives dataframe read
+2024-02-16 13:44:48,787 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:44:49,102 INFO API request received at 2024-02-16 13:44:49
+2024-02-16 13:46:40,625 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:46:40,770 INFO Creatives dataframe read
+2024-02-16 13:46:40,770 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:46:41,259 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:46:41,299 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:46:41,309 INFO Creatives dataframe read
+2024-02-16 13:46:41,309 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:46:41,312 INFO API request received at 2024-02-16 13:46:41
+2024-02-16 13:47:11,691 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:47:11,863 INFO Creatives dataframe read
+2024-02-16 13:47:11,863 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:47:12,298 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:47:12,337 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:47:12,344 INFO Creatives dataframe read
+2024-02-16 13:47:12,344 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:47:13,666 INFO API request received at 2024-02-16 13:47:13
+2024-02-16 13:48:23,497 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:48:23,652 INFO Creatives dataframe read
+2024-02-16 13:48:23,652 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:48:24,081 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:48:24,120 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:48:24,128 INFO Creatives dataframe read
+2024-02-16 13:48:24,128 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:48:36,295 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:48:36,441 INFO Creatives dataframe read
+2024-02-16 13:48:36,441 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:48:36,874 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:48:36,912 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:48:36,921 INFO Creatives dataframe read
+2024-02-16 13:48:36,921 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:48:58,056 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:48:58,218 INFO Creatives dataframe read
+2024-02-16 13:48:58,219 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:48:58,731 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:48:58,771 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:48:58,780 INFO Creatives dataframe read
+2024-02-16 13:48:58,780 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:49:05,844 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:49:05,996 INFO Creatives dataframe read
+2024-02-16 13:49:05,996 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:49:06,448 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:49:06,488 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:49:06,497 INFO Creatives dataframe read
+2024-02-16 13:49:06,497 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:49:22,059 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:49:22,215 INFO Creatives dataframe read
+2024-02-16 13:49:22,215 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:49:22,673 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:49:22,713 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:49:22,723 INFO Creatives dataframe read
+2024-02-16 13:49:22,723 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:49:32,297 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:49:32,441 INFO Creatives dataframe read
+2024-02-16 13:49:32,441 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:49:32,932 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:49:32,971 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:49:32,980 INFO Creatives dataframe read
+2024-02-16 13:49:32,981 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:50:13,641 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:50:13,776 INFO Creatives dataframe read
+2024-02-16 13:50:13,776 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:50:14,237 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:50:14,274 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:50:14,282 INFO Creatives dataframe read
+2024-02-16 13:50:14,282 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:50:52,700 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:50:52,857 INFO Creatives dataframe read
+2024-02-16 13:50:52,858 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:50:53,362 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:50:53,411 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:50:53,426 INFO Creatives dataframe read
+2024-02-16 13:50:53,426 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:50:54,357 INFO API request received at 2024-02-16 13:50:54
+2024-02-16 13:51:07,019 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:51:07,186 INFO Creatives dataframe read
+2024-02-16 13:51:07,186 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:51:07,665 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:51:07,704 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:51:07,712 INFO Creatives dataframe read
+2024-02-16 13:51:07,712 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:51:08,439 INFO API request received at 2024-02-16 13:51:08
+2024-02-16 13:52:29,113 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:52:29,275 INFO Creatives dataframe read
+2024-02-16 13:52:29,275 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:52:29,733 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:52:29,772 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:52:29,788 INFO Creatives dataframe read
+2024-02-16 13:52:29,788 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:54:14,483 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:54:14,621 INFO Creatives dataframe read
+2024-02-16 13:54:14,621 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:54:15,069 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:54:15,107 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:54:15,116 INFO Creatives dataframe read
+2024-02-16 13:54:15,116 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:54:18,126 INFO API request received at 2024-02-16 13:54:18
+2024-02-16 13:55:06,071 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:55:06,236 INFO Creatives dataframe read
+2024-02-16 13:55:06,236 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:55:06,703 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:55:06,758 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:55:06,767 INFO Creatives dataframe read
+2024-02-16 13:55:06,767 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:55:08,452 INFO API request received at 2024-02-16 13:55:08
+2024-02-16 13:56:27,099 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 13:56:27,283 INFO Creatives dataframe read
+2024-02-16 13:56:27,283 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:56:27,762 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 13:56:27,801 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 13:56:27,810 INFO Creatives dataframe read
+2024-02-16 13:56:27,810 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 13:56:28,479 INFO API request received at 2024-02-16 13:56:28
+2024-02-16 14:03:21,624 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:03:21,761 INFO Creatives dataframe read
+2024-02-16 14:03:21,761 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:03:22,309 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:03:22,350 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:03:22,358 INFO Creatives dataframe read
+2024-02-16 14:03:22,358 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:03:34,165 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:03:34,375 INFO Creatives dataframe read
+2024-02-16 14:03:34,375 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:03:34,874 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:03:34,913 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:03:34,922 INFO Creatives dataframe read
+2024-02-16 14:03:34,922 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:03:57,430 INFO API request received at 2024-02-16 14:03:57
+2024-02-16 14:04:33,451 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:04:33,587 INFO Creatives dataframe read
+2024-02-16 14:04:33,587 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:04:34,034 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:04:34,072 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:04:34,080 INFO Creatives dataframe read
+2024-02-16 14:04:34,080 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:04:41,540 INFO API request received at 2024-02-16 14:04:41
+2024-02-16 14:05:41,264 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:05:41,424 INFO Creatives dataframe read
+2024-02-16 14:05:41,426 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:05:41,865 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:05:41,902 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:05:41,911 INFO Creatives dataframe read
+2024-02-16 14:05:41,911 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:05:43,824 INFO API request received at 2024-02-16 14:05:43
+2024-02-16 14:06:14,182 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:06:14,337 INFO Creatives dataframe read
+2024-02-16 14:06:14,337 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:06:14,784 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:06:14,821 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:06:14,831 INFO Creatives dataframe read
+2024-02-16 14:06:14,831 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:06:18,423 INFO API request received at 2024-02-16 14:06:18
+2024-02-16 14:07:40,118 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:07:40,301 INFO Creatives dataframe read
+2024-02-16 14:07:40,301 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:07:40,782 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:07:40,825 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:07:40,834 INFO Creatives dataframe read
+2024-02-16 14:07:40,834 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:07:41,764 INFO API request received at 2024-02-16 14:07:41
+2024-02-16 14:09:01,763 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:09:01,920 INFO Creatives dataframe read
+2024-02-16 14:09:01,920 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:09:02,363 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:09:02,400 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:09:02,408 INFO Creatives dataframe read
+2024-02-16 14:09:02,408 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:09:07,324 INFO API request received at 2024-02-16 14:09:07
+2024-02-16 14:10:21,883 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:10:22,042 INFO Creatives dataframe read
+2024-02-16 14:10:22,042 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:10:22,515 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:10:22,559 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:10:22,569 INFO Creatives dataframe read
+2024-02-16 14:10:22,569 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:10:22,572 INFO API request received at 2024-02-16 14:10:22
+2024-02-16 14:11:03,674 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:11:03,826 INFO Creatives dataframe read
+2024-02-16 14:11:03,827 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:11:04,315 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:11:04,357 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:11:04,366 INFO Creatives dataframe read
+2024-02-16 14:11:04,366 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:11:04,370 INFO API request received at 2024-02-16 14:11:04
+2024-02-16 14:13:19,722 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:13:19,894 INFO Creatives dataframe read
+2024-02-16 14:13:19,894 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:13:20,349 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:13:20,387 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:13:20,396 INFO Creatives dataframe read
+2024-02-16 14:13:20,396 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:13:22,761 INFO API request received at 2024-02-16 14:13:22
+2024-02-16 14:15:57,035 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:15:57,211 INFO Creatives dataframe read
+2024-02-16 14:15:57,211 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:15:57,690 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:15:57,731 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:15:57,741 INFO Creatives dataframe read
+2024-02-16 14:15:57,741 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:15:58,542 INFO API request received at 2024-02-16 14:15:58
+2024-02-16 14:16:42,763 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:16:42,952 INFO Creatives dataframe read
+2024-02-16 14:16:42,952 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:16:43,420 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:16:43,458 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:16:43,466 INFO Creatives dataframe read
+2024-02-16 14:16:43,466 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:16:51,486 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:16:51,639 INFO Creatives dataframe read
+2024-02-16 14:16:51,639 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:16:52,110 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:16:52,153 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:16:52,163 INFO Creatives dataframe read
+2024-02-16 14:16:52,163 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:16:54,687 INFO API request received at 2024-02-16 14:16:54
+2024-02-16 14:17:07,494 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:17:07,649 INFO Creatives dataframe read
+2024-02-16 14:17:07,649 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:17:08,126 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:17:08,167 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:17:08,178 INFO Creatives dataframe read
+2024-02-16 14:17:08,178 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:17:08,181 INFO API request received at 2024-02-16 14:17:08
+2024-02-16 14:17:37,150 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:17:37,315 INFO Creatives dataframe read
+2024-02-16 14:17:37,315 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:17:37,762 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:17:37,799 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:17:37,809 INFO Creatives dataframe read
+2024-02-16 14:17:37,809 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:17:38,174 INFO API request received at 2024-02-16 14:17:38
+2024-02-16 14:18:14,683 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:18:14,818 INFO Creatives dataframe read
+2024-02-16 14:18:14,818 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:18:15,245 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:18:15,282 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:18:15,290 INFO Creatives dataframe read
+2024-02-16 14:18:15,290 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:18:17,906 INFO API request received at 2024-02-16 14:18:17
+2024-02-16 14:24:29,943 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:24:30,082 INFO Creatives dataframe read
+2024-02-16 14:24:30,082 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:24:30,508 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:24:30,545 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:24:30,554 INFO Creatives dataframe read
+2024-02-16 14:24:30,554 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:24:32,249 INFO API request received at 2024-02-16 14:24:32
+2024-02-16 14:25:16,497 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:25:16,665 INFO Creatives dataframe read
+2024-02-16 14:25:16,667 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:25:17,136 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:25:17,174 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:25:17,183 INFO Creatives dataframe read
+2024-02-16 14:25:17,183 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:25:17,691 INFO API request received at 2024-02-16 14:25:17
+2024-02-16 14:25:52,041 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:25:52,203 INFO Creatives dataframe read
+2024-02-16 14:25:52,203 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:25:52,670 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:25:52,715 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:25:52,724 INFO Creatives dataframe read
+2024-02-16 14:25:52,724 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:25:52,728 INFO API request received at 2024-02-16 14:25:52
+2024-02-16 14:27:24,582 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:27:24,722 INFO Creatives dataframe read
+2024-02-16 14:27:24,722 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:27:25,161 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:27:25,199 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:27:25,207 INFO Creatives dataframe read
+2024-02-16 14:27:25,207 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:27:26,138 INFO API request received at 2024-02-16 14:27:26
+2024-02-16 14:27:52,373 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:27:52,539 INFO Creatives dataframe read
+2024-02-16 14:27:52,539 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:27:52,971 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:27:53,010 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:27:53,018 INFO Creatives dataframe read
+2024-02-16 14:27:53,019 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:27:53,481 INFO API request received at 2024-02-16 14:27:53
+2024-02-16 14:35:56,139 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-16 14:35:56,322 INFO Creatives dataframe read
+2024-02-16 14:35:56,322 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:35:56,774 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-16 14:35:56,812 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-16 14:35:56,819 INFO Creatives dataframe read
+2024-02-16 14:35:56,819 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-16 14:36:00,546 INFO API request received at 2024-02-16 14:36:00
+2024-02-19 10:26:35,968 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-19 10:26:36,288 INFO Creatives dataframe read
+2024-02-19 10:26:36,288 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-19 10:26:37,155 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-19 10:26:37,234 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-19 10:26:37,244 INFO Creatives dataframe read
+2024-02-19 10:26:37,244 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-19 10:26:44,753 INFO API request received at 2024-02-19 10:26:44
+2024-02-19 10:27:41,342 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-19 10:27:41,488 INFO Creatives dataframe read
+2024-02-19 10:27:41,488 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-19 10:27:41,939 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-19 10:27:41,975 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-19 10:27:41,984 INFO Creatives dataframe read
+2024-02-19 10:27:41,984 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-19 10:27:54,663 INFO API request received at 2024-02-19 10:27:54
+2024-02-19 10:28:56,536 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-19 10:28:56,690 INFO Creatives dataframe read
+2024-02-19 10:28:56,690 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-19 10:28:57,190 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-19 10:28:57,233 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-19 10:28:57,242 INFO Creatives dataframe read
+2024-02-19 10:28:57,242 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-19 10:28:58,680 INFO API request received at 2024-02-19 10:28:58
+2024-02-19 10:28:58,989 INFO API request processed at 2024-02-19 10:28:58
+2024-02-19 10:31:59,672 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-19 10:31:59,892 INFO Creatives dataframe read
+2024-02-19 10:31:59,892 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-19 10:32:00,436 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-19 10:32:00,475 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-19 10:32:00,483 INFO Creatives dataframe read
+2024-02-19 10:32:00,483 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-19 10:32:01,678 INFO API request received at 2024-02-19 10:32:01
+2024-02-19 10:32:01,937 INFO API request processed at 2024-02-19 10:32:01
+2024-02-19 10:33:37,369 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-19 10:33:37,713 INFO Creatives dataframe read
+2024-02-19 10:33:37,713 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-19 10:33:38,159 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-19 10:33:38,197 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-19 10:33:38,206 INFO Creatives dataframe read
+2024-02-19 10:33:38,206 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-19 10:33:38,945 INFO API request received at 2024-02-19 10:33:38
+2024-02-19 10:33:39,234 INFO API request processed at 2024-02-19 10:33:39
+2024-02-19 10:34:40,005 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-19 10:34:40,178 INFO Creatives dataframe read
+2024-02-19 10:34:40,178 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-19 10:35:08,493 INFO Clickhouse dataframe read
+2024-02-19 10:35:08,503 INFO Creatives dataframe read
+2024-02-19 10:35:08,509 INFO Leads dataframe read
+2024-02-19 10:35:19,398 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-19 10:35:19,480 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-19 10:35:19,494 INFO Creatives dataframe read
+2024-02-19 10:35:19,494 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-19 10:35:19,499 INFO API request received at 2024-02-19 10:35:19
+2024-02-19 10:35:19,969 INFO API request processed at 2024-02-19 10:35:19
+2024-02-19 10:58:01,430 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-19 10:58:01,669 INFO Creatives dataframe read
+2024-02-19 10:58:01,669 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-19 10:58:02,096 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-19 10:58:02,136 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-19 10:58:02,145 INFO Creatives dataframe read
+2024-02-19 10:58:02,146 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-19 10:58:11,678 INFO API request received at 2024-02-19 10:58:11
+2024-02-19 10:58:11,936 INFO API request processed at 2024-02-19 10:58:11
+2024-02-19 10:59:02,182 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-19 10:59:02,489 INFO Creatives dataframe read
+2024-02-19 10:59:02,489 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-19 10:59:58,572 INFO Clickhouse dataframe read
+2024-02-19 10:59:58,586 INFO Creatives dataframe read
+2024-02-19 10:59:58,599 INFO Leads dataframe read
+2024-02-19 11:00:14,075 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-19 11:00:14,153 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-19 11:00:14,163 INFO Creatives dataframe read
+2024-02-19 11:00:14,163 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-19 11:01:56,026 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-02-19 11:01:56,276 INFO Creatives dataframe read
+2024-02-19 11:01:56,277 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-19 11:02:23,123 INFO Clickhouse dataframe read
+2024-02-19 11:02:23,151 INFO Creatives dataframe read
+2024-02-19 11:02:23,158 INFO Leads dataframe read
+2024-02-19 11:02:33,532 WARNING From C:\Users\ACER\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-02-19 11:02:33,609 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-19 11:02:33,619 INFO Creatives dataframe read
+2024-02-19 11:02:33,619 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-19 11:10:11,784 INFO API request received at 2024-02-19 11:10:11
+2024-02-19 11:10:12,260 INFO API request processed at 2024-02-19 11:10:12

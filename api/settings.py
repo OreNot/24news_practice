@@ -11,6 +11,7 @@ class Settings(BaseSettings):
     PREP_TOOLS_DICT_PATH: str = '24news_practice/pickles/prep_tools_dict_keras.pkl'
     KERAS_MODEL_JSON: str = '24news_practice/pickles/model.json'
     KERAS_MODEL_WIGHTS: str = '24news_practice/pickles/model.h5'
+    CPC_WITH_WEIGHTS_PATH: str = '24news_practice/pickles/cpc_with_weight.pkl'
 
     CLICKHOSE_DF_PATH: str = '24news_practice/internship/clickhouse.csv'
     CREATIVES_DF_PATH: str = '24news_practice/internship/creatives.csv'

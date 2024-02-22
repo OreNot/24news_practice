@@ -1,120 +1,107 @@
-import gc
-from typing import List, Dict
-
+import logging, warnings, pandas as pd, sys, uvicorn
+from datetime import datetime
 from fastapi import FastAPI
-from .settings import settings
-from .Preprocessor import Preprocessor
-from .Model import Model
-from .Encoder import Encoder
 from .CPC import CPC
 from .SSP import SSP
-from .Tools import Tools
 from .Status import Status
-from .Prediction import Prediction
-import pandas as pd
-import numpy as np
-from datetime import datetime
-import logging
-
-import warnings
+from .Tools import Tools
+from .Creatives import Creatives
+from .settings import settings
+sys.path.insert(0, '.')
 warnings.filterwarnings('ignore')
 
-# Настройка логирования
-logging.basicConfig(level=logging.INFO, filename="../logs/api.log", filemode="a", format="%(asctime)s %(levelname)s %(message)s")
+
+
+logging.basicConfig(level=logging.INFO, filename="24news_practice/logs/api.log",
+                    filemode="a",
+                    format="%(asctime)s %(levelname)s %(message)s")
 
 app = FastAPI()
 
-# Загрузка энкодера
-ohe = Encoder(settings.ENCODER_PICKLE_PATH).encoder
-# Загрузка списка параметров объединенного датасета
-req_df_columns = Encoder(settings.ENCODER_PICKLE_PATH).req_df_columns
-# Загрузка препроцессора
-preprocessor = Preprocessor(settings.PREPROCESSOR_PICKLE_PATH)
-# Загрузка обученной модели
-model = Model(settings.MODEL_PICKLE_PATH)
-
-# Подсчёт CPC
-cpc = CPC() # Ёмкая операция, стоит выполнять по распианию, хранить в бд уже вычисленное значение и здесь читать
-cpc_df = cpc.CPC_calculating()
+cpc_df = CPC.CPC_calculating()
 
 # Инструменты обработки данных
 tools = Tools()
+model = tools.model
+model_metadata = tools.model_metadata
+preprocessor = tools.preprocessor
 
-@app.get(settings.status_url) # Метод обработки запроса статуса api
+df_creatives = Creatives().df_creatives
+
+@app.get(settings.status_url)  # Метод обработки запроса статуса api
 async def status():
     return Status()
 
-@app.get(settings.version_url) # Метод обработки запроса получения данных модели
+@app.get(settings.version_url)  # Метод обработки запроса получения данных модели
 def version():
-    return model.model_metadata
+    return model_metadata
 
-@app.post('/predict', response_model = Prediction) # Метод предикта
-async def predict(ssp_req : SSP):
-
-    # Определяем время получения запроса и преобразуем его в строку
-    req_datetime = datetime.now()
-    req_datetime_str = req_datetime.strftime('%Y-%m-%d %H:%M:%S')
-    # Логируем факт получения запроса
+@app.post('/predict')  # Метод предикта
+async def predict(ssp_req: SSP):
+     # ���������� ����� ��������� ������� � ����������� ��� � ������
+    req_datetime_str = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    # �������� ���� ��������� �������
     logging.info(f'API request received at {req_datetime_str}')
-    # Преобразовываем данные полученные в запросе в датафрейм и получаем датафрейм imps - creative_id
-    cretive_imp_df, req_df = tools.get_creatives_imps_df(ssp_req, req_df_columns, req_datetime_str)
-    # Мержим датафрейм запроса с креативами
-    df = tools.with_creatives_megding(req_df)
-    # Обрабатываем пустые значения
-    df = tools.nan_filling(df)
-    # Определяем X
-    X_test = df.drop('click', axis=1)
-    # Трансформируем X с помощью пайплайна препроцессора
-    X_test_prep = preprocessor.preprocessor.fit_transform(X_test)
-    # Предсказываем вероятности кликов по креативам из запроса
-    probs = model.model.predict_proba(X_test_prep.toarray())
-    # Добавляем параметр CTR к X
-    X_test['CTR'] = probs[:, 1]
-    # Удаляем избыточные параметры
-    res = X_test[['creative_id', 'CTR']]
 
-    del X_test
-    gc.collect()
+    # ��������������� ������ ���������� � ������� � ��������� � �������� ��������� imps - creative_id
+    cretive_tag_df, req_df = tools.get_creatives_imps_df(ssp_req, req_datetime_str)
 
-    # Мержим CTR с CPC
-    res = pd.merge(res, cpc_df, on="creative_id")
-    # Рассчитываем CPM
-    res['CPM'] = (res['CTR'] * res['click_profit'] * 100)
-    # Мержим с датафреймом imps - creative_id, для ассоциации с imp_id
-    res = pd.merge(res, cretive_imp_df, on="creative_id")
-    # На удаляем дубликаты
-    res = res.drop_duplicates()
+    res = req_df.merge(df_creatives, on='creative_id')
+    res.fillna(0, inplace=True)
 
-    # удаляем лишние параметры
-    res = res[['imp_id', 'creative_id', 'CPM', 'plcmtcnt']]
-    # Получаем список imp_id
-    imps_list = res['imp_id'].unique()
 
-    rs = pd.DataFrame(columns = ['imp_id', 'creative_id', 'CPM'])
-    # Выделяем самые прибыльные креативы в соответствии с plcmtcnt
-    for imp in imps_list:
+    x_test_prep = preprocessor.transform(res)
+
+    # ��������� �������� CTR � X
+    res['CTR'] = model.predict(x_test_prep, verbose=0)[:, 1]
+  
+    # ������� ���������� ���������
+    res = res[['creative_id', 'tag_id', 'CTR']]
+
+    # ������ � ����������� imps - creative_id, ��� ���������� � imp_id
+    res = pd.merge(res, cretive_tag_df, on=['creative_id', 'tag_id'])
+    # ������ CTR � CPC
+    res = res.merge(cpc_df, on=['creative_id'])
+    
+    res.drop_duplicates(inplace=True)
+    
+    # ������������ CPM
+    res['CPM'] = (res['CTR'] * res['click_profit'] * 1000)
+    
+    #print(res.sort_values('CPM', ascending=False))
+
+    # ������� ������ ���������
+    res = res[['imp_id', 'tag_id', 'creative_id', 'CPM', 'plcmtcnt', 'creatives_list_id']]
+
+    res.drop_duplicates(inplace=True)
+
+    rs_list = []
+
+
+    # �������� ����� ���������� �������� � ������������ � plcmtcnt
+    for imp in res['imp_id'].unique():
+
         temp = res[res['imp_id'] == imp]
-        temp = temp.nlargest(temp['plcmtcnt'].unique()[0], 'CPM')
-        rs = pd.concat([rs, temp[['imp_id', 'creative_id', 'CPM']]], ignore_index=True)
+        drop_list = []
+        if temp.shape[0] > 0:
+            temp = temp.nlargest(temp['plcmtcnt'].unique()[0], 'CPM')
 
-        #rs
-    # Формируем результирующий словарь
-    res_dict = tools.get_result_dict(imps_list, rs)
+            temp_list = temp[['imp_id', 'tag_id', 'creative_id', 'CPM']].values.tolist()
 
-    del res
-    gc.collect()
-    # Фиксируем время обработки запроса
-    res_datetime = datetime.now()
-    res_datetime_str = res_datetime.strftime('%Y-%m-%d %H:%M:%S')
-    # Логируем
+            rs_list.extend(temp_list)
+
+            for creative_id in temp['creative_id'].unique():
+                drop_list.extend(res.loc[(res['creatives_list_id'] == temp['creatives_list_id'].unique()[0]) & (
+                        res['creative_id'] == creative_id) & (res['tag_id'] == temp['tag_id'].unique()[0])].index)
+
+            res.drop(drop_list, inplace=True)
+
+    # ��������� ����� ��������� �������
+    res_datetime_str = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    # ��������
     logging.info(f'API request processed at {res_datetime_str}')
-    # Отправляем ответ клиенту
-    return {'Result': res_dict}
-
-
-
-
-
-
-
-
+    # ���������� ����� �������
+    return tools.get_result_dict(res['imp_id'].unique(),
+                                 pd.DataFrame(rs_list, columns=['imp_id', 'tag_id', 'creative_id', 'CPM']))
+def start_uvicorn():
+    uvicorn.run('24news_practice.api.api:app', host='192.168.1.173', port=9000, reload=True)

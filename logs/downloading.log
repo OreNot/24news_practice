@@ -1,7 +1,0 @@
-2024-01-23 12:10:54,328 INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
-2024-01-23 12:10:54,329 INFO Added job "downloading" to job store "default"
-2024-01-23 12:10:54,329 INFO Scheduler started
-2024-01-23 12:11:54,329 INFO Running job "downloading (trigger: interval[0:01:00], next run at: 2024-01-23 12:11:54 UTC)" (scheduled at 2024-01-23 12:11:54.328308+00:00)
-2024-01-23 12:11:56,795 INFO File df_final.csv has been downloaded
-2024-01-23 12:11:56,796 INFO File df_final.csv size ok
-2024-01-23 12:11:56,796 INFO Job "downloading (trigger: interval[0:01:00], next run at: 2024-01-23 12:12:54 UTC)" executed successfully

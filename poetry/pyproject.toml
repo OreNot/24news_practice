@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "24news_practice"
+version = "0.1"
+description = "24news practice project"
+authors = ["OreNot <martinuk.a.a@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+logging = "*"
+gdown = "4.7.3"
+apscheduler = "*"
+pandas = ">=2.0.0"
+fastapi = ">=0.109.2"
+pydantic-settings = ">=2.1.0" 
+dill = "0.3.8"
+joblib = ">=1.3.2"
+scikit-learn = ">=1.3.2"
+uvicorn = ">=0.27.0"
+tensorflow = "*"
+
+
+[tool.poetry.scripts]
+start = "24news_practice.api.api:start_uvicorn"
+start_train = "24news_practice.api.Train:start_train"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

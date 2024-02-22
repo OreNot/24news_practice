@@ -11,21 +11,19 @@ sys.path.insert(0, '.')
 warnings.filterwarnings('ignore')
 
 
+
 logging.basicConfig(level=logging.INFO, filename="24news_practice/logs/api.log",
                     filemode="a",
                     format="%(asctime)s %(levelname)s %(message)s")
 
 app = FastAPI()
 
-# РџРѕРґСЃС‡С‘С‚ CPC
-#cpc = CPC()  # РЃРјРєР°СЏ РѕРїРµСЂР°С†РёСЏ, СЃС‚РѕРёС‚ РІС‹РїРѕР»РЅСЏС‚СЊ РїРѕ СЂР°СЃРїРёР°РЅРёСЋ, С…СЂР°РЅРёС‚СЊ РІ Р±Рґ СѓР¶Рµ РІС‹С‡РёСЃР»РµРЅРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ Рё Р·РґРµСЃСЊ С‡РёС‚Р°С‚СЊ
 cpc_df = CPC.CPC_calculating()
 
 # РРЅСЃС‚СЂСѓРјРµРЅС‚С‹ РѕР±СЂР°Р±РѕС‚РєРё РґР°РЅРЅС‹С…
 tools = Tools()
 model = tools.model
 model_metadata = tools.model_metadata
-# encoder = tools.encoder
 preprocessor = tools.preprocessor
 
 df_creatives = Creatives().df_creatives
@@ -40,7 +38,7 @@ def version():
 
 @app.post('/predict')  # РњРµС‚РѕРґ РїСЂРµРґРёРєС‚Р°
 async def predict(ssp_req: SSP):
-    # Определяем время получения запроса и преобразуем его в строку
+     # Определяем время получения запроса и преобразуем его в строку
     req_datetime_str = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     # Логируем факт получения запроса
     logging.info(f'API request received at {req_datetime_str}')
@@ -51,23 +49,26 @@ async def predict(ssp_req: SSP):
     res = req_df.merge(df_creatives, on='creative_id')
     res.fillna(0, inplace=True)
 
+
     x_test_prep = preprocessor.transform(res)
 
     # Добавляем параметр CTR к X
     res['CTR'] = model.predict(x_test_prep, verbose=0)[:, 1]
-
+  
     # Удаляем избыточные параметры
     res = res[['creative_id', 'tag_id', 'CTR']]
 
-    # Мержим CTR с CPC
-    res = res.merge(cpc_df, on=['creative_id'])
-
-    # Рассчитываем CPM
-    res['CPM'] = (res['CTR'] * res['click_profit'] * 100)
-
     # Мержим с датафреймом imps - creative_id, для ассоциации с imp_id
     res = pd.merge(res, cretive_tag_df, on=['creative_id', 'tag_id'])
-
+    # Мержим CTR с CPC
+    res = res.merge(cpc_df, on=['creative_id'])
+    
+    res.drop_duplicates(inplace=True)
+    
+    # Рассчитываем CPM
+    res['CPM'] = (res['CTR'] * res['click_profit'] * 1000)
+    
+    #print(res.sort_values('CPM', ascending=False))
 
     # удаляем лишние параметры
     res = res[['imp_id', 'tag_id', 'creative_id', 'CPM', 'plcmtcnt', 'creatives_list_id']]
@@ -76,12 +77,11 @@ async def predict(ssp_req: SSP):
 
     rs_list = []
 
-    # Выделяем самые прибыльные креативы в соответствии с plcmtcnt
 
+    # Выделяем самые прибыльные креативы в соответствии с plcmtcnt
     for imp in res['imp_id'].unique():
 
         temp = res[res['imp_id'] == imp]
-        temp.drop_duplicates(subset=['imp_id', 'tag_id', 'creative_id', ], keep='first', inplace=True)
         drop_list = []
         if temp.shape[0] > 0:
             temp = temp.nlargest(temp['plcmtcnt'].unique()[0], 'CPM')
@@ -92,7 +92,7 @@ async def predict(ssp_req: SSP):
 
             for creative_id in temp['creative_id'].unique():
                 drop_list.extend(res.loc[(res['creatives_list_id'] == temp['creatives_list_id'].unique()[0]) & (
-                            res['creative_id'] == creative_id) & (res['tag_id'] == temp['tag_id'].unique()[0])].index)
+                        res['creative_id'] == creative_id) & (res['tag_id'] == temp['tag_id'].unique()[0])].index)
 
             res.drop(drop_list, inplace=True)
 
@@ -101,7 +101,6 @@ async def predict(ssp_req: SSP):
     # Логируем
     logging.info(f'API request processed at {res_datetime_str}')
     # Отправляем ответ клиенту
-    # return {'Result': res_dict}
     return tools.get_result_dict(res['imp_id'].unique(),
                                  pd.DataFrame(rs_list, columns=['imp_id', 'tag_id', 'creative_id', 'CPM']))
 def start_uvicorn():

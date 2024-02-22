@@ -252,3 +252,109 @@
 2024-02-12 12:59:51,864 INFO API request processed at 2024-02-12 12:59:51
 2024-02-12 12:59:52,567 INFO API request received at 2024-02-12 12:59:52
 2024-02-12 12:59:52,955 INFO API request processed at 2024-02-12 12:59:52
+2024-02-22 12:44:27,295 INFO Creatives dataframe read
+2024-02-22 12:44:27,298 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 12:45:37,119 INFO Clickhouse dataframe read
+2024-02-22 12:45:37,127 INFO Creatives dataframe read
+2024-02-22 12:45:37,140 INFO Leads dataframe read
+2024-02-22 12:46:12,142 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-22 12:46:12,162 INFO Creatives dataframe read
+2024-02-22 12:46:12,163 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 12:46:17,337 INFO Creatives dataframe read
+2024-02-22 12:46:17,337 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 12:47:22,518 INFO Clickhouse dataframe read
+2024-02-22 12:47:22,528 INFO Creatives dataframe read
+2024-02-22 12:47:22,535 INFO Leads dataframe read
+2024-02-22 12:47:57,416 INFO Loaded model from disk  24news_practice/pickles/model.json
+2024-02-22 12:47:57,436 INFO Creatives dataframe read
+2024-02-22 12:47:57,436 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 12:48:56,794 INFO API request received at 2024-02-22 12:48:56
+2024-02-22 12:48:58,120 INFO API request processed at 2024-02-22 12:48:58
+2024-02-22 12:49:00,789 INFO API request received at 2024-02-22 12:49:00
+2024-02-22 12:49:01,188 INFO API request processed at 2024-02-22 12:49:01
+2024-02-22 12:49:02,078 INFO API request received at 2024-02-22 12:49:02
+2024-02-22 12:49:02,481 INFO API request processed at 2024-02-22 12:49:02
+2024-02-22 13:00:23,504 INFO Creatives dataframe read
+2024-02-22 13:00:23,504 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 13:01:26,076 INFO Clickhouse dataframe read
+2024-02-22 13:01:26,085 INFO Creatives dataframe read
+2024-02-22 13:01:26,092 INFO Leads dataframe read
+2024-02-22 13:03:34,581 INFO Creatives dataframe read
+2024-02-22 13:03:34,581 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 13:04:37,547 INFO Clickhouse dataframe read
+2024-02-22 13:04:37,561 INFO Creatives dataframe read
+2024-02-22 13:04:37,568 INFO Leads dataframe read
+2024-02-22 13:04:52,496 INFO Loaded model from disk  24news_practice/pickles/tf_model.json
+2024-02-22 13:04:52,514 INFO Creatives dataframe read
+2024-02-22 13:04:52,514 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 13:04:57,579 INFO Creatives dataframe read
+2024-02-22 13:04:57,579 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 13:06:01,062 INFO Clickhouse dataframe read
+2024-02-22 13:06:01,071 INFO Creatives dataframe read
+2024-02-22 13:06:01,077 INFO Leads dataframe read
+2024-02-22 13:06:16,071 INFO Loaded model from disk  24news_practice/pickles/tf_model.json
+2024-02-22 13:06:16,089 INFO Creatives dataframe read
+2024-02-22 13:06:16,090 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 13:07:28,089 INFO API request received at 2024-02-22 13:07:28
+2024-02-22 13:13:33,665 INFO Creatives dataframe read
+2024-02-22 13:13:33,665 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 13:14:35,865 INFO Clickhouse dataframe read
+2024-02-22 13:14:35,874 INFO Creatives dataframe read
+2024-02-22 13:14:35,880 INFO Leads dataframe read
+2024-02-22 13:14:50,460 INFO Loaded model from disk  24news_practice/pickles/tf_model.json
+2024-02-22 13:14:50,482 INFO Creatives dataframe read
+2024-02-22 13:14:50,482 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 13:14:56,785 INFO Creatives dataframe read
+2024-02-22 13:14:56,785 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 13:15:56,887 INFO Creatives dataframe read
+2024-02-22 13:15:56,887 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 13:16:59,804 INFO Clickhouse dataframe read
+2024-02-22 13:16:59,812 INFO Creatives dataframe read
+2024-02-22 13:16:59,819 INFO Leads dataframe read
+2024-02-22 13:17:14,659 INFO Loaded model from disk  24news_practice/pickles/tf_model.json
+2024-02-22 13:17:14,678 INFO Creatives dataframe read
+2024-02-22 13:17:14,678 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 13:17:19,971 INFO Creatives dataframe read
+2024-02-22 13:17:19,971 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 13:18:23,667 INFO Clickhouse dataframe read
+2024-02-22 13:18:23,676 INFO Creatives dataframe read
+2024-02-22 13:18:23,682 INFO Leads dataframe read
+2024-02-22 13:18:38,366 INFO Loaded model from disk  24news_practice/pickles/tf_model.json
+2024-02-22 13:18:38,385 INFO Creatives dataframe read
+2024-02-22 13:18:38,385 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 13:18:57,637 INFO API request received at 2024-02-22 13:18:57
+2024-02-22 13:19:32,083 INFO Creatives dataframe read
+2024-02-22 13:19:32,083 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 13:20:38,241 INFO Clickhouse dataframe read
+2024-02-22 13:20:38,249 INFO Creatives dataframe read
+2024-02-22 13:20:38,256 INFO Leads dataframe read
+2024-02-22 13:20:53,064 INFO Loaded model from disk  24news_practice/pickles/tf_model.json
+2024-02-22 13:20:53,082 INFO Creatives dataframe read
+2024-02-22 13:20:53,082 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 13:20:58,400 INFO API request received at 2024-02-22 13:20:58
+2024-02-22 13:27:20,391 INFO Creatives dataframe read
+2024-02-22 13:27:20,392 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 13:28:22,029 INFO Clickhouse dataframe read
+2024-02-22 13:28:22,037 INFO Creatives dataframe read
+2024-02-22 13:28:22,043 INFO Leads dataframe read
+2024-02-22 13:28:36,874 INFO Loaded model from disk  24news_practice/pickles/tf_model.json
+2024-02-22 13:28:36,892 INFO Creatives dataframe read
+2024-02-22 13:28:36,892 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 13:28:44,990 INFO Creatives dataframe read
+2024-02-22 13:28:44,991 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 13:29:48,721 INFO Clickhouse dataframe read
+2024-02-22 13:29:48,729 INFO Creatives dataframe read
+2024-02-22 13:29:48,736 INFO Leads dataframe read
+2024-02-22 13:30:03,307 INFO Loaded model from disk  24news_practice/pickles/tf_model.json
+2024-02-22 13:30:03,327 INFO Creatives dataframe read
+2024-02-22 13:30:03,327 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-22 13:30:23,215 INFO API request received at 2024-02-22 13:30:23
+2024-02-22 13:30:23,689 INFO API request processed at 2024-02-22 13:30:23
+2024-02-22 13:30:37,929 INFO API request received at 2024-02-22 13:30:37
+2024-02-22 13:30:38,210 INFO API request processed at 2024-02-22 13:30:38
+2024-02-22 13:30:38,924 INFO API request received at 2024-02-22 13:30:38
+2024-02-22 13:30:39,202 INFO API request processed at 2024-02-22 13:30:39
+2024-02-22 13:30:39,804 INFO API request received at 2024-02-22 13:30:39
+2024-02-22 13:30:40,079 INFO API request processed at 2024-02-22 13:30:40
+2024-02-22 13:30:40,708 INFO API request received at 2024-02-22 13:30:40
+2024-02-22 13:30:40,981 INFO API request processed at 2024-02-22 13:30:40

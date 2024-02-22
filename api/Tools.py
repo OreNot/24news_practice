@@ -1,6 +1,7 @@
 import logging
 from tensorflow.keras.models import model_from_json
 import tensorflow as tf
+tf.get_logger().setLevel('INFO')
 import time
 
 import dill
@@ -9,6 +10,9 @@ import pandas as pd
 
 from .Creatives import Creatives
 from .settings import settings
+
+import warnings
+warnings.filterwarnings('ignore')
 
 
 def timeit(func):
@@ -34,10 +38,10 @@ class Tools:
         with open(settings.PREP_TOOLS_DICT_PATH, 'rb') as in_strm:
             prep_tools_dict = dill.load(in_strm)
 
-        # self.encoder = prep_tools_dict['encoder']
+        
         self.req_df_columns = prep_tools_dict['req_df_columns']  # .drop('click')
         self.preprocessor = prep_tools_dict['preprocessor']
-        # self.model = prep_tools_dict['model']
+        
         self.model_metadata = prep_tools_dict['model_metadata']
         # logging.info(f'Encoder loaded from  {settings.PREP_TOOLS_DICT_PATH}')
         self.cretive_tag_df = pd.DataFrame(columns=['imp_id', 'tag_id', 'plcmtcnt', 'creatives_list_id', 'creative_id'])
@@ -54,7 +58,7 @@ class Tools:
         self.model.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(),
                            optimizer=tf.keras.optimizers.Adam(learning_rate=1e-3), metrics=['accuracy'])
 
-    @timeit
+    #@timeit
     def nan_filling(self, X, y=None):  # Функция заполнения пропущенных значений
         nan_cols = {}
         for col in X.columns:
@@ -71,13 +75,13 @@ class Tools:
 
         return X
 
-    @timeit
+    #@timeit
     def with_creatives_mergding(self, X):  # Функция мержа с датафреймом креативов
 
         X = pd.merge(X, df_creatives, on="creative_id")
         return X
 
-    @timeit
+    #@timeit
     def get_creatives_imps_df(self, ssp_req,
                               req_datetime_str):  # Функция получения датафрейма imps - creative_id и датафрейма запроса из запроса
 
@@ -107,6 +111,7 @@ class Tools:
                     'device': ssp_req.device,
                     'geo_country': ssp_req.country,
                     'geo_city': ssp_req.city,
+                    'site_id': ssp_req.site_id,
                     'loss_reason': ssp_req.news_category,
                     'enter_utm_source': ssp_req.us,
                     'enter_utm_medium': ssp_req.um,
@@ -126,7 +131,7 @@ class Tools:
         req_df = req_df.fillna(0)
         return cretive_tag_df, req_df
 
-    @timeit
+   # @timeit
     def get_result_dict(self, imps_list, X):  # Функция формирования результирующего словаря
 
         result_dict = dict()
@@ -136,24 +141,28 @@ class Tools:
                                 (X.where(X['imp_id'] == imp).dropna()[['creative_id', 'CPM']].reset_index()).iterrows()]
         return result_dict
 
-    @timeit
+    #@timeit
     def nan_click_viewed__deleting(self, X, y=None):  # Функция удаления строк с пустыми значениями клика и с view == 0
         X = X[X['click'].isna() == False]
         X = X[X['view'] != 0]
         return X
 
-    @timeit
+    #@timeit
     def dub_dropping(self, X, y=None):  # Функция удаления дубликатов примеров
         X = X.drop_duplicates()
         return X
 
-    @timeit
+    #@timeit
     def paused_status_dropping(self, X, y=None):
         X.drop(X.loc[X['status'] == 'paused'].index, inplace=True)
         return X
 
-    @timeit
+    #@timeit
     def place_number_decrease(self, X, y=None):
         X = X[X['place_number'] > 0]
         X['place_number'] = X['place_number'] - 1
+        return X
+
+    def enter_utm_term_prep(self, X, y=None):
+        X['enter_utm_term'] = X['enter_utm_term'].apply(lambda x: str(x).split('_')[0])
         return X

@@ -24,6 +24,7 @@ RANDOM_SEED = 42
 model = tools.model
 model_metadata = tools.model_metadata
 preprocessor = tools.preprocessor
+
 def model_training():
 
     score = 0
@@ -46,13 +47,13 @@ def model_training():
 
 
     try:
-        df_clickhouse = pd.read_csv('24news_practice/internship/clickhouse.csv')
-        logging.info(f'Dataframe internship/clickhouse.csv read successfully')
+        # df_clickhouse = pd.read_csv('24news_practice/internship/clickhouse.csv')
+        # logging.info(f'Dataframe internship/clickhouse.csv read successfully')
         new_df_clickhouse = pd.read_csv('24news_practice/buff/clickhouse.csv')
         logging.info(f'Dataframe buff/clickhouse.csv read successfully')
 
-        df_creatives = pd.read_csv('24news_practice/internship/creatives.csv')
-        logging.info(f'Dataframe internship/creatives.csv read successfully')
+        # df_creatives = pd.read_csv('24news_practice/internship/creatives.csv')
+        # logging.info(f'Dataframe internship/creatives.csv read successfully')
         new_df_creatives = pd.read_csv('24news_practice/buff/creatives.csv')
         logging.info(f'Dataframe buff/creatives.csv read successfully')
 
@@ -61,39 +62,39 @@ def model_training():
         except Exception as e:
             print(e)
 
-        df_leads = pd.read_csv('24news_practice/internship/leads.csv')
-        logging.info(f'Dataframe internship/leads.csv read successfully')
-        new_df_leads = pd.read_csv('24news_practice/buff/leads.csv')
-        logging.info(f'Dataframe buff/leads.csv read successfully')
+        # # df_leads = pd.read_csv('24news_practice/internship/leads.csv')
+        # # logging.info(f'Dataframe internship/leads.csv read successfully')
+        # new_df_leads = pd.read_csv('24news_practice/buff/leads.csv')
+        # logging.info(f'Dataframe buff/leads.csv read successfully')
     except Exception as e:
         logging.error(f'Dataframe read error: {e}')
         print(f'Dataframe read error: {e}')
 
 
-    df_creatives = df_creatives.rename(columns={'id': 'creative_id'})
+    # df_creatives = df_creatives.rename(columns={'id': 'creative_id'})
     new_df_creatives = new_df_creatives.rename(columns={'id': 'creative_id'})
 
-    df_clickhouse = pd.concat([df_clickhouse, new_df_clickhouse], ignore_index=True)
-    try:
-        df_clickhouse.to_csv('24news_practice/internship/clickhouse_last.csv', index = False)
-        logging.info(f'Full dataframe internship/clickhouse.csv saved successfully')
+    # df_clickhouse = pd.concat([df_clickhouse, new_df_clickhouse], ignore_index=True)
+    # try:
+    #     df_clickhouse.to_csv('24news_practice/internship/clickhouse_last.csv', index = False)
+    #     logging.info(f'Full dataframe internship/clickhouse.csv saved successfully')
+    #
+    #     df_creatives = pd.concat([df_creatives, new_df_creatives], ignore_index=True)
+    #     df_creatives.to_csv('24news_practice/internship/creatives_last.csv', index=False)
+    #     logging.info(f'Full dataframe internship/creatives.csv saved successfully')
+    #
+    #     df_leads = pd.concat([df_leads, new_df_leads], ignore_index=True)
+    #     df_leads.to_csv('24news_practice/internship/leads_last.csv', index=False)
+    #     logging.info(f'Full dataframe internship/leads.csv saved successfully')
+    #
+    # except Exception as e:
+    #     logging.error(f'Dataframe save error: {e}')
+    #     print(f'Dataframe save error: {e}')
+    #
+    # del df_leads
+    # gc.collect()
 
-        df_creatives = pd.concat([df_creatives, new_df_creatives], ignore_index=True)
-        df_creatives.to_csv('24news_practice/internship/creatives_last.csv', index=False)
-        logging.info(f'Full dataframe internship/creatives.csv saved successfully')
-
-        df_leads = pd.concat([df_leads, new_df_leads], ignore_index=True)
-        df_leads.to_csv('24news_practice/internship/leads_last.csv', index=False)
-        logging.info(f'Full dataframe internship/leads.csv saved successfully')
-
-    except Exception as e:
-        logging.error(f'Dataframe save error: {e}')
-        print(f'Dataframe save error: {e}')
-
-    del df_leads
-    gc.collect()
-
-    df = pd.merge(df_clickhouse, df_creatives, on="creative_id")
+    df = pd.merge(new_df_clickhouse, new_df_creatives.drop(['campaign_id', 'stream_id', 'iab_category'], axis = 1), on="creative_id")
 
     df = tools.paused_status_dropping(df)
 
@@ -101,8 +102,12 @@ def model_training():
 
     df = tools.place_number_decrease(df)
 
-    del df_clickhouse
-    del df_creatives
+    print(df.columns)
+
+    df = tools.enter_utm_term_prep(df)
+
+    del new_df_clickhouse
+    del new_df_creatives
     gc.collect()
 
     X_train = df.drop('click', axis=1)
@@ -116,22 +121,24 @@ def model_training():
         X_train_prep = preprocessor.transform(X_train).A
         logging.info(f'Train dataset preparation successfully')
     except Exception as e:
+        print(e)
         logging.error(f'Train dataset preparation error: {e}')
         print(f'Train dataset preparation error: {e}')
 
     try:
         kf = KFold(n_splits = 3, shuffle=True, random_state = RANDOM_SEED)
-        scores = cross_val_score(model, X_train_prep, y_train, cv=kf, scoring='roc_auc', n_jobs=-1,
+        scores = cross_val_score(model, X_train_prep, y_train, cv=kf, scoring='accuracy', n_jobs=-1,
                                  error_score='raise')
         score = scores.mean()
         logging.info(f'Cross val score calculating successfully, roc_auc = {score}')
     except Exception as e:
+        print(e)
         logging.error(f'Cross val score calculating error: {e}')
-        score = model.model_metadata
+        score = model_metadata
 
     print('fit')
     try:
-        model.fit(X_train_prep, y_train, epochs=10, batch_size=1024, verbose=0)
+        hist = model.fit(X_train_prep, y_train, epochs=5, batch_size=1024, verbose=0)
         logging.info(f'model {type(model).__name__} fit successfully')
     except Exception as e:
         logging.error(f'Model fit error: {e}')
@@ -140,27 +147,29 @@ def model_training():
 
     fit_time = datetime.now()
     fit_time = fit_time.strftime('%Y_%m_%d_%H_%M')
-    prep_tools_dict = {'model_metadata': f'Model: {type(model).__name__}, ROC_AUC: {score}, last_fit_time: {fit_time}'}
+    prep_tools_dict = {"model_metadata": f"Model: {type(model).__name__}, Accuracy: {max(hist.history['accuracy'])}, last_fit_time: {fit_time}"}
     prep_tools_dict['preprocessor'] = tools.preprocessor
     prep_tools_dict['req_df_columns'] = tools.req_df_columns
 
     print('saving_prep')
     try:
-        with open(f'24news_practice/pickles/prep_tools_dict_new.pkl', 'wb') as f:
+        with open(f'24news_practice/pickles/prep_tools_dict_tf.pkl', 'wb') as f:
             dill.Pickler(f, recurse=True).dump(prep_tools_dict)
         logging.info(f'model_dict save successfully')
 
     except Exception as e:
+        print(e)
         logging.error(f'model_dict save error: {e}')
         print(f'model_dict save error: {e}')
 
     try:
         model_json = model.to_json()
-        with open("../pickles/model_new.json", "w") as json_file:
+        with open("24news_practice/pickles/tf_model.json", "w") as json_file:
             json_file.write(model_json)
-        model.save_weights("../pickles/model_new.h5")
+        model.save_weights("24news_practice/pickles/tf_weights.h5")
         logging.info(f'Saved fitted model to disk')
     except Exception as e:
+        print(e)
         logging.error(f'model save error: {e}')
         print(f'model save error: {e}')
 
@@ -172,7 +181,6 @@ def model_training():
 
 
 model_training()
-
 
 
 def start_train():

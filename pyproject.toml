@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "24news_practice"
+name = "practice"
 version = "0.1"
 description = "24news practice project"
 authors = ["OreNot <martinuk.a.a@gmail.com>"]
@@ -21,8 +21,8 @@ tensorflow = "*"
 
 
 [tool.poetry.scripts]
-start = "24news_practice.api.api:start_uvicorn"
-start_train = "24news_practice.api.Train:start_train"
+start = "practice.api.api:start_uvicorn"
+start_train = "practice.api.Train:start_train"
 
 [build-system]
 requires = ["poetry-core"]

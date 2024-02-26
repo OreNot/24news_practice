@@ -1,35 +1,10 @@
 <<<<<<< HEAD
-Archive/
-data/
-internship/
-buff/
-Linux/
-pickles/cpc_df.pkl
-pickles/cpc_df_2.pkl
-pickles/model_dict.pkl
-pickles/prep_tools.pickle
-pickles/prep_tools_he.pickle
-pickles/prep_tools_sparse.pickle
-pickles/preprocessing_cat.pickle
-pickles/preprocessor_pipline_dict.pkl
-pickles/model_cat_dict_2.pkl
-pickles/model_dict_2024_02_04_19_54.pkl
-pickles/preprocessor_cat_pipline_dict.pkl
-pickles/preprocessor_cat_pipline_dict_2.pkl
-pickles/preprocessing_dict_cat_3.pickle
-scripts/Merging.ipynb
-scripts/CPC.ipynb
-scripts/Keras.ipynb
-scripts/Preprocessing.ipynb
-scripts/Modeling.ipynb
-scripts/xgb.ipynb
-scripts/mlruns/
-scripts/.ipynb_checkpoints/
-api/__pycache__/
+practice/internship/
+practice/api/__pycache__/
 logs/.ipynb_checkpoints/
-
+practice/api/*.swp
+practice/api/*.swo
 
 =======
-practice/
 poetry.lock
 >>>>>>> d6875c3e0b2e88ea3119fe535b5668eecbc2a50a

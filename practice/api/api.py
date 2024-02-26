@@ -12,7 +12,7 @@ warnings.filterwarnings('ignore')
 
 
 
-logging.basicConfig(level=logging.INFO, filename="24news_practice/logs/api.log",
+logging.basicConfig(level=logging.INFO, filename="practice/logs/api.log",
                     filemode="a",
                     format="%(asctime)s %(levelname)s %(message)s")
 
@@ -104,4 +104,4 @@ async def predict(ssp_req: SSP):
     return tools.get_result_dict(res['imp_id'].unique(),
                                  pd.DataFrame(rs_list, columns=['imp_id', 'tag_id', 'creative_id', 'CPM']))
 def start_uvicorn():
-    uvicorn.run('24news_practice.api.api:app', host='192.168.1.173', port=9000, reload=True)
+    uvicorn.run('practice.api.api:app', host=settings.server_ip, port=settings.server_port, reload=True)

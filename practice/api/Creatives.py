@@ -2,7 +2,7 @@ import pandas as pd
 from .settings import settings
 import logging
 
-logging.basicConfig(level=logging.INFO, filename="./24news_practice/logs/Creatives.log", filemode="a", format="%(asctime)s %(levelname)s %(message)s")
+logging.basicConfig(level=logging.INFO, filename="practice/logs/Creatives.log", filemode="a", format="%(asctime)s %(levelname)s %(message)s")
 class Creatives:
 
         def __init__(self):

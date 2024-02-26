@@ -358,3 +358,84 @@
 2024-02-22 13:30:40,079 INFO API request processed at 2024-02-22 13:30:40
 2024-02-22 13:30:40,708 INFO API request received at 2024-02-22 13:30:40
 2024-02-22 13:30:40,981 INFO API request processed at 2024-02-22 13:30:40
+2024-02-26 13:41:00,157 ERROR Creatives dataframe read error: [Errno 2] No such file or directory: '24news_practice/internship/creatives.csv'
+2024-02-26 13:41:00,157 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-26 13:44:06,027 INFO Creatives dataframe read
+2024-02-26 13:44:06,027 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-26 13:44:06,029 ERROR Clickhouse dataframe read error: [Errno 2] No such file or directory: '24news_practice/internship/clickhouse.csv'
+2024-02-26 13:44:06,033 INFO Creatives dataframe read
+2024-02-26 13:44:06,040 INFO Leads dataframe read
+2024-02-26 13:45:47,793 INFO Creatives dataframe read
+2024-02-26 13:45:47,794 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-26 13:46:50,781 INFO Clickhouse dataframe read
+2024-02-26 13:46:50,790 INFO Creatives dataframe read
+2024-02-26 13:46:50,796 INFO Leads dataframe read
+2024-02-26 13:47:07,992 INFO Loaded model from disk  24news_practice/pickles/tf_model.json
+2024-02-26 13:47:08,012 INFO Creatives dataframe read
+2024-02-26 13:47:08,012 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-26 13:47:13,138 INFO Creatives dataframe read
+2024-02-26 13:47:13,139 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-26 13:48:20,347 INFO Clickhouse dataframe read
+2024-02-26 13:48:20,357 INFO Creatives dataframe read
+2024-02-26 13:48:20,378 INFO Leads dataframe read
+2024-02-26 13:48:38,027 INFO Loaded model from disk  24news_practice/pickles/tf_model.json
+2024-02-26 13:48:38,047 INFO Creatives dataframe read
+2024-02-26 13:48:38,047 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-26 13:48:42,495 INFO API request received at 2024-02-26 13:48:42
+2024-02-26 13:48:42,986 INFO API request processed at 2024-02-26 13:48:42
+2024-02-26 13:53:11,515 INFO Creatives dataframe read
+2024-02-26 13:53:11,515 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-26 13:54:13,799 INFO Clickhouse dataframe read
+2024-02-26 13:54:13,807 INFO Creatives dataframe read
+2024-02-26 13:54:13,814 INFO Leads dataframe read
+2024-02-26 13:54:29,910 INFO Loaded model from disk  24news_practice/pickles/tf_model.json
+2024-02-26 13:54:29,929 INFO Creatives dataframe read
+2024-02-26 13:54:29,929 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-26 13:54:35,135 INFO Creatives dataframe read
+2024-02-26 13:54:35,135 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-26 13:55:41,104 INFO Clickhouse dataframe read
+2024-02-26 13:55:41,119 INFO Creatives dataframe read
+2024-02-26 13:55:41,126 INFO Leads dataframe read
+2024-02-26 13:55:58,909 INFO Loaded model from disk  24news_practice/pickles/tf_model.json
+2024-02-26 13:55:58,929 INFO Creatives dataframe read
+2024-02-26 13:55:58,929 INFO Dataframe Creatives loaded from 24news_practice/internship/creatives.csv
+2024-02-26 13:56:03,548 INFO API request received at 2024-02-26 13:56:03
+2024-02-26 13:56:04,019 INFO API request processed at 2024-02-26 13:56:04
+2024-02-26 14:18:07,591 ERROR Creatives dataframe read error: [Errno 2] No such file or directory: '24news_practice/practice/internship/creatives.csv'
+2024-02-26 14:18:07,591 INFO Dataframe Creatives loaded from 24news_practice/practice/internship/creatives.csv
+2024-02-26 14:19:20,971 INFO Creatives dataframe read
+2024-02-26 14:19:20,972 INFO Dataframe Creatives loaded from practice/internship/creatives.csv
+2024-02-26 14:20:23,581 INFO Clickhouse dataframe read
+2024-02-26 14:20:23,590 INFO Creatives dataframe read
+2024-02-26 14:20:23,597 INFO Leads dataframe read
+2024-02-26 14:20:40,101 INFO Loaded model from disk  practice/pickles/tf_model.json
+2024-02-26 14:20:40,121 INFO Creatives dataframe read
+2024-02-26 14:20:40,121 INFO Dataframe Creatives loaded from practice/internship/creatives.csv
+2024-02-26 14:21:35,694 INFO Creatives dataframe read
+2024-02-26 14:21:35,694 INFO Dataframe Creatives loaded from practice/internship/creatives.csv
+2024-02-26 14:22:39,360 INFO Clickhouse dataframe read
+2024-02-26 14:22:39,370 INFO Creatives dataframe read
+2024-02-26 14:22:39,377 INFO Leads dataframe read
+2024-02-26 14:22:55,697 INFO Loaded model from disk  practice/pickles/tf_model.json
+2024-02-26 14:22:55,716 INFO Creatives dataframe read
+2024-02-26 14:22:55,716 INFO Dataframe Creatives loaded from practice/internship/creatives.csv
+2024-02-26 14:23:49,985 INFO Creatives dataframe read
+2024-02-26 14:23:49,985 INFO Dataframe Creatives loaded from practice/internship/creatives.csv
+2024-02-26 14:24:41,251 INFO Creatives dataframe read
+2024-02-26 14:24:41,252 INFO Dataframe Creatives loaded from practice/internship/creatives.csv
+2024-02-26 14:25:43,783 INFO Clickhouse dataframe read
+2024-02-26 14:25:43,793 INFO Creatives dataframe read
+2024-02-26 14:25:43,799 INFO Leads dataframe read
+2024-02-26 14:25:58,388 INFO Loaded model from disk  practice/pickles/tf_model.json
+2024-02-26 14:25:58,408 INFO Creatives dataframe read
+2024-02-26 14:25:58,408 INFO Dataframe Creatives loaded from practice/internship/creatives.csv
+2024-02-26 14:26:03,674 INFO Creatives dataframe read
+2024-02-26 14:26:03,674 INFO Dataframe Creatives loaded from practice/internship/creatives.csv
+2024-02-26 14:27:15,920 INFO Clickhouse dataframe read
+2024-02-26 14:27:15,930 INFO Creatives dataframe read
+2024-02-26 14:27:15,937 INFO Leads dataframe read
+2024-02-26 14:27:33,350 INFO Loaded model from disk  practice/pickles/tf_model.json
+2024-02-26 14:27:33,371 INFO Creatives dataframe read
+2024-02-26 14:27:33,371 INFO Dataframe Creatives loaded from practice/internship/creatives.csv
+2024-02-26 14:27:59,144 INFO API request received at 2024-02-26 14:27:59
+2024-02-26 14:27:59,631 INFO API request processed at 2024-02-26 14:27:59

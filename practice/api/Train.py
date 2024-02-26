@@ -13,7 +13,7 @@ from .Tools import Tools
 
 warnings.filterwarnings('ignore')
 
-logging.basicConfig(level=logging.INFO, filename="24news_practice/logs/Train.log", filemode="a",
+logging.basicConfig(level=logging.INFO, filename="practice/logs/Train.log", filemode="a",
                         format="%(asctime)s %(levelname)s %(message)s")
 FOLDER_1_URL = "https://drive.google.com/drive/folders/1cY4sleAzmJM1JuPqt_bxAKWK-BDn0WaK"
 
@@ -47,14 +47,14 @@ def model_training():
 
 
     try:
-        # df_clickhouse = pd.read_csv('24news_practice/internship/clickhouse.csv')
+        # df_clickhouse = pd.read_csv('24news_practice/practice/internship/clickhouse.csv')
         # logging.info(f'Dataframe internship/clickhouse.csv read successfully')
-        new_df_clickhouse = pd.read_csv('24news_practice/buff/clickhouse.csv')
+        new_df_clickhouse = pd.read_csv('24news_practice/practice/buff/clickhouse.csv')
         logging.info(f'Dataframe buff/clickhouse.csv read successfully')
 
-        # df_creatives = pd.read_csv('24news_practice/internship/creatives.csv')
+        # df_creatives = pd.read_csv('24news_practice/practice/internship/creatives.csv')
         # logging.info(f'Dataframe internship/creatives.csv read successfully')
-        new_df_creatives = pd.read_csv('24news_practice/buff/creatives.csv')
+        new_df_creatives = pd.read_csv('24news_practice/practice/buff/creatives.csv')
         logging.info(f'Dataframe buff/creatives.csv read successfully')
 
         try:
@@ -62,9 +62,9 @@ def model_training():
         except Exception as e:
             print(e)
 
-        # # df_leads = pd.read_csv('24news_practice/internship/leads.csv')
+        # # df_leads = pd.read_csv('24news_practice/practice/internship/leads.csv')
         # # logging.info(f'Dataframe internship/leads.csv read successfully')
-        # new_df_leads = pd.read_csv('24news_practice/buff/leads.csv')
+        # new_df_leads = pd.read_csv('24news_practice/practice/buff/leads.csv')
         # logging.info(f'Dataframe buff/leads.csv read successfully')
     except Exception as e:
         logging.error(f'Dataframe read error: {e}')
@@ -153,7 +153,7 @@ def model_training():
 
     print('saving_prep')
     try:
-        with open(f'24news_practice/pickles/prep_tools_dict_tf.pkl', 'wb') as f:
+        with open(f'24news_practice/practice/pickles/prep_tools_dict_tf.pkl', 'wb') as f:
             dill.Pickler(f, recurse=True).dump(prep_tools_dict)
         logging.info(f'model_dict save successfully')
 
@@ -164,9 +164,9 @@ def model_training():
 
     try:
         model_json = model.to_json()
-        with open("24news_practice/pickles/tf_model.json", "w") as json_file:
+        with open("24news_practice/practice/pickles/tf_model.json", "w") as json_file:
             json_file.write(model_json)
-        model.save_weights("24news_practice/pickles/tf_weights.h5")
+        model.save_weights("24news_practice/practice/pickles/tf_weights.h5")
         logging.info(f'Saved fitted model to disk')
     except Exception as e:
         print(e)

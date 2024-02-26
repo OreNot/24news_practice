@@ -26,7 +26,7 @@ def timeit(func):
     return measure_time
 
 
-logging.basicConfig(level=logging.INFO, filename="24news_practice/logs/Tools.log", filemode="w",
+logging.basicConfig(level=logging.INFO, filename="practice/logs/Tools.log", filemode="w",
                     format="%(asctime)s %(levelname)s %(message)s")
 
 df_creatives = Creatives().df_creatives

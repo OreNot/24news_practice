@@ -2,9 +2,14 @@ import pandas as pd
 import gc
 import datetime
 from .settings import settings
-import logging
+import logging.config
+from ..config.logging_config import dict_config
 
-logging.basicConfig(level=logging.INFO, filename="practice/logs/CPC.log", filemode="a", format="%(asctime)s %(levelname)s %(message)s")
+logging.config.dictConfig(dict_config)
+
+cpc_logger = logging.getLogger('cpc_logger')
+cpc_logger.setLevel(logging.INFO)
+
 
 DF_CLICKHOUSE = object
 DF_CREATIVES = object
@@ -21,21 +26,21 @@ class CPC:  # РљР»Р°СЃСЃ РґР»СЏ СЂР°СЃС‡С‘С‚Р° CPC
         # Считывание датасетов
         try:
             DF_CLICKHOUSE = pd.read_csv(settings.CLICKHOSE_DF_PATH)
-            logging.info(f'Clickhouse dataframe read')
+            cpc_logger.info(f'Clickhouse dataframe read')
         except Exception as e:
-            logging.error(f'Clickhouse dataframe read error: {e}')
+            cpc_logger.error(f'Clickhouse dataframe read error: {e}')
 
         try:
             DF_CREATIVES = pd.read_csv(settings.CREATIVES_DF_PATH)
-            logging.info(f'Creatives dataframe read')
+            cpc_logger.info(f'Creatives dataframe read')
         except Exception as e:
-            logging.error(f'Creatives dataframe read error: {e}')
+            cpc_logger.error(f'Creatives dataframe read error: {e}')
 
         try:
             DF_LEADS = pd.read_csv(settings.LEADS_DF_PATH)
-            logging.info(f'Leads dataframe read')
+            cpc_logger.info(f'Leads dataframe read')
         except Exception as e:
-            logging.error(f'Leads dataframe read error: {e}')
+            cpc_logger.error(f'Leads dataframe read error: {e}')
 
         # Удаляем лишние признаки
         DF_CLICKHOUSE.drop(
@@ -48,6 +53,8 @@ class CPC:  # РљР»Р°СЃСЃ РґР»СЏ СЂР°СЃС‡С‘С‚Р° CPC
 
         # Объединение датасетов
         temp_df = pd.merge(DF_CLICKHOUSE, DF_CREATIVES, on=['creative_id'])
+	
+        cpc_logger.info(f'Leads and clickhouse dataframes has been merged to temp_df')
 
         del DF_CLICKHOUSE
         del DF_CREATIVES
@@ -65,23 +72,27 @@ class CPC:  # РљР»Р°СЃСЃ РґР»СЏ СЂР°СЃС‡С‘С‚Р° CPC
         # аггрегация среативов по сумме кликов
         temp_df = temp_df.groupby(['creative_id'])['click'].agg('sum').reset_index()
         temp_df = temp_df[temp_df['click'] != 0]
-
+	
+        cpc_logger.info(f'temp_df aggregated by sum of click')
 
         # Удаление дубликатов
         temp_df = temp_df.drop_duplicates()
-        #print(f'temp_df:\n{temp_df}')
+        
+        cpc_logger.info(f'temp_df duplicates droped')
 
         DF_LEADS = DF_LEADS[DF_LEADS['order_status'] == 1]
         # Преобразуем дату последнего обновления информации в формат даты
         DF_LEADS['updated_at'] = pd.to_datetime(DF_LEADS['updated_at'], format='%Y-%m-%d %H:%M:%S').dt.date
         DF_LEADS['updated_at'] = pd.to_datetime(DF_LEADS['updated_at'], format='%Y-%m-%d')
-
+	
+        cpc_logger.info(f'df_leads datetime parameter has been inverted to date')
         temp_df_leads = DF_LEADS[['creative_id', 'profit', 'updated_at']]
 
         temp_df_leads.drop_duplicates(inplace=True)
 
         temp_df_leads = temp_df_leads.groupby(['creative_id', 'profit'])['updated_at'].agg('max').reset_index()
-
+	
+        cpc_logger.info(f'df_leads aggregate by max profit')
         now = datetime.datetime.now()
         temp_df_leads['days_ago'] = (now - temp_df_leads['updated_at']).dt.days
 
@@ -93,12 +104,17 @@ class CPC:  # РљР»Р°СЃСЃ РґР»СЏ СЂР°СЃС‡С‘С‚Р° CPC
         temp_df_leads['profit_by_coef'] = temp_df_leads['profit'] * temp_df_leads['coef']
         temp_df_leads = temp_df_leads[['creative_id', 'profit_by_coef']]
         temp_df_leads = temp_df_leads.groupby(['creative_id'])['profit_by_coef'].agg('mean').reset_index()
-
+        
+        cpc_logger.info(f'df_leads profit_by_coef calculated')
         # Мержим лиды и клики
         df = pd.merge(temp_df, temp_df_leads, on=['creative_id'])
-
+	
+        cpc_logger.info(f'df_leads and temp_df merged by creative_id')
         df['click_profit'] = df['profit_by_coef'] / df['click']
-
+        
+        cpc_logger.info(f'click_profit calculated')
         result_df = df.drop(['click', 'profit_by_coef'], axis = 1)
+	
+        cpc_logger.info(f'result_df created and return')
 
         return result_df

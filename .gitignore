@@ -4,6 +4,7 @@ practice/api/__pycache__/
 logs/.ipynb_checkpoints/
 practice/api/*.swp
 practice/api/*.swo
+*.log
 
 =======
 poetry.lock

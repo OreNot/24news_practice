@@ -1,7 +1,10 @@
-import logging
+import logging.config
+from ..config.logging_config import dict_config
 from tensorflow.keras.models import model_from_json
 import tensorflow as tf
 tf.get_logger().setLevel('INFO')
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import time
 
 import dill
@@ -26,8 +29,10 @@ def timeit(func):
     return measure_time
 
 
-logging.basicConfig(level=logging.INFO, filename="practice/logs/Tools.log", filemode="w",
-                    format="%(asctime)s %(levelname)s %(message)s")
+logging.config.dictConfig(dict_config)
+
+tools_logger = logging.getLogger('tools_logger')
+tools_logger.setLevel(logging.INFO)
 
 df_creatives = Creatives().df_creatives
 
@@ -35,28 +40,43 @@ df_creatives = Creatives().df_creatives
 class Tools:
 
     def __init__(self):
-        with open(settings.PREP_TOOLS_DICT_PATH, 'rb') as in_strm:
-            prep_tools_dict = dill.load(in_strm)
-
+        try:
+            with open(settings.PREP_TOOLS_DICT_PATH, 'rb') as in_strm:
+                prep_tools_dict = dill.load(in_strm)
+            tools_logger.info(f'Preprocessor dict read from {settings.PREP_TOOLS_DICT_PATH}')
+        except Exception as e:
+            tools_logger.error(f'Preprocessor dict read error: {e}') 
         
         self.req_df_columns = prep_tools_dict['req_df_columns']  # .drop('click')
+        tools_logger.info(f'req_df_columns read from preprocessor dict')
         self.preprocessor = prep_tools_dict['preprocessor']
+        tools_logger.info(f'preprocessor read from preprocessor dict')
         
         self.model_metadata = prep_tools_dict['model_metadata']
-        # logging.info(f'Encoder loaded from  {settings.PREP_TOOLS_DICT_PATH}')
+        tools_logger.info(f'model_metadata read from preprocessor dict')
+        
         self.cretive_tag_df = pd.DataFrame(columns=['imp_id', 'tag_id', 'plcmtcnt', 'creatives_list_id', 'creative_id'])
+        tools_logger.info(f'Empty cretive_tag_df created')
         self.req_df = pd.DataFrame(columns=self.req_df_columns)
+        tools_logger.info(f'Empty req_df created')
 
-        json_file = open(settings.KERAS_MODEL_JSON, 'r')
-        loaded_model_json = json_file.read()
-        json_file.close()
+        try:
+            json_file = open(settings.KERAS_MODEL_JSON, 'r')
+            loaded_model_json = json_file.read()
+            json_file.close()
+            tools_logger.error(f'Model loaded successfully from {settings.KERAS_MODEL_JSON}')
+
+        except Exception as e:
+            tools_logger.error(f'Model load error: {e}')
+
         self.model = model_from_json(loaded_model_json)
         # load weights into new model
         self.model.load_weights(settings.KERAS_MODEL_WIGHTS)
-        logging.info(f'Loaded model from disk  {settings.KERAS_MODEL_JSON}')
-
+        
+        tools_logger.error(f'Model weigths loaded successfully from {settings.KERAS_MODEL_WIGHTS}')
         self.model.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(),
                            optimizer=tf.keras.optimizers.Adam(learning_rate=1e-3), metrics=['accuracy'])
+        tools_logger.error(f'Model compile successfully')
 
     #@timeit
     def nan_filling(self, X, y=None):  # Функция заполнения пропущенных значений
@@ -72,13 +92,15 @@ class Tools:
                 X = X[X[col].isna() == False]
             else:
                 X[col] = X[col].fillna('unknown')
-
+        tools_logger.error(f'Function completed successfully')
         return X
 
     #@timeit
     def with_creatives_mergding(self, X):  # Функция мержа с датафреймом креативов
 
         X = pd.merge(X, df_creatives, on="creative_id")
+        tools_logger.error(f'Function completed successfully')
+
         return X
 
     #@timeit
@@ -129,6 +151,10 @@ class Tools:
         req_df = pd.DataFrame(req_list, columns=self.req_df_columns)
 
         req_df = req_df.fillna(0)
+        tools_logger.error(f'req_df and cretive_tag_df created and filled')
+
+        tools_logger.error(f'Function completed successfully')
+
         return cretive_tag_df, req_df
 
    # @timeit
@@ -139,30 +165,36 @@ class Tools:
         for imp in imps_list:
             result_dict[imp] = [{row['creative_id']: row['CPM']} for index, row in
                                 (X.where(X['imp_id'] == imp).dropna()[['creative_id', 'CPM']].reset_index()).iterrows()]
+        tools_logger.error(f'Function completed successfully')
         return result_dict
 
     #@timeit
     def nan_click_viewed__deleting(self, X, y=None):  # Функция удаления строк с пустыми значениями клика и с view == 0
         X = X[X['click'].isna() == False]
         X = X[X['view'] != 0]
+        tools_logger.error(f'Function completed successfully')
         return X
 
     #@timeit
     def dub_dropping(self, X, y=None):  # Функция удаления дубликатов примеров
         X = X.drop_duplicates()
+        tools_logger.error(f'Function completed successfully')
         return X
 
     #@timeit
     def paused_status_dropping(self, X, y=None):
         X.drop(X.loc[X['status'] == 'paused'].index, inplace=True)
+        tools_logger.error(f'Function completed successfully')
         return X
 
     #@timeit
     def place_number_decrease(self, X, y=None):
         X = X[X['place_number'] > 0]
         X['place_number'] = X['place_number'] - 1
+        tools_logger.error(f'Function completed successfully')
         return X
 
     def enter_utm_term_prep(self, X, y=None):
         X['enter_utm_term'] = X['enter_utm_term'].apply(lambda x: str(x).split('_')[0])
+        tools_logger.error(f'Function completed successfully')
         return X

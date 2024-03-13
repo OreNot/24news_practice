@@ -1,6 +1,14 @@
-import logging, warnings, pandas as pd, sys, uvicorn
+import warnings
+import subprocess
+import pandas as pd
+import sys
+import uvicorn
+import logging.config
+import logging
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 from datetime import datetime
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from .CPC import CPC
 from .SSP import SSP
 from .Status import Status
@@ -9,12 +17,13 @@ from .Creatives import Creatives
 from .settings import settings
 sys.path.insert(0, '.')
 warnings.filterwarnings('ignore')
+from ..config.logging_config import dict_config
 
 
+logging.config.dictConfig(dict_config)
 
-logging.basicConfig(level=logging.INFO, filename="practice/logs/api.log",
-                    filemode="a",
-                    format="%(asctime)s %(levelname)s %(message)s")
+api_logger = logging.getLogger('api_logger')
+api_logger.setLevel(logging.INFO)
 
 app = FastAPI()
 
@@ -29,20 +38,29 @@ preprocessor = tools.preprocessor
 df_creatives = Creatives().df_creatives
 
 @app.get(settings.status_url)  # РњРµС‚РѕРґ РѕР±СЂР°Р±РѕС‚РєРё Р·Р°РїСЂРѕСЃР° СЃС‚Р°С‚СѓСЃР° api
-async def status():
+async def status(request: Request):
+    api_logger.info(f'Status check request has been received from {request.client.host}')
     return Status()
 
 @app.get(settings.version_url)  # РњРµС‚РѕРґ РѕР±СЂР°Р±РѕС‚РєРё Р·Р°РїСЂРѕСЃР° РїРѕР»СѓС‡РµРЅРёСЏ РґР°РЅРЅС‹С… РјРѕРґРµР»Рё
-def version():
+def version(request: Request):
+    api_logger.info(f'Get version request has been received from {request.client.host}')
     return model_metadata
 
-@app.post('/predict')  # РњРµС‚РѕРґ РїСЂРµРґРёРєС‚Р°
-async def predict(ssp_req: SSP):
-     # Определяем время получения запроса и преобразуем его в строку
-    req_datetime_str = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    # Логируем факт получения запроса
-    logging.info(f'API request received at {req_datetime_str}')
+@app.get(settings.uptime_url)
+def uptime(request: Request):
+    test = subprocess.Popen(["uptime", "-p"], stdout=subprocess.PIPE)
+    UPTIME = str(test.communicate()[0]).replace("b'up ", '').replace("\\n'", '')
+    api_logger.info(f'Get uptime request has been received from {request.client.host}')
+    return f'Current uptime is {UPTIME}'
 
+@app.post('/predict')  # РњРµС‚РѕРґ РїСЂРµРґРёРєС‚Р°
+async def predict(ssp_req: SSP, request: Request):
+    api_logger.info(f'Predict request has been received from {request.client.host}')
+    predict_start_time = datetime.now()
+    # Определяем время получения запроса и преобразуем его в строку
+    req_datetime_str = predict_start_time.strftime('%Y-%m-%d %H:%M:%S')
+    
     # Преобразовываем данные полученные в запросе в датафрейм и получаем датафрейм imps - creative_id
     cretive_tag_df, req_df = tools.get_creatives_imps_df(ssp_req, req_datetime_str)
 
@@ -54,7 +72,7 @@ async def predict(ssp_req: SSP):
 
     # Добавляем параметр CTR к X
     res['CTR'] = model.predict(x_test_prep, verbose=0)[:, 1]
-  
+    api_logger.info(f'CTR predicted successfully')
     # Удаляем избыточные параметры
     res = res[['creative_id', 'tag_id', 'CTR']]
 
@@ -67,9 +85,8 @@ async def predict(ssp_req: SSP):
     
     # Рассчитываем CPM
     res['CPM'] = (res['CTR'] * res['click_profit'] * 1000)
+    api_logger.info(f'CPM calculated successfully')
     
-    #print(res.sort_values('CPM', ascending=False))
-
     # удаляем лишние параметры
     res = res[['imp_id', 'tag_id', 'creative_id', 'CPM', 'plcmtcnt', 'creatives_list_id']]
 
@@ -96,12 +113,12 @@ async def predict(ssp_req: SSP):
 
             res.drop(drop_list, inplace=True)
 
-    # Фиксируем время обработки запроса
-    res_datetime_str = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    
     # Логируем
-    logging.info(f'API request processed at {res_datetime_str}')
+    api_logger.info(f'Response created successfully, predict time = {(datetime.now() - predict_start_time)}')
     # Отправляем ответ клиенту
     return tools.get_result_dict(res['imp_id'].unique(),
                                  pd.DataFrame(rs_list, columns=['imp_id', 'tag_id', 'creative_id', 'CPM']))
 def start_uvicorn():
     uvicorn.run('practice.api.api:app', host=settings.server_ip, port=settings.server_port, reload=True)
+    api_logger.info(f'Uvicorn started successfully')

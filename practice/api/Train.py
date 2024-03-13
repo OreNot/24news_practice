@@ -1,5 +1,6 @@
 import gc
-import logging
+import logging.config
+from ..config.logging_config import dict_config
 import warnings
 from datetime import datetime
 
@@ -13,8 +14,12 @@ from .Tools import Tools
 
 warnings.filterwarnings('ignore')
 
-logging.basicConfig(level=logging.INFO, filename="practice/logs/Train.log", filemode="a",
-                        format="%(asctime)s %(levelname)s %(message)s")
+
+logging.config.dictConfig(dict_config)
+
+train_logger = logging.getLogger('train_logger')
+train_logger.setLevel(logging.INFO)
+
 FOLDER_1_URL = "https://drive.google.com/drive/folders/1cY4sleAzmJM1JuPqt_bxAKWK-BDn0WaK"
 
 tools = Tools()
@@ -50,25 +55,28 @@ def model_training():
         # df_clickhouse = pd.read_csv('24news_practice/practice/internship/clickhouse.csv')
         # logging.info(f'Dataframe internship/clickhouse.csv read successfully')
         new_df_clickhouse = pd.read_csv('24news_practice/practice/buff/clickhouse.csv')
-        logging.info(f'Dataframe buff/clickhouse.csv read successfully')
+        train_logger.info(f'Dataframe buff/clickhouse.csv read successfully')
 
         # df_creatives = pd.read_csv('24news_practice/practice/internship/creatives.csv')
         # logging.info(f'Dataframe internship/creatives.csv read successfully')
         new_df_creatives = pd.read_csv('24news_practice/practice/buff/creatives.csv')
-        logging.info(f'Dataframe buff/creatives.csv read successfully')
+        train_logger.info(f'Dataframe buff/creatives.csv read successfully')
 
         try:
             new_df_creatives.drop(['ai_title_id', 'original_id', 'rating', 'rating_editor', 'rating_updated'], axis = 1, inplace = True)
+            train_logger.info(f'df_creatives redundant parameters deleted successfully')
+
         except Exception as e:
-            print(e)
+            train_logger.error(f'df_creatives redundant parameters delete error: {e}')
+
 
         # # df_leads = pd.read_csv('24news_practice/practice/internship/leads.csv')
         # # logging.info(f'Dataframe internship/leads.csv read successfully')
         # new_df_leads = pd.read_csv('24news_practice/practice/buff/leads.csv')
         # logging.info(f'Dataframe buff/leads.csv read successfully')
     except Exception as e:
-        logging.error(f'Dataframe read error: {e}')
-        print(f'Dataframe read error: {e}')
+        train_logger.error(f'Dataframe read error: {e}')
+       
 
 
     # df_creatives = df_creatives.rename(columns={'id': 'creative_id'})
@@ -102,8 +110,6 @@ def model_training():
 
     df = tools.place_number_decrease(df)
 
-    print(df.columns)
-
     df = tools.enter_utm_term_prep(df)
 
     del new_df_clickhouse
@@ -119,30 +125,29 @@ def model_training():
     print('preps')
     try:
         X_train_prep = preprocessor.transform(X_train).A
-        logging.info(f'Train dataset preparation successfully')
+        train_logger.info(f'Train dataset preparation successfully')
     except Exception as e:
         print(e)
-        logging.error(f'Train dataset preparation error: {e}')
-        print(f'Train dataset preparation error: {e}')
+        train_logger.error(f'Train dataset preparation error: {e}')
+        
 
     try:
         kf = KFold(n_splits = 3, shuffle=True, random_state = RANDOM_SEED)
         scores = cross_val_score(model, X_train_prep, y_train, cv=kf, scoring='accuracy', n_jobs=-1,
                                  error_score='raise')
         score = scores.mean()
-        logging.info(f'Cross val score calculating successfully, roc_auc = {score}')
+        train_logger.info(f'Cross val score calculating successfully, roc_auc = {score}')
     except Exception as e:
-        print(e)
-        logging.error(f'Cross val score calculating error: {e}')
+        train_logger.error(f'Cross val score calculating error: {e}')
         score = model_metadata
 
     print('fit')
     try:
         hist = model.fit(X_train_prep, y_train, epochs=5, batch_size=1024, verbose=0)
-        logging.info(f'model {type(model).__name__} fit successfully')
+        train_logger.info(f'model {type(model).__name__} fit successfully')
     except Exception as e:
-        logging.error(f'Model fit error: {e}')
-        print(f'Model fit error: {e}')
+        train_logger.error(f'Model fit error: {e}')
+        
 
 
     fit_time = datetime.now()
@@ -151,39 +156,40 @@ def model_training():
     prep_tools_dict['preprocessor'] = tools.preprocessor
     prep_tools_dict['req_df_columns'] = tools.req_df_columns
 
-    print('saving_prep')
+    
     try:
         with open(f'24news_practice/practice/pickles/prep_tools_dict_tf.pkl', 'wb') as f:
             dill.Pickler(f, recurse=True).dump(prep_tools_dict)
-        logging.info(f'model_dict save successfully')
+        train_logger.info(f'model_dict save successfully')
 
     except Exception as e:
         print(e)
-        logging.error(f'model_dict save error: {e}')
-        print(f'model_dict save error: {e}')
+        train_logger.error(f'model_dict save error: {e}')
+        
 
     try:
         model_json = model.to_json()
         with open("24news_practice/practice/pickles/tf_model.json", "w") as json_file:
             json_file.write(model_json)
         model.save_weights("24news_practice/practice/pickles/tf_weights.h5")
-        logging.info(f'Saved fitted model to disk')
+        train_logger.info(f'Saved fitted model to disk')
     except Exception as e:
-        print(e)
-        logging.error(f'model save error: {e}')
-        print(f'model save error: {e}')
+        train_logger.error(f'model save error: {e}')
+        
 
 
     del X_train
     del y_train
     del X_train_prep
     gc.collect()
+    train_logger.info(f'Model train ended')
 
 
 model_training()
 
 
 def start_train():
+    train_logger.info(f'Model train started')
     sched = BlockingScheduler(timezone = tzlocal.get_localzone_name())
     sched.add_job(model_training, 'interval', weeks = 1)
     sched.start()

@@ -3,6 +3,7 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
     status_url: str = '/status'
     version_url: str = '/version'
+    uptime_url: str = '/uptime'
     server_ip: str = '192.168.1.173'
     server_port: int = 9000
     
